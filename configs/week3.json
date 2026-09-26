@@ -1,0 +1,23 @@
+{
+  "name": "fastflow-resnet18-week3-v1",
+  "backbone": "resnet18",
+  "weights_url": "https://download.pytorch.org/models/resnet18-5c106cde.pth",
+  "weights_sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+  "size": 256,
+  "flow_steps": 8,
+  "hidden_ratio": 1.0,
+  "conv3x3_only": true,
+  "epochs": 500,
+  "batch_size": 32,
+  "micro_batch_size": 8,
+  "learning_rate": 0.001,
+  "weight_decay": 0.00001,
+  "drop_last": true,
+  "seeds": [0, 1, 2],
+  "augmentation": "none",
+  "checkpoint_selection": "final epoch",
+  "precision": "float32",
+  "image_score": "maximum anomaly map value",
+  "mask_resize": "nearest-neighbor",
+  "pixel_evaluation_size": 256
+}
