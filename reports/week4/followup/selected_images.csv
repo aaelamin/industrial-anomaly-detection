@@ -1,0 +1,24 @@
+category,image,label,selection,figure
+bottle,test/good/015.png,0,highest mean ranking error,bottle_good_015.png
+bottle,test/good/000.png,0,lowest mean ranking error,bottle_good_000.png
+bottle,test/contamination/004.png,1,highest mean ranking error,bottle_contamination_004.png
+bottle,test/broken_large/000.png,1,lowest mean ranking error,bottle_broken_large_000.png
+hazelnut,test/good/001.png,0,"highest mean ranking error, Week 3 walkthrough",hazelnut_good_001.png
+hazelnut,test/good/006.png,0,lowest mean ranking error,hazelnut_good_006.png
+hazelnut,test/cut/001.png,1,highest mean ranking error,hazelnut_cut_001.png
+hazelnut,test/cut/003.png,1,lowest mean ranking error,hazelnut_cut_003.png
+hazelnut,test/crack/013.png,1,Week 3 walkthrough,hazelnut_crack_013.png
+screw,test/good/003.png,0,highest mean ranking error,screw_good_003.png
+screw,test/good/036.png,0,lowest mean ranking error,screw_good_036.png
+screw,test/scratch_head/004.png,1,highest mean ranking error,screw_scratch_head_004.png
+screw,test/manipulated_front/009.png,1,lowest mean ranking error,screw_manipulated_front_009.png
+screw,test/good/014.png,0,Week 3 walkthrough,screw_good_014.png
+screw,test/scratch_neck/023.png,1,Week 3 walkthrough,screw_scratch_neck_023.png
+carpet,test/good/026.png,0,highest mean ranking error,carpet_good_026.png
+carpet,test/good/011.png,0,lowest mean ranking error,carpet_good_011.png
+carpet,test/thread/018.png,1,highest mean ranking error,carpet_thread_018.png
+carpet,test/color/000.png,1,lowest mean ranking error,carpet_color_000.png
+pill,test/good/019.png,0,highest mean ranking error,pill_good_019.png
+pill,test/good/003.png,0,lowest mean ranking error,pill_good_003.png
+pill,test/crack/024.png,1,highest mean ranking error,pill_crack_024.png
+pill,test/combined/012.png,1,lowest mean ranking error,pill_combined_012.png

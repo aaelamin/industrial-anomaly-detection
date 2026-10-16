@@ -1,0 +1,187 @@
+{
+  "categories": [
+    "bottle",
+    "carpet",
+    "hazelnut",
+    "screw"
+  ],
+  "epochs": [
+    400,
+    450,
+    475,
+    500
+  ],
+  "evaluations": 96,
+  "final_replays": [
+    {
+      "category": "bottle",
+      "seed": 0,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "bottle",
+      "seed": 0,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "arm": "middle",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "arm": "fusion",
+      "max_absolute_map_difference": 0.0,
+      "exact_map_match": true
+    }
+  ],
+  "source_sha256": "61ef33b8d9babaef604d7c8c4d3fdaefc7764e4716e67949fee53e9f36ee898b",
+  "selection": "Fixed diagnostic subset after inspecting final test results. All retained checkpoints reported, no replacement of final results."
+}

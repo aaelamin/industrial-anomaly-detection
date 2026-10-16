@@ -2,9 +2,24 @@
 
 CISC 473, Project 16
 
-Industrial anomaly detection is about finding defects without needing examples of every possible defect during training. The model learns from normal products, then looks for differences in new images. It can give a score for the whole image and produce a heatmap showing where a defect might be.
+Industrial anomaly detection is about finding defects without needing examples of every possible defect during training. We train on normal products, then ask whether a new image is unusual and where the defect might be.
 
-For this project, we are starting with FastFlow on MVTec AD. FastFlow takes image features from a pretrained network and learns their distribution using normalizing flows. We will compare feature extractors and combinations of feature layers, then test how the method performs on reflective battery surfaces using BatterySurAD. The later experiments will help us decide what improvement to investigate.
+Our starting method is FastFlow on the original 15-category MVTec AD dataset. We compared two backbone configurations, then tested a compact model that combines feature levels before scoring them. Later work will consider domain transfer to reflective battery surfaces. That experiment has not been run yet.
+
+## Start here
+
+You do not need to install anything to read the results or view the heatmaps on GitHub.
+
+| Read | What is in it |
+| --- | --- |
+| [Week 3](reports/week3/README.md) | What FastFlow does, how we set up the baseline, results and conclusions |
+| [Week 4](reports/week4/README.md) | Why we tried WideResNet, what improved and what remained weak |
+| [Week 5](reports/week5/README.md) | Why we tried feature fusion, how we controlled the comparison and what happened |
+| [Comparison and midterm discussion](reports/comparison/README.md) | All experiments together, matched heatmaps and what we can reasonably conclude |
+
+Each weekly folder includes the explanation, category results and a `HEATMAPS.md` gallery. The [cross-week gallery](reports/comparison/HEATMAPS.md) shows the same images for every configuration and all three seeds.
+
+Week 4 is our strongest configuration so far. The Week 5 fusion experiment finished all 90 runs but did not improve overall performance. The reports include the losses as well as the gains. The gap from the published image-level results remains unresolved.
 
 ## Schedule
 
@@ -34,15 +49,15 @@ python -m pip install uv
 python scripts/setup.py --device cuda
 ```
 
-This creates a Python 3.12 environment in `.venv` and installs the packages. The GPU setup uses PyTorch 2.7.1 with CUDA 12.6 and needs an NVIDIA GPU with a compatible driver. Use `--device cpu` if you do not have an NVIDIA GPU, including on a Mac.
+This creates the pinned Python 3.12 environment in `.venv`. CUDA training needs a compatible NVIDIA GPU. Use `--device cpu` for the basic CPU environment. The full Week 5 controller currently targets Windows with CUDA, so the environment installing elsewhere does not mean that controller is portable.
 
-Activate the environment in PowerShell:
+In PowerShell:
 
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
 
-If PowerShell blocks activation, use `.venv\Scripts\python.exe` instead of `python` in the commands below. On Linux or macOS, activate with `source .venv/bin/activate`. So far, the setup has been tested on Windows with GPU and CPU execution.
+If activation is blocked, use `.venv\Scripts\python.exe` in place of `python`. On Linux or macOS, use `source .venv/bin/activate` for the environment. The [run guide](docs/RUNNING.md) explains the supported routes and commands.
 
 ## Download the data
 
@@ -50,71 +65,41 @@ If PowerShell blocks activation, use `.venv\Scripts\python.exe` instead of `pyth
 python scripts/download_data.py
 ```
 
-The script downloads MVTec AD to `data/mvtec_ad` and checks the archive checksum. It needs at least 7 GiB free before starting, with additional space needed for training results.
+The downloader uses separate category archives after the original combined download link stopped working. This is the original MVTec AD dataset, not MVTec AD 2. Keep the folder layout `data/mvtec_ad/<category>/train`, `test` and `ground_truth`. The current category downloader does not verify archive checksums. Check the image counts and masks before a new study, as described in the [run guide](docs/RUNNING.md).
 
-To store the dataset elsewhere, pass `--root PATH` to the download script and `--data PATH` when running `week3.py`.
+If a link is unavailable, use the [official MVTec AD download page](https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads) and extract each category into that layout. The dataset uses [CC BY-NC-SA 4.0](https://www.mvtec.com/research-teaching/datasets/mvtec-ad). The same attribution applies to the example images in our reports.
 
-MVTec AD uses the [CC BY-NC-SA 4.0 license](https://www.mvtec.com/research-teaching/datasets/mvtec-ad). The dataset is not included in this repository. Example heatmaps in the reports use images from MVTec AD.
+## Run or change an experiment
 
-## Run FastFlow
+Start with [the run guide](docs/RUNNING.md). It separates small checks from full studies, explains where files go and shows which settings to change. A full command starts substantial work, so use the short checks first on a new machine.
 
-To run all 15 categories with three seeds each:
+For the original Week 3 study:
 
 ```sh
 python scripts/study.py
 ```
 
-The script runs one experiment at a time and updates the report after each run. If it stops, run the same command again. Finished runs are skipped, and unfinished runs resume from a checkpoint saved every 25 epochs. Full training takes several hours on a GPU, so keep the laptop plugged in and the lid open.
+This runs all categories and seeds, skips completed outputs and resumes unfinished runs from saved checkpoints. The Week 4 and Week 5 commands and their recovery requirements are in the guide. Changed experiments need their own output locations so the published runs remain available for comparison.
 
-To run one category:
+## Repository layout
 
-```sh
-python week3.py --category bottle --seeds 0 1 2
-python scripts/week3_report.py
-```
+| Folder | Purpose |
+| --- | --- |
+| `reports/` | Readable weekly explanations, results, selected heatmaps and comparisons |
+| `configs/` | Recorded experiment settings |
+| `scripts/` | Setup, training, evaluation and report generation |
+| `docs/` | Detailed protocols and instructions for running or changing experiments |
+| `tests/` | Tests for training calculations, recovery and reporting |
+| `notebooks/` | Earlier Colab setup and benchmark notebooks |
+| `data/`, `results/`, `work/` | Local dataset, full outputs and temporary working files, excluded from Git |
 
-Run either the full study or individual categories, not both at once using the same output folders. The settings are in [configs/week3.json](configs/week3.json), with more detail in the [experiment protocol](docs/WEEK3_PROTOCOL.md). Use a separate output directory for experiments with changed settings.
-
-`run.py --smoke` is a short installation check with different settings. Its results are not included in the baseline tables.
-
-## Results and saved files
-
-The results tables are in `reports/week3/`. Each training run saves its weights, checkpoint, loss history, image scores, anomaly maps and heatmaps under `results/week3/<category>/seed_<n>/`.
-
-The dataset, environment and full training outputs are excluded from Git. The reports and selected example heatmaps are included. For a running study, check `results/week3/study_status.json` and the run's `progress.json`.
-
-## Tests
-
-```sh
-python -m unittest discover -s tests -v
-```
-
-These check the training calculations, checkpoint resume and result summaries. The [validation report](reports/week3/validation.md) also explains how to recheck the saved results. That requires the dataset and training outputs, plus a CUDA GPU to replay the selected models.
-
-## Week 3 progress
-
-We ran FastFlow with ResNet-18 on all 15 categories using seeds 0, 1 and 2. Each run trained for 500 epochs on normal images only. We used the final checkpoint for evaluation rather than selecting the epoch with the best test score.
-
-We used Anomalib 2.6.2 for the FastFlow model and loss so we could build on an existing implementation instead of writing the architecture from scratch. Our scripts handle the training runs, checkpoints and evaluation. Anomalib's version is based on the unofficial gathierry FastFlow implementation.
-
-| Metric | Our result, mean ± std | FastFlow paper, ResNet-18 |
-| --- | ---: | ---: |
-| Image AUROC | 90.17 ± 0.99% | 97.9% |
-| Pixel AUROC | 95.41 ± 0.59% | 97.2% |
-
-For each seed, we average AUROC across the 15 categories. The table reports the mean and standard deviation across those three averages.
-
-Our overall scores are lower than the paper's, particularly for image detection on hazelnut and screw. We checked the saved scores and masks for all 45 runs and replayed three models. Those checks passed, along with the four automated tests. Some difficult normal images have strong responses in the background, which can affect the maximum-pixel score used for image detection.
-
-The unofficial implementation reports about 95.6% pixel AUROC at the final epoch, close to our 95.41%. Its best-epoch results are higher. This gives some context for the pixel result, but we have not fully explained the gap from the paper, especially at image level. We will keep these results as our baseline for later comparisons and report that limitation.
-
-- [Full results by category](reports/week3/week3.md)
-- [Checks, failure analysis and heatmaps](reports/week3/validation.md)
-- [Per-category CSV](reports/week3/per_category.csv)
-- [Per-defect CSV](reports/week3/per_defect.csv)
+A clone includes the tables and published heatmaps. It does not include the dataset, environment, trained models or full prediction maps. The [results index](reports/README.md) explains where to find each result.
 
 ## References
 
-- [FastFlow paper](https://arxiv.org/abs/2111.07677)
-- [Anomalib](https://github.com/open-edge-platform/anomalib)
-- [Unofficial FastFlow implementation and results](https://github.com/gathierry/FastFlow)
+- [FastFlow](https://arxiv.org/abs/2111.07677), our baseline method
+- [Anomalib](https://github.com/open-edge-platform/anomalib), the implementation used here
+- [CFLOW-AD](https://arxiv.org/abs/2107.12571), related conditional multi-scale flow work
+- [MSFlow](https://arxiv.org/abs/2308.15300), a different published fusion architecture and a possible comparison
+
+We have not run CFLOW-AD or MSFlow. Our Week 5 model is a project experiment, not a reproduction of either method.

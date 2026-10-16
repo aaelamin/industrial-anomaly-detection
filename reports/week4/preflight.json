@@ -1,0 +1,100 @@
+{
+  "benchmark_only": true,
+  "epochs": 3,
+  "category": "bottle",
+  "seed": 0,
+  "config": {
+    "name": "fastflow-wide-resnet50-week4-v1",
+    "backbone": "wide_resnet50_2",
+    "weights_url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/wide_resnet50_racm-8234f177.pth",
+    "weights_sha256": "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa",
+    "size": 256,
+    "flow_steps": 8,
+    "hidden_ratio": 1.0,
+    "conv3x3_only": false,
+    "epochs": 500,
+    "batch_size": 32,
+    "micro_batch_size": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "drop_last": true,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "augmentation": "none",
+    "checkpoint_selection": "final epoch",
+    "precision": "float32",
+    "image_score": "maximum anomaly map value",
+    "mask_resize": "nearest-neighbor",
+    "pixel_evaluation_size": 256
+  },
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_total_mib": 6140.5,
+  "gpu_peak_allocated_mib": 2008.8427734375,
+  "gpu_peak_reserved_mib": 2114.0,
+  "history": [
+    {
+      "epoch": 1,
+      "seconds": 19.116768599953502,
+      "loss": 410004.46761067706
+    },
+    {
+      "epoch": 2,
+      "seconds": 14.546121099963784,
+      "loss": -397152.03694661456
+    },
+    {
+      "epoch": 3,
+      "seconds": 13.146893099998124,
+      "loss": -920656.08203125
+    }
+  ],
+  "median_epoch_seconds_after_first": 13.846507099980954,
+  "cache_seconds": 31.897466200054623,
+  "cache_gib": 1.4287112951278687,
+  "largest_category_cache_gib": 2.672852231555008,
+  "checkpoint_mib": 694.3628196716309,
+  "checkpoint_save_seconds": 3.4091126000275835,
+  "checkpoint_load_seconds": 1.7405916000716388,
+  "checkpoint_reload_exact": true,
+  "feature_cache_exact": true,
+  "test_images": 83,
+  "inference_seconds": 9.764848100021482,
+  "trainable_parameters": 45007872,
+  "estimated_bottle_500_epoch_minutes": 115.38755916650796,
+  "estimated_45_run_training_hours": 101.9256772637487,
+  "estimated_45_run_checkpoint_hours": 0.8522781500068959,
+  "elapsed_seconds": 111.80413880001288,
+  "estimate_note": "Extrapolated from bottle, excluding most startup and evaluation costs. Not a Colab benchmark.",
+  "microbatch_comparison": [
+    {
+      "micro_batch_size": 4,
+      "epoch_seconds": [
+        19.47662010008935,
+        15.578006899915636,
+        13.338100000051782
+      ],
+      "steady_epoch_seconds": 14.458053449983709,
+      "gpu_peak_allocated_mib": 2000.8427734375,
+      "gpu_peak_reserved_mib": 2102.0
+    },
+    {
+      "micro_batch_size": 8,
+      "epoch_seconds": [
+        15.882458099978976,
+        14.009393999935128,
+        14.65537180006504
+      ],
+      "steady_epoch_seconds": 14.332382900000084,
+      "gpu_peak_allocated_mib": 3103.9677734375,
+      "gpu_peak_reserved_mib": 3292.0
+    }
+  ],
+  "date": "2026-09-29",
+  "reference_commit": "b920deb5c3b76d7acc7071ecd6f52ad9a8606ce7",
+  "full_study_started": false,
+  "temporary_cache_and_checkpoint_removed": true,
+  "checkpoint_storage_45_runs_gib": 30.513991098850965
+}

@@ -1,0 +1,689 @@
+{
+  "week4": {
+    "runs": 45,
+    "estimated_training_hours": 80.71413856944167,
+    "records": [
+      {
+        "history": "results/week4/runs/bottle/seed_0/training.json",
+        "sha256": "c602c6d07ffafb2d774fa8a8c9c220cc3b1d451bd233dd88ae3683e60e2a2c6a",
+        "median_seconds_after_first": 10.849229100014782
+      },
+      {
+        "history": "results/week4/runs/bottle/seed_1/training.json",
+        "sha256": "d541be08724a3b1047bdd62b4b01ab9bce3fcc550efc54f533499513931a2b7c",
+        "median_seconds_after_first": 10.91419089998817
+      },
+      {
+        "history": "results/week4/runs/bottle/seed_2/training.json",
+        "sha256": "85bcb88e6920244765603c3db289ce7a121332ac20f1d8d4b85c8b8180f3c2f8",
+        "median_seconds_after_first": 10.814504999987548
+      },
+      {
+        "history": "results/week4/runs/cable/seed_0/training.json",
+        "sha256": "27059f1f2b90a5f16e70650fa166b729b8f2919714c41d9d7410089638894605",
+        "median_seconds_after_first": 12.62591989999055
+      },
+      {
+        "history": "results/week4/runs/cable/seed_1/training.json",
+        "sha256": "a27e4997afcf19369730836d557897e87849d034a3dd247e6cbaa6c6f0517c90",
+        "median_seconds_after_first": 12.639035499974852
+      },
+      {
+        "history": "results/week4/runs/cable/seed_2/training.json",
+        "sha256": "93671bdcf9580a38f42687703cc3c398d56f9c44f670ed1d627759c936af13b6",
+        "median_seconds_after_first": 12.673031400016043
+      },
+      {
+        "history": "results/week4/runs/capsule/seed_0/training.json",
+        "sha256": "222a8118aa5da2be9240fcd51f5ee94b58595fc7cbf7796ab5d0e020a4802bdc",
+        "median_seconds_after_first": 10.904223000019556
+      },
+      {
+        "history": "results/week4/runs/capsule/seed_1/training.json",
+        "sha256": "d4965ae325e40113f8357938959316c4085cb3ed4c6021cca0a6e1a666df8345",
+        "median_seconds_after_first": 10.712353700015228
+      },
+      {
+        "history": "results/week4/runs/capsule/seed_2/training.json",
+        "sha256": "cdd8e4614c10e7a1db4cb2d581dbc2804e680d075b12e36d4e9cb3353a26cc98",
+        "median_seconds_after_first": 10.695461700001033
+      },
+      {
+        "history": "results/week4/runs/carpet/seed_0/training.json",
+        "sha256": "ad3d10a871f314e3591e4b83171d09665853de752fe31699bfffd323a9c0cd59",
+        "median_seconds_after_first": 14.24562750000041
+      },
+      {
+        "history": "results/week4/runs/carpet/seed_1/training.json",
+        "sha256": "7e8a81729698790140c7651395b295ad79c105a6a456c3700ed04c61adf4a9b3",
+        "median_seconds_after_first": 14.232812100002775
+      },
+      {
+        "history": "results/week4/runs/carpet/seed_2/training.json",
+        "sha256": "129a7b935c4cdea3b7a72ebe6fa262f6ea0ef7391a1e4ecc6601f35472a2baf3",
+        "median_seconds_after_first": 14.252641300001414
+      },
+      {
+        "history": "results/week4/runs/grid/seed_0/training.json",
+        "sha256": "8bb2f2b94022c1d9d6a4d7c3a4843012924a21c61e9c042731cdf1e831047565",
+        "median_seconds_after_first": 15.32963349999045
+      },
+      {
+        "history": "results/week4/runs/grid/seed_1/training.json",
+        "sha256": "00036bc14aceb2fa4beeb4cb21a1e48d016255f9e7bc2da60655fa69dc84824a",
+        "median_seconds_after_first": 15.20051609998336
+      },
+      {
+        "history": "results/week4/runs/grid/seed_2/training.json",
+        "sha256": "0c9875ff59d49d7853232d186f4d04b9f8cab2e1d95dd89e6d1be021e594e17d",
+        "median_seconds_after_first": 14.40223289997084
+      },
+      {
+        "history": "results/week4/runs/hazelnut/seed_0/training.json",
+        "sha256": "2d6860343d85f586870a1a9a59b70635617a7c02d0aaac200bae0f6e96c0b017",
+        "median_seconds_after_first": 21.880884300044272
+      },
+      {
+        "history": "results/week4/runs/hazelnut/seed_1/training.json",
+        "sha256": "9cc71d16d46497fd31d3186d9042e8cbd62c4090b586fae3bfff7c2ed4886c50",
+        "median_seconds_after_first": 22.18145989999175
+      },
+      {
+        "history": "results/week4/runs/hazelnut/seed_2/training.json",
+        "sha256": "0d20b9aa41fe6ca33976b480f02d9eab92d7fe5c12c35836bca39f75dba0a4a5",
+        "median_seconds_after_first": 21.361481999978423
+      },
+      {
+        "history": "results/week4/runs/leather/seed_0/training.json",
+        "sha256": "6b01b968be7eddc30db72a4a632fb72a1effe28787ab775b881fd15a69eba402",
+        "median_seconds_after_first": 12.523791799962055
+      },
+      {
+        "history": "results/week4/runs/leather/seed_1/training.json",
+        "sha256": "a2d9bc60580fe1ff4e13f2267d2ac619220d6e6c13b583aabe1b36e26b4bc402",
+        "median_seconds_after_first": 12.472946599998977
+      },
+      {
+        "history": "results/week4/runs/leather/seed_2/training.json",
+        "sha256": "2a29504c1e919a013417128a31ae60b01c8bf13d10b840d3f6a1bc8e89103900",
+        "median_seconds_after_first": 12.473865600011777
+      },
+      {
+        "history": "results/week4/runs/metal_nut/seed_0/training.json",
+        "sha256": "ac8d7457d0fb704cb5e9d5e8af5277ce1d2ca983d5dcbb930d0fe680bae81eea",
+        "median_seconds_after_first": 10.736970799975097
+      },
+      {
+        "history": "results/week4/runs/metal_nut/seed_1/training.json",
+        "sha256": "2a3fadbc83b96cce60b214f3f1126128b3c7ee092e206935432959cf9c5f8f5f",
+        "median_seconds_after_first": 10.982346299977507
+      },
+      {
+        "history": "results/week4/runs/metal_nut/seed_2/training.json",
+        "sha256": "b160fb651d31bde1155ce3b4914e8035e56cd7e0f45f4b97345a822c98b561cc",
+        "median_seconds_after_first": 11.052697799997986
+      },
+      {
+        "history": "results/week4/runs/pill/seed_0/training.json",
+        "sha256": "45d17280185464161f55e774cc1760999b2a7158e055570c0fd82d17d0bc9c9c",
+        "median_seconds_after_first": 14.787872900022194
+      },
+      {
+        "history": "results/week4/runs/pill/seed_1/training.json",
+        "sha256": "43ca01d8bc31daea109d1bafa2e4ea4c4b4523cb598b74afeb1534098973e631",
+        "median_seconds_after_first": 14.433658099995228
+      },
+      {
+        "history": "results/week4/runs/pill/seed_2/training.json",
+        "sha256": "6a9ab559c3b123852de381e92bc25536de601b5f8ba34b1170e86e5ae18cb36d",
+        "median_seconds_after_first": 14.338446099980501
+      },
+      {
+        "history": "results/week4/runs/screw/seed_0/training.json",
+        "sha256": "23e683b0ab00a0fc3ac4471d60095a61eb4dc7f034f089a2fbe3596c19385f1a",
+        "median_seconds_after_first": 17.944021500006784
+      },
+      {
+        "history": "results/week4/runs/screw/seed_1/training.json",
+        "sha256": "13b70823a7a3172dc31bbbba2f54c86a179613ee86d2c238d10d486215227913",
+        "median_seconds_after_first": 18.01941569999326
+      },
+      {
+        "history": "results/week4/runs/screw/seed_2/training.json",
+        "sha256": "19a3de14b61e3eef6f9d1ce4d783afbd4cb676a1ac2812aec483ab21a39c628d",
+        "median_seconds_after_first": 18.182580400025472
+      },
+      {
+        "history": "results/week4/runs/tile/seed_0/training.json",
+        "sha256": "25af2155d0c059600501219b75e7fe97d45c3a02084634560b7b5d8b8bb9f1b3",
+        "median_seconds_after_first": 12.852939300006256
+      },
+      {
+        "history": "results/week4/runs/tile/seed_1/training.json",
+        "sha256": "41e7a2a2b33e50d6c01f6d4798e22233a12a287c5b7bf45764c3a3ba0032a198",
+        "median_seconds_after_first": 12.775222099997336
+      },
+      {
+        "history": "results/week4/runs/tile/seed_2/training.json",
+        "sha256": "d652ee2df46b8ffa11b1fa2bf9e201eed39c79206864be44f7a32f6131fb10f8",
+        "median_seconds_after_first": 13.369686800055206
+      },
+      {
+        "history": "results/week4/runs/toothbrush/seed_0/training.json",
+        "sha256": "9d51f8ce4269a01924b64b61eeb8218e760bd98bf5029f956da21490ea92c7e5",
+        "median_seconds_after_first": 1.8510118999984115
+      },
+      {
+        "history": "results/week4/runs/toothbrush/seed_1/training.json",
+        "sha256": "25e3bd92bd3ce84bec1faeb056196f9f549b984fe97e3a94094afe37ab8b3ad1",
+        "median_seconds_after_first": 1.8590164000052027
+      },
+      {
+        "history": "results/week4/runs/toothbrush/seed_2/training.json",
+        "sha256": "e33ac18ecf3bb24bf43f199a65542908d28318174c21fb086780a05e8c71e703",
+        "median_seconds_after_first": 1.907540499989409
+      },
+      {
+        "history": "results/week4/runs/transistor/seed_0/training.json",
+        "sha256": "bb793d726926db56849d5f10c011cdbfd2f6ac38f33dd7a6202d6676af7070c7",
+        "median_seconds_after_first": 11.124486900051124
+      },
+      {
+        "history": "results/week4/runs/transistor/seed_1/training.json",
+        "sha256": "8f5801dbf031106dc313b48c330e9e9c9ffbcdd556f4e8661c20dd74bd8a8bb4",
+        "median_seconds_after_first": 11.172536799975205
+      },
+      {
+        "history": "results/week4/runs/transistor/seed_2/training.json",
+        "sha256": "70a8405c37fdbf8147956d9b9b903dd7d537cf19dedee7e891741c5a6fbab826",
+        "median_seconds_after_first": 11.057509200007189
+      },
+      {
+        "history": "results/week4/runs/wood/seed_0/training.json",
+        "sha256": "dc786f2a688263ba0195dc3f0dc33dcf7832f50829e678022768289af922c66c",
+        "median_seconds_after_first": 12.968061999999918
+      },
+      {
+        "history": "results/week4/runs/wood/seed_1/training.json",
+        "sha256": "91ac2cec7568be99b1a68952ba956e386dda4b1c8a87c4847d625d0d2e17469b",
+        "median_seconds_after_first": 13.015506900032051
+      },
+      {
+        "history": "results/week4/runs/wood/seed_2/training.json",
+        "sha256": "5756372001c426bd378bd7a04b3ee8301cd4ea04092aacdd938183f9e0f0cf1c",
+        "median_seconds_after_first": 12.981870499963406
+      },
+      {
+        "history": "results/week4/runs/zipper/seed_0/training.json",
+        "sha256": "97e9b57016c1bc82de9f4a453af2153bfe9e6f8d5aacc038e34b5dfd870e4535",
+        "median_seconds_after_first": 13.896789599966723
+      },
+      {
+        "history": "results/week4/runs/zipper/seed_1/training.json",
+        "sha256": "3324c9762921ca3aa4ab2746b61c97c2e72d75c90ac64869c941d2e1e985d2da",
+        "median_seconds_after_first": 13.482817300013267
+      },
+      {
+        "history": "results/week4/runs/zipper/seed_2/training.json",
+        "sha256": "3b1eb5177344b08bde4212d971816987d8c48801f6a9af23fc277baed3d53f0b",
+        "median_seconds_after_first": 12.962948100001086
+      }
+    ]
+  },
+  "week5": {
+    "runs": 90,
+    "estimated_training_hours": 26.45672791667241,
+    "records": [
+      {
+        "history": "results/week5/study/bottle/seed_0/fusion/training.json",
+        "sha256": "9c1dd46f17dca318f6205d58867723f7da46302f43b236e7a7391df9390f549a",
+        "median_seconds_after_first": 1.8737491999636404
+      },
+      {
+        "history": "results/week5/study/bottle/seed_0/middle/training.json",
+        "sha256": "b45012494c1f4ddd3b46030ac9c0b75f4c7c2ab6af1700470811433fa12806ae",
+        "median_seconds_after_first": 1.8630771999596618
+      },
+      {
+        "history": "results/week5/study/bottle/seed_1/fusion/training.json",
+        "sha256": "4b34bb4c05581720b3091cc05ab5a967e9d370c9622571167385f6c6f188d2c4",
+        "median_seconds_after_first": 1.8856956000090577
+      },
+      {
+        "history": "results/week5/study/bottle/seed_1/middle/training.json",
+        "sha256": "3a59f0772116e7012237d0f52ccc3d3f77adc33eab4d4ab1302ff6e5b22e4cf7",
+        "median_seconds_after_first": 1.8677253000205383
+      },
+      {
+        "history": "results/week5/study/bottle/seed_2/fusion/training.json",
+        "sha256": "bb2640f2f319296c50c4be827db6cd22ee3866225f3ed3ce10b78067e70bde7f",
+        "median_seconds_after_first": 1.876995500002522
+      },
+      {
+        "history": "results/week5/study/bottle/seed_2/middle/training.json",
+        "sha256": "b7746ca302b8d4fedfe8a757b8854c0a85f1b8558f99591f2b7fdca3eaa5e749",
+        "median_seconds_after_first": 1.886142400035169
+      },
+      {
+        "history": "results/week5/study/cable/seed_0/fusion/training.json",
+        "sha256": "84e1e30e5e757660aa022c72374dff3de9c80e618426f001d7dbfb1605898b86",
+        "median_seconds_after_first": 2.1917893000063486
+      },
+      {
+        "history": "results/week5/study/cable/seed_0/middle/training.json",
+        "sha256": "e87cf0bb0634d371087bfc6695270b165bcf459178cae1fb8403484652880dde",
+        "median_seconds_after_first": 2.208180299960077
+      },
+      {
+        "history": "results/week5/study/cable/seed_1/fusion/training.json",
+        "sha256": "fc8084716a255cd008797df027207ad010d8892efbf8e6f87892cc8f9e9906e2",
+        "median_seconds_after_first": 2.1692955000326037
+      },
+      {
+        "history": "results/week5/study/cable/seed_1/middle/training.json",
+        "sha256": "1504d04b1fee788622687fd8e059246d578d9292e4e3588a059f720ed003765d",
+        "median_seconds_after_first": 2.1855642999871634
+      },
+      {
+        "history": "results/week5/study/cable/seed_2/fusion/training.json",
+        "sha256": "3a4d549a603a6896929c0f0354c5be46bdcc143b7ac551b8addc6f2901566fbe",
+        "median_seconds_after_first": 2.0583211999983178
+      },
+      {
+        "history": "results/week5/study/cable/seed_2/middle/training.json",
+        "sha256": "0d40138af831da2f9c0b859d808e7f2b9b0fa72cac688acdff307072e7174ebd",
+        "median_seconds_after_first": 2.164188400027342
+      },
+      {
+        "history": "results/week5/study/capsule/seed_0/fusion/training.json",
+        "sha256": "24322607f5a483d3532ae16d0a021f4b6e7474c9d70a99d91f0f463085e8533e",
+        "median_seconds_after_first": 1.8313409000002139
+      },
+      {
+        "history": "results/week5/study/capsule/seed_0/middle/training.json",
+        "sha256": "3bde7cc445f473d8b62e5529bb91d0da4d68363e9e9907d31f6f38fb3531f729",
+        "median_seconds_after_first": 1.7872080000015558
+      },
+      {
+        "history": "results/week5/study/capsule/seed_1/fusion/training.json",
+        "sha256": "e21b965cf06a9d6d5c4afddf336035626f0b12531e634e36bb02e981c563a0e9",
+        "median_seconds_after_first": 1.780781500001467
+      },
+      {
+        "history": "results/week5/study/capsule/seed_1/middle/training.json",
+        "sha256": "f1e70da7cc8fdf834af268444ef9e4741862af2c2001f6b9544f48fd5c5f9f49",
+        "median_seconds_after_first": 1.7877598000013677
+      },
+      {
+        "history": "results/week5/study/capsule/seed_2/fusion/training.json",
+        "sha256": "d9d787b39071c43b33dbdeab426d9014d13725bbdc76e96942884470fefb4b68",
+        "median_seconds_after_first": 1.7736512000010407
+      },
+      {
+        "history": "results/week5/study/capsule/seed_2/middle/training.json",
+        "sha256": "06d5b2975b49e118312f754f8220c3c150ebec1f44d2709c28938c42a4edac85",
+        "median_seconds_after_first": 1.8030341999983648
+      },
+      {
+        "history": "results/week5/study/carpet/seed_0/fusion/training.json",
+        "sha256": "2b069be1b85a0e86e586742fb9740623a8716cbb9f53cd6ebbf001dbbc0039e6",
+        "median_seconds_after_first": 2.3672657999995863
+      },
+      {
+        "history": "results/week5/study/carpet/seed_0/middle/training.json",
+        "sha256": "e364aeeba928d53ead429ecce3371139410371d515c21eb941eda957aa7a7fe9",
+        "median_seconds_after_first": 2.3535067999982857
+      },
+      {
+        "history": "results/week5/study/carpet/seed_1/fusion/training.json",
+        "sha256": "5c6856e14a4d3bc55bb8145b138af8e678097403ba7a6b3ddebc0893db9c5ce3",
+        "median_seconds_after_first": 2.406567299996823
+      },
+      {
+        "history": "results/week5/study/carpet/seed_1/middle/training.json",
+        "sha256": "cd2e88ca0d4f4fa427c7c1028f222eac77dff728ecdb0bc89ac3113d7ea64f68",
+        "median_seconds_after_first": 2.375474200001918
+      },
+      {
+        "history": "results/week5/study/carpet/seed_2/fusion/training.json",
+        "sha256": "5f98dd699ec91d6d448f32f7210f132e1a3ccbf251e68df0364284b47ed5013d",
+        "median_seconds_after_first": 2.4176752000021224
+      },
+      {
+        "history": "results/week5/study/carpet/seed_2/middle/training.json",
+        "sha256": "1e17e19b0b261a4adece14949ec8243a9c1e3b8f4e7407280e14a5e7bb930f2b",
+        "median_seconds_after_first": 2.3802432999982557
+      },
+      {
+        "history": "results/week5/study/grid/seed_0/fusion/training.json",
+        "sha256": "20256707ca1d6040907c88827f5b29cdcf0c9d9367f2b0df5c29a7bdea226461",
+        "median_seconds_after_first": 2.3890452999985428
+      },
+      {
+        "history": "results/week5/study/grid/seed_0/middle/training.json",
+        "sha256": "a41b1594f89c10bf93ea74b3010a3063a69b799229b1f1d88a93e90782997d14",
+        "median_seconds_after_first": 2.396541000001889
+      },
+      {
+        "history": "results/week5/study/grid/seed_1/fusion/training.json",
+        "sha256": "9623e735fd04c7a2a4ff72f2dbce54281d37a2b8090f16b4176652d132f4ef80",
+        "median_seconds_after_first": 2.3896729000007326
+      },
+      {
+        "history": "results/week5/study/grid/seed_1/middle/training.json",
+        "sha256": "05e5ed4f9474ed283b004d8d00bc2a24ca97e24ed7ef61dacb8fbd152d5528fc",
+        "median_seconds_after_first": 2.378602499997214
+      },
+      {
+        "history": "results/week5/study/grid/seed_2/fusion/training.json",
+        "sha256": "f6c80551ee18aea4e330da4b401a8d1760127d46ae132a352dfcaecf124b2f37",
+        "median_seconds_after_first": 2.382418300003337
+      },
+      {
+        "history": "results/week5/study/grid/seed_2/middle/training.json",
+        "sha256": "b552ffefa6e062213924eed43239944e4b813057ab6166ce4ba18e867229f81a",
+        "median_seconds_after_first": 2.410606799996458
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_0/fusion/training.json",
+        "sha256": "bc552052f2f9b822719cc74b94a6d6236e22e25243416dc2cb1c4bc0ad677931",
+        "median_seconds_after_first": 3.6035402999987127
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_0/middle/training.json",
+        "sha256": "b5bc21826203c148f3112f3c4895195e8c2266ced6903e05ce7667a1cb1516fa",
+        "median_seconds_after_first": 3.6339222000024165
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_1/fusion/training.json",
+        "sha256": "6e2fcfe68733b0ccbfe79c7c71f03e16e8bb09137d8e093de07a3c0bc9663d5f",
+        "median_seconds_after_first": 3.6138638999982504
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_1/middle/training.json",
+        "sha256": "ad3c3c73121fddc1facf0031e8f92b95ba44220cb99436742b1a112009bb4915",
+        "median_seconds_after_first": 3.6136986000055913
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_2/fusion/training.json",
+        "sha256": "a56e4e0744d83d29eb8de1fa5759f79f62c615efc0e77034cc49e54a0db798ca",
+        "median_seconds_after_first": 3.566193699996802
+      },
+      {
+        "history": "results/week5/study/hazelnut/seed_2/middle/training.json",
+        "sha256": "c220c1b9a08eb02410a6d4dc1996052b1203db2e0c7ca3116e3341b6f52d1872",
+        "median_seconds_after_first": 3.5902750000022934
+      },
+      {
+        "history": "results/week5/study/leather/seed_0/fusion/training.json",
+        "sha256": "340e57e01656c12f383213b07abf11f2e26734732383ac36339a381fd4e92d96",
+        "median_seconds_after_first": 2.040012299999944
+      },
+      {
+        "history": "results/week5/study/leather/seed_0/middle/training.json",
+        "sha256": "57e61199bfbc89678581e20b0b6519bdbb8e9b8ae926b1785d575a62eb5d234f",
+        "median_seconds_after_first": 2.0359593000030145
+      },
+      {
+        "history": "results/week5/study/leather/seed_1/fusion/training.json",
+        "sha256": "c7f53a67d94ec32ffbade4b1372aafd91081f25ad802491d71525f2be4964f52",
+        "median_seconds_after_first": 2.0730442000058247
+      },
+      {
+        "history": "results/week5/study/leather/seed_1/middle/training.json",
+        "sha256": "317dddc92793bb4cb310b7c764198c721918c6a58d495e11b1c832682780b8cb",
+        "median_seconds_after_first": 2.0448643999989145
+      },
+      {
+        "history": "results/week5/study/leather/seed_2/fusion/training.json",
+        "sha256": "50fbf2287e0c7b1896bcc4fb48b19a23b912f1cb94c8bf055aa560a1affa3d08",
+        "median_seconds_after_first": 2.069465399996261
+      },
+      {
+        "history": "results/week5/study/leather/seed_2/middle/training.json",
+        "sha256": "a83a17e7e9d2832ebeda9d202b447d33cb57b2909ffd242a1919b6ea57879ca7",
+        "median_seconds_after_first": 2.071264500002144
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_0/fusion/training.json",
+        "sha256": "ce4abd7bcc7191b7a71e5ca78a7d43cb457bf4ce6b463efea830c5c47740bcfb",
+        "median_seconds_after_first": 1.7744016000069678
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_0/middle/training.json",
+        "sha256": "01d32790ddab9dff1a8fa99b8f796ed1e279c38c512dd668f5b6469dc46d105b",
+        "median_seconds_after_first": 1.7689718000037828
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_1/fusion/training.json",
+        "sha256": "be92f28e4d1f57cfb8ce502d9bda80dc8e2c975aa496863db29a8506a34d51a7",
+        "median_seconds_after_first": 1.7728838000039104
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_1/middle/training.json",
+        "sha256": "42c12ae39327789da5ca336b159a88e66e4d763b52af1c35971288d71ae23caa",
+        "median_seconds_after_first": 1.7823437000042759
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_2/fusion/training.json",
+        "sha256": "438f93c544ad832f561f955410181d92ef45ac60a744146aad2b5583becb0a3e",
+        "median_seconds_after_first": 1.7767481000046246
+      },
+      {
+        "history": "results/week5/study/metal_nut/seed_2/middle/training.json",
+        "sha256": "9c543dc84ab0ab37f8a7d5305daffea1fcc9abeaa5cfc763aae1de13ce018668",
+        "median_seconds_after_first": 1.7726850999897579
+      },
+      {
+        "history": "results/week5/study/pill/seed_0/fusion/training.json",
+        "sha256": "3dc46554d7a1e5dc4b031ffc62c35c0c5a381e6aeb42c0b56a98aed97fa8220a",
+        "median_seconds_after_first": 2.363318400006392
+      },
+      {
+        "history": "results/week5/study/pill/seed_0/middle/training.json",
+        "sha256": "e0ef763a52d29735455107a0c08ddba6a0161286fde0667226feefc279680a14",
+        "median_seconds_after_first": 2.3584447000030195
+      },
+      {
+        "history": "results/week5/study/pill/seed_1/fusion/training.json",
+        "sha256": "5d8b1dcd08f2b5ec3ce093a621b009ff1ae53960afcad40a060b089046391759",
+        "median_seconds_after_first": 2.3888786000024993
+      },
+      {
+        "history": "results/week5/study/pill/seed_1/middle/training.json",
+        "sha256": "8fd3252c4b4ce5ddbd469ffb6c0de9faf16aac55edf2a13ab0b0d5e87fe37c4e",
+        "median_seconds_after_first": 2.4087695000052918
+      },
+      {
+        "history": "results/week5/study/pill/seed_2/fusion/training.json",
+        "sha256": "0ff0efb2a2860e945015745e3cac7119df475e47d200dfbb0cb50171bedf6e7d",
+        "median_seconds_after_first": 2.3830492999986745
+      },
+      {
+        "history": "results/week5/study/pill/seed_2/middle/training.json",
+        "sha256": "79075309aa9db0ccd526d978105a9f434178e44c5bf875788378ae8420935a03",
+        "median_seconds_after_first": 2.3912296000053175
+      },
+      {
+        "history": "results/week5/study/screw/seed_0/fusion/training.json",
+        "sha256": "14f00bcdccda7a9daaa4b75c9722b4972a2c9b681cc692649507ec9cf906f6e5",
+        "median_seconds_after_first": 2.9781981999985874
+      },
+      {
+        "history": "results/week5/study/screw/seed_0/middle/training.json",
+        "sha256": "0e4df0eace879f9372394acb6d6a03d9d5c2471882ecb7fc94230d287ca5bf29",
+        "median_seconds_after_first": 2.9511086999991676
+      },
+      {
+        "history": "results/week5/study/screw/seed_1/fusion/training.json",
+        "sha256": "c70f4819d1a986d47a9ceb237ab332fc0d33281a6d65767a8424220e48195cef",
+        "median_seconds_after_first": 3.0999527999956626
+      },
+      {
+        "history": "results/week5/study/screw/seed_1/middle/training.json",
+        "sha256": "ae5f15896a1353e51e6c51c1de2afbef3cb44a7f6ccaa96d41bcc20335fd4acb",
+        "median_seconds_after_first": 3.0571475999895483
+      },
+      {
+        "history": "results/week5/study/screw/seed_2/fusion/training.json",
+        "sha256": "bf7e3e9b1562e8ea7586e065d311f9d1b4940dad77391c53be78442c83c43f73",
+        "median_seconds_after_first": 2.979540600004839
+      },
+      {
+        "history": "results/week5/study/screw/seed_2/middle/training.json",
+        "sha256": "0b3e3af93a34077e22e0c83c69d3ad42d4a97a340bd6f6d36e7ad44b527c8da3",
+        "median_seconds_after_first": 3.014591199986171
+      },
+      {
+        "history": "results/week5/study/tile/seed_0/fusion/training.json",
+        "sha256": "27745f851428d1d0185490c41d2bb76a63a32d94c40fd5fcbe92053cb81ff223",
+        "median_seconds_after_first": 2.072128200001316
+      },
+      {
+        "history": "results/week5/study/tile/seed_0/middle/training.json",
+        "sha256": "b5c4a837ae0731101551346b3cc6460594f9888bdaf5aa46816af3b73520be3b",
+        "median_seconds_after_first": 2.045580500009237
+      },
+      {
+        "history": "results/week5/study/tile/seed_1/fusion/training.json",
+        "sha256": "fd73419cf5322aab26c1fc84b938b742ee3c0ac1ee195bc5bcf9fecd0f989ae6",
+        "median_seconds_after_first": 2.081837200006703
+      },
+      {
+        "history": "results/week5/study/tile/seed_1/middle/training.json",
+        "sha256": "80bb385f34b88a857e2c63d91c18e896f7d1f1bba36ca65f8e2586a19cf02297",
+        "median_seconds_after_first": 2.0772988999960944
+      },
+      {
+        "history": "results/week5/study/tile/seed_2/fusion/training.json",
+        "sha256": "ccbda8614ee05cb445dce6c9381916d9bc7b5aa7dbaf47ca6cdba9b8ff637ea5",
+        "median_seconds_after_first": 2.091837399988435
+      },
+      {
+        "history": "results/week5/study/tile/seed_2/middle/training.json",
+        "sha256": "86b1cdee71cb303dd4c6cd8458f079a76eba7a74af9cc8508ef70549104833ee",
+        "median_seconds_after_first": 2.1000488999998197
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_0/fusion/training.json",
+        "sha256": "dbfa4d89f641ba0fb5b9ca60346ae2b7fe24d95052d471a8510e8ddefa46adbe",
+        "median_seconds_after_first": 0.29867730001569726
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_0/middle/training.json",
+        "sha256": "af01f186d6c5ae3ac0a06f8d039923bb41ee5ee9c9d8d640aa70bcda5296d69a",
+        "median_seconds_after_first": 0.29453350001131184
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_1/fusion/training.json",
+        "sha256": "715b39f0068981b9f7e59a683fad7fadebc5fb22ca2d09d6025bd6b2f1b79a60",
+        "median_seconds_after_first": 0.29747170000337064
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_1/middle/training.json",
+        "sha256": "f6c1a4c6dadd08d628186255c93b414bb9e1022f72a89d1dd13b9961894c9528",
+        "median_seconds_after_first": 0.296736599993892
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_2/fusion/training.json",
+        "sha256": "8a9a000da6c5d9c0784e2f12da9dbe9822cac205bf2376aae6d0347c08343a09",
+        "median_seconds_after_first": 0.2971473000070546
+      },
+      {
+        "history": "results/week5/study/toothbrush/seed_2/middle/training.json",
+        "sha256": "6e5cc69d38f4b10f69bb69dc2152e0ba93d22614c37962e4ee601cb74e114151",
+        "median_seconds_after_first": 0.2944747000001371
+      },
+      {
+        "history": "results/week5/study/transistor/seed_0/fusion/training.json",
+        "sha256": "7771aa52a245128027a3c441b117645b74a0dbb2911742991eb676cc9269fc65",
+        "median_seconds_after_first": 1.7878894000023138
+      },
+      {
+        "history": "results/week5/study/transistor/seed_0/middle/training.json",
+        "sha256": "0cee872588c7ad4bf8287d2b71569f3b126eb186d34f7a3faec22f0351b98e3a",
+        "median_seconds_after_first": 1.7770282999845222
+      },
+      {
+        "history": "results/week5/study/transistor/seed_1/fusion/training.json",
+        "sha256": "bd7077f160ca63dce886f80e9ca0b2125ef92f9837eb9b8fe32bb1d40e52badd",
+        "median_seconds_after_first": 1.7956314999901224
+      },
+      {
+        "history": "results/week5/study/transistor/seed_1/middle/training.json",
+        "sha256": "4cc452a68cf209fbf273ecce1e982a51a9ad66345dba08a1e2f6dfbe2e5fa798",
+        "median_seconds_after_first": 1.7844806000066455
+      },
+      {
+        "history": "results/week5/study/transistor/seed_2/fusion/training.json",
+        "sha256": "41818964d1651fdeef8e39fbf96c768fd55d152ed6271342891b3d370cba60e7",
+        "median_seconds_after_first": 1.787359000009019
+      },
+      {
+        "history": "results/week5/study/transistor/seed_2/middle/training.json",
+        "sha256": "fa83befe6b8f55498c7f6b6c86c27c0a1610ef55669f41aacfed6b2cbad8b215",
+        "median_seconds_after_first": 1.800882699986687
+      },
+      {
+        "history": "results/week5/study/wood/seed_0/fusion/training.json",
+        "sha256": "6444e62aba67002f20538410120484bc6463005d9ff7a11dd7651053763f7f73",
+        "median_seconds_after_first": 2.0813721000158694
+      },
+      {
+        "history": "results/week5/study/wood/seed_0/middle/training.json",
+        "sha256": "168542a33f5a33625ef168ec7e32e33e7a01b72870c215a87ef388ac610cb578",
+        "median_seconds_after_first": 2.0793198000174016
+      },
+      {
+        "history": "results/week5/study/wood/seed_1/fusion/training.json",
+        "sha256": "83fa780cb51eb1dd0e18d3c289751db923671cd20d431be83dc9a1ccea0fb831",
+        "median_seconds_after_first": 2.0734896000067238
+      },
+      {
+        "history": "results/week5/study/wood/seed_1/middle/training.json",
+        "sha256": "2e8f0335440828c96ea4a451a39262d23d7e1f028a864033f1c201a957d4206d",
+        "median_seconds_after_first": 2.072671800007811
+      },
+      {
+        "history": "results/week5/study/wood/seed_2/fusion/training.json",
+        "sha256": "6a93e4cffe3c7706767948f72e70948c698abf5e5dbe7ef348aef9f8cc056097",
+        "median_seconds_after_first": 2.0676576999831013
+      },
+      {
+        "history": "results/week5/study/wood/seed_2/middle/training.json",
+        "sha256": "ce0fc040a6d5f41c3410bfab0985c0e047b4ef9d8fe0bac3eb0150b9be3df8f7",
+        "median_seconds_after_first": 2.073215100012021
+      },
+      {
+        "history": "results/week5/study/zipper/seed_0/fusion/training.json",
+        "sha256": "4910ee881ac5318f187180b36e83dd9a77b077f8fb5e48cb14ae9bef13e6cec1",
+        "median_seconds_after_first": 2.0693078999756835
+      },
+      {
+        "history": "results/week5/study/zipper/seed_0/middle/training.json",
+        "sha256": "7fee937d38eaa911e48ec511511819ae5c2cf445088a1c540e9c54d1cf0b6748",
+        "median_seconds_after_first": 2.0690596999775153
+      },
+      {
+        "history": "results/week5/study/zipper/seed_1/fusion/training.json",
+        "sha256": "24f0853dc70e939d0fe116ec48a3f2c9ba8a21c60aa9d343b944c7f4c0a21f4c",
+        "median_seconds_after_first": 2.071449200011557
+      },
+      {
+        "history": "results/week5/study/zipper/seed_1/middle/training.json",
+        "sha256": "a5828e4c800a49f92ab86548257e638159cdaeed604219738842edb4b8bcca52",
+        "median_seconds_after_first": 2.0678251999779604
+      },
+      {
+        "history": "results/week5/study/zipper/seed_2/fusion/training.json",
+        "sha256": "8b47ceb3febb11722b2d72ecf556d328c96c659012e31f001a431bc42699fc6c",
+        "median_seconds_after_first": 2.087832300021546
+      },
+      {
+        "history": "results/week5/study/zipper/seed_2/middle/training.json",
+        "sha256": "0770f3ac3708c06f6297055327bb8944d99164a17eaf8aacd60d6f28d4b994ee",
+        "median_seconds_after_first": 2.0737106000015046
+      }
+    ]
+  }
+}

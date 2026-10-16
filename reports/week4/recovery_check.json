@@ -1,0 +1,9 @@
+{
+  "protocol": "63f86a5e70694dd536732d6e58826c002f8fe5900710a7c1d41780407e347d17",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "continued_epoch_matches_exactly": true,
+  "local_fresh_process_test": true,
+  "checkpoint_failure_tests_passed": 3,
+  "colab_fresh_runtime_drive_test": "pending",
+  "full_study_started": false
+}

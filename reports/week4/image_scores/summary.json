@@ -1,0 +1,379 @@
+{
+  "complete": true,
+  "runs": 45,
+  "methods": [
+    "maximum",
+    "top_0.1_percent_mean",
+    "top_1_percent_mean",
+    "whole_map_mean",
+    "local_9x9_mean_maximum"
+  ],
+  "overall": {
+    "maximum": {
+      "mean": 0.9317036319834354,
+      "std": 0.02138210438312557,
+      "seed_means": [
+        0.9071146274822017,
+        0.9459294630718242,
+        0.9420668053962803
+      ]
+    },
+    "top_0.1_percent_mean": {
+      "mean": 0.9402608063944461,
+      "std": 0.019630849071776348,
+      "seed_means": [
+        0.9176516809020413,
+        0.9529763328646262,
+        0.9501544054166707
+      ]
+    },
+    "top_1_percent_mean": {
+      "mean": 0.9634439057680064,
+      "std": 0.011959729936012705,
+      "seed_means": [
+        0.9499538270494626,
+        0.972747943421138,
+        0.9676299468334187
+      ]
+    },
+    "whole_map_mean": {
+      "mean": 0.8702390593792887,
+      "std": 0.005749516528346105,
+      "seed_means": [
+        0.8643693606773808,
+        0.8758603409686102,
+        0.8704874764918752
+      ]
+    },
+    "local_9x9_mean_maximum": {
+      "mean": 0.9321739861305801,
+      "std": 0.020764738587830865,
+      "seed_means": [
+        0.9082064858843198,
+        0.9447438826348208,
+        0.9435715898725996
+      ]
+    }
+  },
+  "checks": [
+    {
+      "category": "bottle",
+      "seed": 0,
+      "maps_sha256": "89e65b673404f13d3afb620fc695c3c95801c9c59d01bd3789ef22609d0a31a4",
+      "scores_sha256": "dd5ab566bca1de16d4615a081750e09c6f1be6de56fd158b8b4d6bcb620bd828",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "maps_sha256": "1f84f097b2653c8fab9486dc834065f58c66bb705e63d816d51fa4bbad486240",
+      "scores_sha256": "ae9b4f45ded1f9420be7123c0bbe77f3f358a901f2300d49fad3e3a7e9b10fa7",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "maps_sha256": "6bdd699cb5d0df8510e17d1c1cf4da6c3c1867cc38792faa58e3192ed77b88ab",
+      "scores_sha256": "e69b944bd04ef4da1024349457096962be56a2efee7dea7b41c7bbadfec3d4f5",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "cable",
+      "seed": 0,
+      "maps_sha256": "45c0cf27fd6c735d926d5bb426366146d60649201c0fa55d935263a020c70b05",
+      "scores_sha256": "c3aebbdcd2592c824547edb30733a23ccafe96ce61bc55e2051c288b9b3c290a",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "cable",
+      "seed": 1,
+      "maps_sha256": "c0134ed4855393462a9de3e855ade481c1967c7eac8c61e214de86f975ef51fd",
+      "scores_sha256": "babebff61370af87104ea291abc17ba0e9f5da67bdfd01935dca37ff0629f43f",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "cable",
+      "seed": 2,
+      "maps_sha256": "7e390f126a754ef03e0e0015c7ef0ceb79eb2a27e93bc0fd4fae36321d1bbb9f",
+      "scores_sha256": "071dc48765d8e68a69d44685b32f3144160be6769aa2e842cddf34f4398b4e9f",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "capsule",
+      "seed": 0,
+      "maps_sha256": "2f159f6e3dcd3834aac7278319b8996cfb32ad346c0dc4cee83cfa3196a8ad3e",
+      "scores_sha256": "344ab1ea4fe891dbedc3a316fb4728dceac01692331e844f0283ceb4c9af5149",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "capsule",
+      "seed": 1,
+      "maps_sha256": "47812c1d4e2dbbb6bf5c59c5f3e914704b27a16caa47dbfb468ae6a96dc8d3df",
+      "scores_sha256": "151cfd4cd9dbe9280314c0b062ccaec87a41d95ae21cc48fca024671839b27e0",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "capsule",
+      "seed": 2,
+      "maps_sha256": "a3f3359311a1308413f095386767380b7bb46b5d4f2a9f8a33193ce0e7980a8b",
+      "scores_sha256": "38f9f736e61e3a4b984cce375479d8068e1e4b3479255f53fb2f3c78608a5f46",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "maps_sha256": "95938e6396fc443661cf1cdb6413a7c70b39ba697b71af5a8af71cee5d6551d7",
+      "scores_sha256": "d8a8f9b615cc98789502094a986623ac84aee3ab4b3a553ba9be922a6261a3c9",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "maps_sha256": "1d82d0b06fef41397f0a798add64d898dd10940debd69b9dca14d83e99eb4369",
+      "scores_sha256": "d9123febd16eedc5c91925fe06c0982b259997672209d20df6b45ff10de3216b",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "maps_sha256": "841b7ef9eeb1c2fadb6f62016577e32c3c1194b318629095d829713d36d17c68",
+      "scores_sha256": "934f52a0ad929702b308b03a1b72bb3f71579a6cfd5e46d6db85c9b9b0059325",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "grid",
+      "seed": 0,
+      "maps_sha256": "cc275808f8fcfad44bf1235c254b02b845f0f69954b874ed8995f525b1dd94c1",
+      "scores_sha256": "79fc4aaf322196bfcae069e2bfc7eaf84a296d0122b6c84c487a654aa9911c88",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "grid",
+      "seed": 1,
+      "maps_sha256": "c12aff6a6fb4656de5a30e3c693a7c6b89a50294a0e428097d021922c3e1faef",
+      "scores_sha256": "8684471cccf4908aaf5e94ee036877e85ef8858d74506a4809a1d76fc96a625a",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "grid",
+      "seed": 2,
+      "maps_sha256": "46c3505bb7a95356b1cf25e779e25d601397b35b646e75202305c0e0509631df",
+      "scores_sha256": "71f19e200b5bc7ca8947e0dc5b5337633c64ed9b080e3dc2c2c335c0ed5f5f58",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "maps_sha256": "ab44779720f7b7b519f634aba6f7f75e3e9afbe715988e6d4ff2ef5895ebb1ca",
+      "scores_sha256": "0ad7b43a2de893c56f7c7126d5b7bca30d322896fab3b2d207dd0dbea1c355c7",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "maps_sha256": "dd86a1847daeb7c187b4b66206c42d4a5219b1315c7410dd3e489b56318bee64",
+      "scores_sha256": "03e4742b0f7696d2ffe4066ec55103b65f7ea1299828e1ebf174e7b67ed99338",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "maps_sha256": "d8c756e2236837f505dc909827e9e3c22f3100ebf0cb069a10708e8c559ef5c6",
+      "scores_sha256": "00c6d5ecb1041f331e393bee66dec17caa3a52cd6c66ea4579cd8a215bfb44d4",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "leather",
+      "seed": 0,
+      "maps_sha256": "474c4013b10e2b0c62e0f3fc705a0d451a497e1b7cf76f688d51407afd44020c",
+      "scores_sha256": "032c8c959941e5734c0838d555fea14d6e156c9c59af6a003b1a5c56ff0a8ee3",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "leather",
+      "seed": 1,
+      "maps_sha256": "4927c92640bb17f936368dee07dcdf6484a70aa16b06f56f787c456f89da4cdc",
+      "scores_sha256": "2677f45904d113364b434df0fe1105043a0ab86c087ac5317312008ae8b1f333",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "leather",
+      "seed": 2,
+      "maps_sha256": "7e4a20e4a21ca7168a10e91d0af6fa3d0410751a93beee538bfe13e3ee07c77a",
+      "scores_sha256": "5aeb45094cea1b2ddd387514ee9bc4bdc5286cf679cfeb0b8eb465745966d302",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "metal_nut",
+      "seed": 0,
+      "maps_sha256": "494f5c4f92fcf3df14f5851498e8df942b21a4f9c315272881924aa0f6741e7c",
+      "scores_sha256": "d4ac0ebdb7e4beb1678d9e485d6f76e9c9a1f3734177d0cdd38fef69537fc38b",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "metal_nut",
+      "seed": 1,
+      "maps_sha256": "494371c9d171638df22bed44b11cc21cbeedb6bce8ce16528ea61d5598ad68e2",
+      "scores_sha256": "3e1f12342ddd697c64706ae2fdf9515c21fd93609fa4df17b5c430c8b08143f0",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "metal_nut",
+      "seed": 2,
+      "maps_sha256": "b86b835864a364f4b3c5f36721a2eff9b25099311b8ca4739799f756bb6acd9c",
+      "scores_sha256": "334ec3fd35fb1f9a8b52ff4f8be01b7c870d2f24445bc0269f3cb467a5cef253",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "pill",
+      "seed": 0,
+      "maps_sha256": "421c6af02535eb83efea6557cc963aea1236f7318f801b73dcf548351738bc89",
+      "scores_sha256": "f19d8c40f697a1cde2cd5c572b870d259fdf31ab03b6b7657a71009ff92c92fa",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "pill",
+      "seed": 1,
+      "maps_sha256": "9e2d19f72fbfdf9b1e6ebc47cd09ece20ab6f5048e150ba3f6e2216342d83eae",
+      "scores_sha256": "41da858732ad1c1bfecfd5d3e825f7d38d9a7ab6425b881e44981b413d2459a3",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "pill",
+      "seed": 2,
+      "maps_sha256": "1b7659fcdfaa31fd6a21aabcbcb44cb7e8b3401a7ed29ee53eca21ae75057a63",
+      "scores_sha256": "636c89f11d62a333581a2a7799279fdb659f5df1706f2287646a77e2b2d3a5ae",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "maps_sha256": "77027aca751cfea1fd761851e5c6708fbb250cba9919c8ea4fbbe291810a4f0e",
+      "scores_sha256": "6932690ecb5e57d4b6d424cb9e4b34b845b5594130d60decc63842ddbbce5ec3",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "maps_sha256": "29e5f6eea4b2ac4a347461ac41ba452231a98495e49ca094e2dab86ef5233388",
+      "scores_sha256": "1b96f6c2e4c240e8f0d40559919b324172f6b6dfaebd8ce65cc875ddf66c8c9c",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "maps_sha256": "804b164fafc2cf328a525fccf9fee8b4654ccd9a53a581818a68657657d2bfb0",
+      "scores_sha256": "7f343b5732de99b47a5faa5d562d84574aecb4a5a41d48eef6f7a48bd00543bf",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "tile",
+      "seed": 0,
+      "maps_sha256": "824d608e17ad30fa4a6d9ad6204ea810d15527ebd5387a5166a917c0542bbbe5",
+      "scores_sha256": "8f3aacbf8c57f377dafc9455c4d1f142a657d1cf13fa09f415488e7700271813",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "tile",
+      "seed": 1,
+      "maps_sha256": "4c266b23d382a03c9a6cb452baa075cea1e3e56f24f5a775b0d2adea803deff0",
+      "scores_sha256": "c00747c6f4b67970c3c61bc0370190476a1d257ede383adb7f560649687bcc0e",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "tile",
+      "seed": 2,
+      "maps_sha256": "73e39af5302faa8d6f53fe7eec54e0caa9c34c800a4dd6cd3bd5401a138b304b",
+      "scores_sha256": "d7635770bd7d85ea2e78739b08db378460496350ea575f9a5930db3ac3759bee",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "toothbrush",
+      "seed": 0,
+      "maps_sha256": "1f829edefdecf0deec5ccd0882921627f5750990c96a7fc9c4d2e7552c90c4e1",
+      "scores_sha256": "ea2f10a5a88e3a7abd491e299e8dcf16ce700574c062f839b07f8fb691002943",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "toothbrush",
+      "seed": 1,
+      "maps_sha256": "63b432785dcdfc08d63abf301a4fbaea03141ded24a2c8e5d8e90a399ed5a884",
+      "scores_sha256": "1596a78d6ffaf0ea5f8af158f5e5f5c92cf791f6d68455ec9ef8e78cab46f3a5",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "toothbrush",
+      "seed": 2,
+      "maps_sha256": "34b9e53c694edb9516c6f27afecc7fde58fbd63c2d03eb987ef6259afe238442",
+      "scores_sha256": "2bef0b281a3248c55e339c072f3354652bb7f91a777abe2f08cf2ac1ce4ecbe2",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "transistor",
+      "seed": 0,
+      "maps_sha256": "76808ce409ed84d368c56ebe7cf96c973cccea95489d7ed49019da9af8f83451",
+      "scores_sha256": "84f5b0b9be0b8b3c8a7e91b76e5bffc94e22162648fbec2821e47c082aeb9e7d",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "transistor",
+      "seed": 1,
+      "maps_sha256": "254fb9beb4119e3c29ff73c8c6c2807774216f99b20839fdc652a764cb616cce",
+      "scores_sha256": "5f2beabc0d4d8f1782c78eea76bd1f87dda7de1c52e9c0b80b5de362c93d378e",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "transistor",
+      "seed": 2,
+      "maps_sha256": "a86d0cce7839767773878a0519097f3629a80591690f4fcb0005e52209a31262",
+      "scores_sha256": "3a8a4cdb1f93681a6c0c26919aae854889586ac25f103324a2d3a4117b8347c7",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "wood",
+      "seed": 0,
+      "maps_sha256": "5e7ad4e915b7d9cc38bae5ef17cadc7bf41e1af266a436a8f0ca2c685e8480ae",
+      "scores_sha256": "1e2cb0b098dcb31ecd6eeefaf7d5a9cb4f7b752302151d747e56061f8365122c",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "wood",
+      "seed": 1,
+      "maps_sha256": "0d53629faad03b9f966cf495a5237422a9e91745306997a01e6fdfcc561343a2",
+      "scores_sha256": "dd68556d4bdb8e96f133cbb0da8fe1acb9bba71b62778c4bfcf7b2a925145471",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "wood",
+      "seed": 2,
+      "maps_sha256": "70af35e6a792a922aa98010e66bff702bbedebaad07ffab4915d5eefd198cf63",
+      "scores_sha256": "669bad1e08462266e1ce768a8724adff47d3cf1f3391ef40693192ff62091e06",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "zipper",
+      "seed": 0,
+      "maps_sha256": "1f3b77ddb6619ba31f1583f8807eb2115054685df1180b976344515cf63e7951",
+      "scores_sha256": "79c5f25f53829e9dfa6fc002905e557295cdbbfb2e0d2d8cc22e2ff205946865",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "zipper",
+      "seed": 1,
+      "maps_sha256": "81498c334ade0797bc4aee8b89cea1b6f1c942f2e18a579b58031882ee857458",
+      "scores_sha256": "8459c5630ed8aca3da208f24da972801754a5dc3da323f5b9ad7cf9a51a2f291",
+      "maximum_matches_saved": true
+    },
+    {
+      "category": "zipper",
+      "seed": 2,
+      "maps_sha256": "5e0f7c1484e76d66f94c03a3c62b58a47eb7e7afb1ea3e1cd722fa74584a2270",
+      "scores_sha256": "1f23e3a164e85522aea9631f61e8518ec3ea840d6d90d9603e1a3abeea75ab15",
+      "maximum_matches_saved": true
+    }
+  ],
+  "source_sha256": "6aefd17e3e279b2ad751ca06c58ff0040a74d55efaa229f8507916990c06a271",
+  "elapsed_seconds": 19.323459499995806,
+  "exploratory": true,
+  "limits": "Fixed summaries applied after inspecting the original test results. No retraining, masks, per-image normalization, per-category selection or changes to baseline metrics. Not an independent validation or proof of the paper scoring rule."
+}

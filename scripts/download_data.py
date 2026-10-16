@@ -1,4 +1,4 @@
-"""Download MVTec AD without keeping a second copy of the archive."""
+"""Download MVTec AD category archives and remove each after extraction."""
 import argparse
 from pathlib import Path
 import shutil
@@ -30,7 +30,7 @@ def download_category(name: str, url: str, root: Path):
     urllib.request.urlretrieve(url, archive_path)
     print(f"Extracting {name}...")
     with tarfile.open(archive_path, "r:xz") as archive:
-        archive.extractall(root)
+        archive.extractall(root, filter='data')
     archive_path.unlink()
     print(f"Finished {name}")
 
@@ -56,7 +56,7 @@ def main():
             continue
         download_category(name, url, args.root)
     incomplete.unlink()
-    print(f'Checksum verified. Dataset saved to {args.root}', flush=True)
+    print(f'Dataset saved to {args.root}. Run scripts/check_data.py before training.', flush=True)
 
 
 if __name__ == '__main__':

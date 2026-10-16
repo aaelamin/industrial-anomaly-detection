@@ -1,0 +1,143 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "category": "bottle",
+      "seed": 0,
+      "images": 83,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 4.123905700049363,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 19.671960700012278
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "images": 83,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 4.00066560000414,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 19.474228299979586
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "images": 83,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 4.030298500030767,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 21.55869559996063
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "images": 160,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 7.935124300012831,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 40.9071915000095
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "images": 160,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 7.193288500013296,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 38.39679030003026
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "images": 160,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 6.9434988999855705,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 39.92585639999015
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "images": 110,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 6.722558000008576,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 27.20084850001149
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "images": 110,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 6.361615100002382,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 21.60043819999555
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "images": 110,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 6.235247599950526,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 24.65003359998809
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "images": 117,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 8.015065200044774,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 27.007184499991126
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "images": 117,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 7.947766400000546,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 27.53424479998648
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "images": 117,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 7.798361799970735,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 28.319339800043963
+    },
+    {
+      "category": "pill",
+      "seed": 0,
+      "images": 167,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 8.4841155000031,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 42.048954400001094
+    },
+    {
+      "category": "pill",
+      "seed": 1,
+      "images": 167,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 8.29486879997421,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 40.380126099975314
+    },
+    {
+      "category": "pill",
+      "seed": 2,
+      "images": 167,
+      "component_average_matches_generator_exactly": true,
+      "inference_and_assembly_seconds": 7.908606700017117,
+      "max_saved_map_difference": 0.0,
+      "seven_subset_metric_seconds": 44.74650320003275
+    }
+  ],
+  "protocol": "63f86a5e70694dd536732d6e58826c002f8fe5900710a7c1d41780407e347d17",
+  "elapsed_seconds": 581.0715705999755,
+  "source_sha256": "123c63068043fd0e3806192e7b431f2f96da2ab9ac44fffcba96ce57a4aa6bb6"
+}

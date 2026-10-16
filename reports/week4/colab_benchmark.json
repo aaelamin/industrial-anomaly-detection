@@ -1,0 +1,80 @@
+{
+  "benchmark_only": true,
+  "epochs": 3,
+  "category": "bottle",
+  "seed": 0,
+  "python_version": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "packages": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "anomalib": "2.6.2",
+    "timm": "1.0.30",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "config": {
+    "name": "fastflow-wide-resnet50-week4-v1",
+    "backbone": "wide_resnet50_2",
+    "weights_url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/wide_resnet50_racm-8234f177.pth",
+    "weights_sha256": "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa",
+    "size": 256,
+    "flow_steps": 8,
+    "hidden_ratio": 1.0,
+    "conv3x3_only": false,
+    "epochs": 500,
+    "batch_size": 32,
+    "micro_batch_size": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "drop_last": true,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "augmentation": "none",
+    "checkpoint_selection": "final epoch",
+    "precision": "float32",
+    "image_score": "maximum anomaly map value",
+    "mask_resize": "nearest-neighbor",
+    "pixel_evaluation_size": 256
+  },
+  "gpu": "Tesla T4",
+  "gpu_total_mib": 14912.6875,
+  "gpu_peak_allocated_mib": 2039.20947265625,
+  "gpu_peak_reserved_mib": 2136.0,
+  "history": [
+    {
+      "epoch": 1,
+      "seconds": 10.253726715999846,
+      "loss": 410003.4987792969
+    },
+    {
+      "epoch": 2,
+      "seconds": 9.560534239999924,
+      "loss": -397155.53401692706
+    },
+    {
+      "epoch": 3,
+      "seconds": 9.574629792999986,
+      "loss": -920659.6354166666
+    }
+  ],
+  "median_epoch_seconds_after_first": 9.567582016499955,
+  "cache_seconds": 17.50041427799988,
+  "cache_gib": 1.4287112951278687,
+  "largest_category_cache_gib": 2.672852231555008,
+  "checkpoint_mib": 694.3628196716309,
+  "checkpoint_save_seconds": 5.105574222000087,
+  "checkpoint_load_seconds": 0.7273128540000471,
+  "checkpoint_reload_exact": true,
+  "feature_cache_exact": true,
+  "test_images": 83,
+  "inference_seconds": 4.650690931000099,
+  "trainable_parameters": 45007872,
+  "estimated_bottle_500_epoch_minutes": 79.72985013749962,
+  "estimated_45_run_training_hours": 70.42803428812466,
+  "estimated_45_run_checkpoint_hours": 1.2763935555000216,
+  "elapsed_seconds": 74.11567776999982,
+  "estimate_note": "Extrapolated from bottle and the saved 15-category training counts; excludes most startup and evaluation costs."
+}
