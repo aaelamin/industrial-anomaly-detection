@@ -1,6 +1,6 @@
 # Comparing Weeks 3, 4 and 5
 
-[All weeks](../README.md) | [Same-image gallery](HEATMAPS.md) | [Every run](per_run.csv)
+[All weeks](../README.md) | [Week 6 results](../week6/README.md) | [Same-image gallery](HEATMAPS.md) | [Every run](per_run.csv)
 
 Week 4 remains our strongest tested configuration. Week 5 answered a narrower question about combining compressed feature levels, and did not produce an overall improvement. The comparison below explains what is supported, what remains uncertain and what belongs in the midterm.
 

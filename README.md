@@ -14,7 +14,8 @@ You do not need to install anything to read the results or view the heatmaps on 
 | --- | --- |
 | [Week 3](reports/week3/README.md) | What FastFlow does, how we set up the baseline, results and conclusions |
 | [Week 4](reports/week4/README.md) | Why we tried WideResNet, what improved and what remained weak |
-| [Week 5](reports/week5/README.md) | Why we tried feature fusion, how we controlled the comparison and what happened |
+| [Week 5](reports/week5/README.md) | Feature-fusion implementation, rationale and matched control |
+| [Week 6](reports/week6/README.md) | Completed multi-scale results, anomaly-map gallery and midterm readiness check |
 | [Comparison and midterm discussion](reports/comparison/README.md) | All experiments together, matched heatmaps and what we can reasonably conclude |
 
 Each weekly folder includes the explanation, category results and a `HEATMAPS.md` gallery. The [cross-week gallery](reports/comparison/HEATMAPS.md) shows the same images for every configuration and all three seeds.

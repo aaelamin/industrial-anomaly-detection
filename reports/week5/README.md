@@ -1,6 +1,6 @@
 # Week 5: combine feature levels before the flow
 
-[All weeks](../README.md) | [Full analysis and design rationale](week5.md) | [Heatmaps](HEATMAPS.md)
+[All weeks](../README.md) | [Full analysis and design rationale](week5.md) | [Heatmaps](HEATMAPS.md) | [Week 6 results and checks](../week6/README.md)
 
 ## What we needed to do
 

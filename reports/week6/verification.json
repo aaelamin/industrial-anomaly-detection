@@ -1,0 +1,697 @@
+{
+  "checked_utc": "2026-10-27T18:11:17.233772+00:00",
+  "purpose": "Week 6 results and deliverable readiness; reuse of completed Week 5 experiment, no new training",
+  "run_count": 90,
+  "category_count": 15,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "arms": [
+    "middle",
+    "fusion"
+  ],
+  "fixed_endpoint_epochs": 500,
+  "unique_category_seed_arm_grid_complete": true,
+  "replayed_macro_metrics": {
+    "image_auroc": {
+      "middle": {
+        "seed_means": [
+          0.7419535434415091,
+          0.7319125229518135,
+          0.6788825604990361
+        ],
+        "mean": 0.7175828756307863,
+        "std": 0.033889398291961456
+      },
+      "fusion": {
+        "seed_means": [
+          0.6834158525398006,
+          0.6866238889619938,
+          0.6563321346159435
+        ],
+        "mean": 0.675457292039246,
+        "std": 0.01664036085158928
+      },
+      "fusion_minus_middle_points": -4.212558359154029
+    },
+    "pixel_auroc": {
+      "middle": {
+        "seed_means": [
+          0.7467354797595609,
+          0.7225634628274162,
+          0.7473222191051705
+        ],
+        "mean": 0.7388737205640492,
+        "std": 0.014128143768431448
+      },
+      "fusion": {
+        "seed_means": [
+          0.6986080719446295,
+          0.7144756099544217,
+          0.6808175281580174
+        ],
+        "mean": 0.6979670700190229,
+        "std": 0.016838194088287316
+      },
+      "fusion_minus_middle_points": -4.0906650545026295
+    },
+    "pixel_average_precision": {
+      "middle": {
+        "seed_means": [
+          0.1648800333075909,
+          0.13794970159662817,
+          0.13414857191379642
+        ],
+        "mean": 0.14565943560600517,
+        "std": 0.016753676573250376
+      },
+      "fusion": {
+        "seed_means": [
+          0.13284657297902228,
+          0.14981885216518412,
+          0.13096689596858282
+        ],
+        "mean": 0.13787744037092975,
+        "std": 0.010384184279271137
+      },
+      "fusion_minus_middle_points": -0.7781995235075417
+    }
+  },
+  "run_receipts": [
+    {
+      "category": "bottle",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "a62f72713b02e777e22743bf74af4531dd2e99cbd6429183d0254d01418576e1"
+    },
+    {
+      "category": "bottle",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "40ea6ae19bd714a0dac2d6b6329e0d1a3de002fd5d40f32685dfb61812059097"
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "c4cab9f63cc1fd0ca5bc9131b106dd77ee40b9e03bb4b3bf4716d0266274869a"
+    },
+    {
+      "category": "bottle",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "ad77f3fdbf2d0c0b8485650944cdc179c792ba56f8912302141749322007f45e"
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "0e75283a70e27770c5a283188d43be53c4ed2e59d8490208be3f7b001d95d977"
+    },
+    {
+      "category": "bottle",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "820f801eabc9fcf957392cb84ac744758d981fbe30f773754d1d55fd0f748a9b"
+    },
+    {
+      "category": "cable",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "8df56808729d9a1ecde316e4d2527d5f80a8b784efaf5bc8752bcf37393152fb"
+    },
+    {
+      "category": "cable",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "922a438445c3517c630e94593257fb355f16763eee181560da8f3396a357d32d"
+    },
+    {
+      "category": "cable",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "b32cf8c81452c7b583bacd0e3e23ae1c7f35d89764eb37248324bf0cdf2fad0d"
+    },
+    {
+      "category": "cable",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "09611b02a0ee74901390b61c6c5036e93b6b631f8a1b1fb6310d1e6a1d200ca3"
+    },
+    {
+      "category": "cable",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "07e99b1106b5ff994fe37eada00491fc67714d6fee4635dbdeb85abb3765094f"
+    },
+    {
+      "category": "cable",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "ac0a2a823ddb48ba68c206446d16e52e0554b1cb7cef9b49f5969abb087320dc"
+    },
+    {
+      "category": "capsule",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "19e8a655230c5d4e721d916386a12a1f32eb06673d957bac2506a3454265ced6"
+    },
+    {
+      "category": "capsule",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "ceb34471eeeae4dc20e1c96506617490a5e8d25695c2f980014997309f1693f9"
+    },
+    {
+      "category": "capsule",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "417e2e966007e7234ce10e55767354ee377f605d260f0404a7f9c5318e3f57f1"
+    },
+    {
+      "category": "capsule",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "fc9134a47eb964dc33053b21dbba0082e444e806180f92115a79a5cf7df7da08"
+    },
+    {
+      "category": "capsule",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "c536fc2ce2eb43e98c4b6ff27a6b66c8e8427bd4d1e9704b8b18445f04e268e5"
+    },
+    {
+      "category": "capsule",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "b8282dbc96645770dbd01e054a23c99eaa09d9b978babe18e062aa310dc5a291"
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "8da7e12c8293416de7014573e6bead53b3c4d434b286cd2d4a93fe6d9c566208"
+    },
+    {
+      "category": "carpet",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "fa3c5362188e15c9894b216006b24cf522012fcb34c9feb93506f77275e56593"
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "5906e03989c0337c35ebf6013c4afdd1d8be693243f96dd4fa8b499c50ce9dcd"
+    },
+    {
+      "category": "carpet",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "8a4d23deba1f4fb0725862a96cb40ee95c4dd550964afb43ccb27807e4b1bf77"
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "4733f510479eb3f2c5dc04660ebef66733674865149a17365b65769599ad2862"
+    },
+    {
+      "category": "carpet",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "dc677883bb3639d0ec108cea44467dffaf219b81bd42fb39cc56bd289203472b"
+    },
+    {
+      "category": "grid",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "23b05d16f356d3462fe21875f049a4668098c845c6b36a8545f0e0768333a4cd"
+    },
+    {
+      "category": "grid",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "87fb1f96f8ce8946058add3c6661f421554566c9aaa2acf7155bf63214023530"
+    },
+    {
+      "category": "grid",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "e0790dff13628796c47f4820db0246333a4e84dd7a8fa639378e6fe0986ed15c"
+    },
+    {
+      "category": "grid",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "b924d11c5a12da2595f909d289eaf897cd9b92677abfeb37ea31896bacc3e735"
+    },
+    {
+      "category": "grid",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "43da9e282d857f13871ecdf045840ef72d6e4a670de09ffa8a18786ec4ae50d1"
+    },
+    {
+      "category": "grid",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "3441cff8cb9d02e3a2a5e429f3f227fa2fac7bbac8ec1adeeb36e52127f0fb20"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "3a58f5017f1c5fd292e5cdb9cab97ce52923aa20d5b774ce07a65cec0b0e31da"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "caa35b7b745aec25f3c6b4912fd62755b004e5528dd1207ba945e87d86b4f816"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "20f6697962057cc6668c62f4384ba4055511eec5a9595712f0c5318ffc2a916e"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "3d6611a22a2f7a79e504621d0396597eaa666fdae321351a0bf6bf75e48b2733"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "741e702e7cd248fbfef5c81fdcc8a394ad640ae9d26a151cc16d3fd9831b37af"
+    },
+    {
+      "category": "hazelnut",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "9944d0028f950c270003d2290785e938358aebe3126c15533d24ae25b2a81cd2"
+    },
+    {
+      "category": "leather",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "59277adf72c2269150bb44e4a804e0143b6ea62eb796c7f14b621e6db0f2db0f"
+    },
+    {
+      "category": "leather",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "bf032aeaa3a1fd88847801c0a6fa65332922621679472a29d573408212e8f3b8"
+    },
+    {
+      "category": "leather",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "8afe81b2ce801c40c2fe7f4bb8da79d76337d0a51f8d4cce7eedacc68ce909fc"
+    },
+    {
+      "category": "leather",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "7ecca7e0b4ad5712ecc573b04beb6402d4ec17a4d267bf8fc4046ef4667a8ebb"
+    },
+    {
+      "category": "leather",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "99af7cbe7329a1252d2f3d50f6d9929e56243fcb31a77925a61cc6c559039a63"
+    },
+    {
+      "category": "leather",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "d55622b70bc45aa3bd8e3d1c2bf0854d3411a6f93e4779f64a7e8ecd63087552"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "866ecc799ea0e983641792811de79fa05e4976ad4892ef2ac61b8fd0c580c3b8"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "d41531204104483688ad4f22fde512eeabdf0bc0a0b7bbf3a4e93a65221dae3b"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "f6940cdab500345b171677c141866120a3ce2e7453880ea75c0e64e6ab0a1438"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "e281e44be83db549da58004e919bf76a7854b3579bc6a84caae131b02c46632c"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "e848d1a3a3b39ccd43b2c318bc5eb6374e421a3f915e25247c9b233c220a3568"
+    },
+    {
+      "category": "metal_nut",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "83204363fd42630356c5d099dc1601ebef6a6449f88ea83e1c4ba34fed805be8"
+    },
+    {
+      "category": "pill",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "a49206d59120f3ea96c2bf93f23f243cca70ebfd7ff3d08dd92a1fe558455ea5"
+    },
+    {
+      "category": "pill",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "01050986846e6370ddea5ac8cd4e74516bfeac248b2295604e2a8bda72c7c0ab"
+    },
+    {
+      "category": "pill",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "1562fe857c8d81ca74019b47993f5ac75c9f85f8e00f954eb71f39acd9fe7440"
+    },
+    {
+      "category": "pill",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "b43d4d3681ec872d75153e456a86ac5f68d8807d7d2170b5ab30feddd4498ef6"
+    },
+    {
+      "category": "pill",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "3a9d359caf9100eaf6cada61876adffee48d8224245ac3d36e91ba204f7fdc67"
+    },
+    {
+      "category": "pill",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "7441a8d7b43f106dc0c1b05e7e615d1d1a5f0d1101fecd0e2c8627cf654f8698"
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "d7e6bb24bcbfa75a105f21eed5a9519bfb97a94d14b6677c155dc9d3924b6d62"
+    },
+    {
+      "category": "screw",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "f139041b6d326498a687b7a3c04fe6feb63e62d5288e46d9df7b3a6968f375db"
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "d29fa2b231e16b4f910d0405ccd6b9abe1654dcdf6e507d410e9c9a1213ed140"
+    },
+    {
+      "category": "screw",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "71e481c9480861184188cace89db98ec8f14414adc435232e5e442ca90ee1745"
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "18d750659cd11cab5787017f2f50976b76176abcfbbfb3f3cb25fdb14399ca0c"
+    },
+    {
+      "category": "screw",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "bd6b95d4d35830ace43e7813b55e45de70e0c2a325e5d693e11df4fbf6bd7044"
+    },
+    {
+      "category": "tile",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "1e9996dafa98fd253cf223fdb673e17f4df21f0a309dee4831fb8e25bec44d86"
+    },
+    {
+      "category": "tile",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "32ee1f73b287060176d7c9ad6764f137cf750e0fe9e9de7e69dde5ec5f502ac2"
+    },
+    {
+      "category": "tile",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "6a04e5f2d222eed0561c3451d6aaa7c673a039ca49abefb7c08a4d5da3fac249"
+    },
+    {
+      "category": "tile",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "3d579b9efca89a59e338a5f13b7611b4c226a2c0edacac5f51f8f7c5f32ae60b"
+    },
+    {
+      "category": "tile",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "a3c07fe126b98651a9166f294f6b03a5baa80b1ca0944cfaddc9f691eb9f489a"
+    },
+    {
+      "category": "tile",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "3b60afa76ce411cba4b9e4b42e22d007e825ff4bfe80fb4780602d57ecea8efd"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "c79f5167fb772f65570864792d03d27a7007327c0da0344e7ae0c9eb61b0f14a"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "2b97e11329eafc653dc1bdef48bd878a433ae1998799b5d127165098d6b6e368"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "2d55d2924940e107dd47dd7028cf0cef048c3f406acc4e94564436dbea01fa4c"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "cbff86f0c253ede75955d1bb7707b474fda7a94505b4867e0c7802d3a76ace7e"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "7dd00392465992875e30aa52d68a5eb28a8da122037a97f06c6b66291228f6bf"
+    },
+    {
+      "category": "toothbrush",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "23837b8d1b0d721d945aaf05e5724fe4910c32415e770a5aa01b6548f191baee"
+    },
+    {
+      "category": "transistor",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "e8c394208d35c0f64973c9441f9cd0fa43e696b4a3fe4321b945aca2a4aa7e98"
+    },
+    {
+      "category": "transistor",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "ebd45df5281272432d414a08baafefd95d71d90245f4031632df06d76aea8502"
+    },
+    {
+      "category": "transistor",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "e1cf7b02a451b8ff26b3c1656335f96d3f5386d259af6d9ad5e18ed757f29fc1"
+    },
+    {
+      "category": "transistor",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "4eb5b947e15f63c48402146f6ec2543496e88b982313478052a4f1c63e2b4992"
+    },
+    {
+      "category": "transistor",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "36c1af4d28ef226c9b766a05b3955fb8a47ac3d906da370d786c742e55adfbb2"
+    },
+    {
+      "category": "transistor",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "1f003ee418ea9a3146ffe194782c96f3a80117c5a56fa5c37f481ab19f250bbc"
+    },
+    {
+      "category": "wood",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "c958ebf22017cd544d531c1fe3c45830e24f13a2b07f0bd630289ec97214a7dc"
+    },
+    {
+      "category": "wood",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "e4001020f0f6ebd9cf0755b59038d8bb260a0d9ffbb6484ad9d4a1cffdf5655e"
+    },
+    {
+      "category": "wood",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "f1dfba200b5c1d0fee1ab5462b6802c377a8a0abc28bbc0f1942bfb8133999ec"
+    },
+    {
+      "category": "wood",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "3e0bc9021ca0676ca66450c47d08b2541f52a44565863d5861d3eb5718936139"
+    },
+    {
+      "category": "wood",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "6dc837324d4a0448bdfbfa969fe5c587b176482bc8e7fde72236d23bc7e8d3cf"
+    },
+    {
+      "category": "wood",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "77a1e2f02803e8101c5d68990ea9fccde793f1165234444119cdac9973b0286f"
+    },
+    {
+      "category": "zipper",
+      "seed": 0,
+      "arm": "middle",
+      "receipt_sha256": "b134f7f624a919828e91b1d3ae03a0077b0ea8640d67904df7eea0f46497d0a5"
+    },
+    {
+      "category": "zipper",
+      "seed": 0,
+      "arm": "fusion",
+      "receipt_sha256": "2993c9715c2e8dde6d84d6d9f99205904e2a4fb708c790f4f25214c215fd7cfb"
+    },
+    {
+      "category": "zipper",
+      "seed": 1,
+      "arm": "middle",
+      "receipt_sha256": "cc5bf7e9274732dbe639426c967a46eb452ab3d5b468b1289e3324db66040ca0"
+    },
+    {
+      "category": "zipper",
+      "seed": 1,
+      "arm": "fusion",
+      "receipt_sha256": "4e9a8cafbced4dc8002a576d9b2f852307f9dbcffbe0913404cfc7ee77ad5fe3"
+    },
+    {
+      "category": "zipper",
+      "seed": 2,
+      "arm": "middle",
+      "receipt_sha256": "6c7b82af16a057f71eb8a09d1b469efe6877da39ed0d4121f18ee77c5b5a747d"
+    },
+    {
+      "category": "zipper",
+      "seed": 2,
+      "arm": "fusion",
+      "receipt_sha256": "a581c58df8b68fffcfce1f5d361ec8dd9f9d5808d08691e9b586a8ac21f50869"
+    }
+  ],
+  "small_evidence_files_sha256_verified": 270,
+  "final_checkpoint_and_map_presence_checked": 90,
+  "large_checkpoints_and_maps_rehashed_or_recomputed_this_audit": false,
+  "earlier_full_analysis_checks": {
+    "all_metrics_recomputed": true,
+    "all_receipts_verified": true,
+    "all_histories_finite": true,
+    "projection_hashes_verified": 15,
+    "paired_initializations_verified": 45,
+    "recorded_reload_and_backbone_checks_passed": 90
+  },
+  "galleries": {
+    "reports/week5/HEATMAPS.md": {
+      "images_verified": 36,
+      "categories_with_normal_and_defective_examples": 15,
+      "selection_disclosed": true,
+      "cross_model_display_ranges_disclosed": true
+    },
+    "reports/comparison/HEATMAPS.md": {
+      "images_verified": 36,
+      "categories_with_normal_and_defective_examples": 15,
+      "selection_disclosed": true,
+      "cross_model_display_ranges_disclosed": true
+    }
+  },
+  "midterm_local_update_package": {
+    "source_present": true,
+    "source_sha256": "240f8502e5afbdad66f9f5a693d8cff32b570e62b83e15237415d85114815d18",
+    "referenced_figures": [
+      "figures/screw.jpg",
+      "figures/hazelnut.jpg",
+      "figures/week5_comparison.png"
+    ],
+    "missing_figures": [
+      "figures/screw.jpg",
+      "figures/hazelnut.jpg"
+    ],
+    "contribution_declaration_present": true,
+    "bibliography_entries": 9,
+    "zip_crc_passed": true,
+    "zip_source_equals_local_source": true,
+    "zip_members": [
+      "main.tex",
+      "figures/week5_comparison.png"
+    ],
+    "contains_pdf": false,
+    "compilation_status": "compile-failed",
+    "compilation_error": "main.tex line 173: figures/screw.jpg not found; figures/hazelnut.jpg is also absent from the local update folder. Source unchanged.",
+    "submission_receipt_verified": false
+  },
+  "course_guide": {
+    "sha256": "97d00171c53a137ac8f3c5595eee660f7f5bca8af5dc765648566a0d40f1905a",
+    "pages": {
+      "deliverable_schedule": 2,
+      "reproducibility": 3,
+      "rubrics": 4,
+      "project16_objectives": 22,
+      "project16_timeline": 23
+    }
+  },
+  "new_model_predictions": 0,
+  "training_steps": 0,
+  "reserved_images_read": 0,
+  "scope": "Current arithmetic/receipt/file-readability audit. Existing full prediction and checkpoint replay checks are cited separately, not rerun. Submission and public GitHub publication are not established by local files.",
+  "source_reports": {
+    "per_run": "../week5/analysis/per_run.csv",
+    "summary": "../week5/analysis/summary.json",
+    "study_config": "../../configs/week5_study.json"
+  },
+  "visual_review_this_check": [
+    "../week5/heatmaps/bottle_contamination_005.jpg",
+    "../comparison/heatmaps/hazelnut_hole_007.jpg"
+  ]
+}
