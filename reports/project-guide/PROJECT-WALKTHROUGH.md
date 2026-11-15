@@ -15,6 +15,8 @@ The sections follow the course schedule. EfficientNet, PatchCore, the extra ResN
 - [Week 9: turn the experiments into a report](#week-9-turn-the-experiments-into-a-report)
 - [Week 10: review and submit](#week-10-review-and-submit)
 - [Where the DINO tests fit](#where-the-dino-tests-fit)
+- [What the results establish](#what-the-results-establish)
+- [Open questions and remaining work](#open-questions-and-remaining-work)
 
 ## Week 1: understand the task and choose a method
 
@@ -68,7 +70,7 @@ flowchart LR
     E --> G["Highest score ranks the whole image"]
 ```
 
-That last rule matters. If an intact edge receives a stronger response than the actual defect, it can determine the image score even when some damaged pixels are correctly highlighted.
+Each heatmap location has a number. As a made-up example, suppose an ordinary surface scores 2, a normal rim scores 4 and a crack scores 9. The picture receives a score of 9. If the rim of a different, undamaged object scores 10, that normal picture ranks as more unusual than the cracked one. The highest score can therefore come from the wrong location. These example numbers are not measured results or probabilities.
 
 ### Reading the scores
 
@@ -113,6 +115,8 @@ We completed 45 WideResNet runs first, followed by 45 EfficientNet and 45 matche
 The assignment asks for a multi-scale flow that combines information from several CNN layers. FastFlow already uses several layers, so “use multiple layers” alone would not describe a new change.
 
 Our change was **where the information is combined**. Original FastFlow runs a separate flow on each layer and averages their maps afterward. Our compact model takes features from the frozen WideResNet backbone, combines compressed layer descriptions first, then gives them to one flow. We expected fine details to help with small cracks and broader descriptions to help with larger structural changes. Here, **fusion** simply means combining those descriptions into one input.
+
+**The full FastFlow reference and both compact versions use WideResNet.** WideResNet is the image reader; it does not name the whole detector. Our attempted improvement changed what happened after that reader, while the middle-only version was built to check the effect of combining layers.
 
 Combining all the original features would be expensive. We used **PCA**, a method that compresses many correlated measurements into a smaller set. The compression is fitted using normal training features only. It preserves prominent directions of variation in those features; it does not know which directions will matter for future defects.
 
@@ -200,6 +204,29 @@ FastFlow performed poorly on this AeBAD development sample. We have not establis
 
 [Complete AeBAD numbers](../final-evidence/transfer-team-tables/README.md) · [Blade heatmap gallery](../final-evidence/galleries/aebad/HEATMAPS.md)
 
+### The other methods we tested on blades
+
+Earlier exploratory experiments compared **MMR, AnomalyDINO and PatchCore** on these same 160 development images. Each used all 521 normal training images. MMR learns to reconstruct normal image descriptions after parts are hidden during training. AnomalyDINO compares DINOv2 descriptions with stored normal examples. PatchCore does a related normal-reference comparison using CNN descriptions.
+
+| Earlier blade reference | Image AUROC | Pixel AP | Region overlap through 5% false-positive rate |
+| --- | ---: | ---: | ---: |
+| MMR | 85.64 | 10.89 | 63.02 |
+| AnomalyDINO | 72.56 | 5.84 | 56.43 |
+| PatchCore | 63.57 | 12.53 | 43.51 |
+
+The final column measures recovery of separate annotated defect regions while limiting wrongly highlighted pixels. It gives small regions a role that their pixel count alone might not provide. MMR was strongest for image ranking and this region measure; PatchCore was strongest for pixel AP. There was no winner on every measure.
+
+These are one-run development references, not additional rows in the three-repeat MVTec study. MMR and PatchCore used 256-pixel inputs; DINO used 448. The later FastFlow result above used only 128 fitting normals, plus 32 calibration normals. The difference from MMR therefore cannot be assigned to the method alone. **We have not completed an equivalent AeBAD comparison of our best WideResNet FastFlow configuration.**
+
+### What we know about the failure
+
+FastFlow's normal-pixel alarm rate was about 40% in the provider's background group, compared with 1.24% in its same group. That identifies a serious failure associated with the capture groups. It does not prove the background caused it: the groups contain different pictures and potentially different physical blades.
+
+The earlier reference tests also checked whether excluding the scene around the blade would solve the problem. It did not. One expanded foreground mask completely excluded 33 of 240 annotated regions, including six fractures and 22 small regions. Those subsets overlap. A wider outline retained more damage but still excluded four regions, including two small ones. Some defects mark missing material outside the visible blade, so a mask following only the remaining metal can discard the area we need to inspect.
+
+Normal blade surfaces and attachment ends also received strong scores. Background cleanup cannot remove those responses while keeping the entire blade. Resolution, feature choice, normal-example coverage and training behavior remain possible contributors to FastFlow's poor result; none has been isolated as its main cause. The detailed [blade comparison and failure examples](notes/AEBAD-COMPARISON.md) distinguish the measured results from these explanations.
+
+
 ## Week 8: compare all methods and investigate failures
 
 Week 8 brings together the category results and examines where the models fail.
@@ -262,7 +289,7 @@ The template calls for 6–8 main pages, a 200–250-word abstract, at least sev
 
 ## Week 10: review and submit
 
-Final submission is due **November 27**. The experiments and figures are complete. The report, presentation and final review remain to be finished.
+Final submission is due **November 27**. The planned main experiments and their figures are complete. The report, presentation and final review remain to be finished. The open diagnostic questions below are separate from those completed runs.
 
 Dataset attribution, implementation sources and tool use are recorded in the [attribution notes](../final-evidence/notes/ATTRIBUTION.md). Individual contributions will be documented in the final report.
 
@@ -278,7 +305,33 @@ The sample included 29 small annotated regions. Averaging AnomalyDINO prediction
 
 The comparison also included AnomalyCLIP, a released method based on an image-and-text model. The models had different achieved false-positive rates, and the small regions were not independent physical objects. These results are useful exploratory evidence, not proof of a universally best method. The [DINO notes](notes/DINO-MOTOR.md) include the exact comparison and an annotated example.
 
-The DINO experiments used a separate dataset and evaluation protocol. They are additional exploration, outside the main FastFlow, compact-model and PatchCore comparison.
+The Motor experiments use a different dataset from MVTec and AeBAD. The earlier blade comparison does use the same 160 AeBAD development images, with a different training allowance and evaluation setup from the later FastFlow study. We have no complete, matched DINO row for the 15-category MVTec table, so the Motor or blade scores cannot rank it against WideResNet FastFlow on MVTec.
+
+
+## What the results establish
+
+Our project modification is the **compact feature-fusion design and its controlled evaluation**: combine three layers before one flow, then compare that allocation with a middle-only input of the same size. It did not improve average performance. The comparison nevertheless answers the stated question for this design: spreading the fixed feature budget across three layers was not better overall than using the middle layer alone. It does not establish that multi-scale flows generally fail, or explain the much larger loss caused by the compact pipeline as a whole.
+
+The broader study contributes the all-category backbone comparison, the extra ResNet control, the PatchCore reference, and a new-domain application with region-level failure analysis. These are completed experimental results. Reproducing established methods and testing a project modification are distinct from establishing an original research method. **We have not demonstrated a novel detector that improves on the strongest relevant baseline.**
+
+The paper supported by the current evidence is a controlled study of compact multi-scale FastFlow and its limits: WideResNet is the strongest tested FastFlow configuration on MVTec; PatchCore leads the main comparison; compact fusion does not improve the average; and the tested ResNet FastFlow application performs poorly on blades, where earlier reference methods perform substantially better. The negative result and the successful reference results belong in the same account.
+
+## Open questions and remaining work
+
+The report and presentation can use the completed results now. They still need a connected methods-and-results narrative, selected figures with captions, citations, limitations, the actual team contribution statement, disclosure and final review. The [weekly checklist](WEEK-BY-WEEK.md) maps that work to the course brief.
+
+Further experiments should answer a specific unresolved comparison:
+
+| Open question | What would answer it | Status |
+| --- | --- | --- |
+| Does the best MVTec FastFlow setup also help on blades? | Compare ResNet and WideResNet FastFlow using identical normal fitting/calibration images, 256-pixel input, an agreed endpoint and the same evaluator. Record remaining recipe differences. | Highest-priority additional diagnostic; not run. A gain would improve the domain study, not establish a new method. |
+| Why are both compact variants much weaker than full WideResNet FastFlow? | First compare original and compressed normal feature distances and scales from existing caches. A subsequent controlled change to compression, scaling or spatial resizing would test one cause at a time. | The present middle-versus-fusion control does not answer this. Normal-only checks alone would not prove a defect-detection cause. |
+| Can a proposed blade correction protect small defects at a comparable false-alarm rate? | Use unchanged MMR as a reference, report both lost and gained regions, and compare pixel precision and low-false-positive region recovery. Qualify the closest released method before proposing a new correction. | Earlier simple masking and correspondence controls did not justify an improved method. No replacement is established. |
+| Can any finding be confirmed independently? | Establish physical-part or capture grouping and an outcome-unseen evaluation cohort before selecting a new method. | Existing development images have been examined repeatedly. Three seeds do not create new data. The 1,479 reserved AeBAD images remain excluded. |
+
+The first question is the next practical experiment to plan if additional computation is available. It should have its settings, resource limit and decision rule recorded before execution; if a useful endpoint cannot fit the budget, it remains pending. Running every weaker configuration on blades is lower priority than closing this missing best-FastFlow comparison. A higher-resolution test would follow only if the remaining errors justify it, and would be a control rather than a novel contribution.
+
+Recent work already studies nuisance suppression, foreground masking and reconstruction under capture changes. The [primary-source comparison](notes/AEBAD-COMPARISON.md#published-results-and-released-methods) records that overlap. A genuine extension needs a specific mechanism beyond those methods and evidence that it helps without hiding important losses. A result that improves one inspected example is insufficient. No new experiment was launched for this documentation update.
 
 ---
 

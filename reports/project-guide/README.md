@@ -10,10 +10,12 @@ The [weekly project notes](PROJECT-WALKTHROUGH.md) cover the assignment, our mod
 | [Original comparison heatmaps](../final-evidence/galleries/original-comparison/HEATMAPS.md) | The same selected images shown for original ResNet, WideResNet and both compact models |
 | [Compact comparison heatmaps](../final-evidence/galleries/compact/HEATMAPS.md) | Middle-only versus three-layer fusion |
 | [Matched ResNet heatmaps](../final-evidence/matched-gallery/HEATMAPS.md) | The added recipe control and references |
+| [Earlier blade reference comparison](notes/AEBAD-COMPARISON.md) | MMR, AnomalyDINO, PatchCore, masking failures and the missing FastFlow comparison |
+| [Open questions](PROJECT-WALKTHROUGH.md#open-questions-and-remaining-work) | Unresolved explanations and proposed controls |
 | [Engine-blade heatmaps](../final-evidence/galleries/aebad/HEATMAPS.md) | AeBAD normal and fracture examples |
 | [Complete experiment evidence](../final-evidence/README.md) | All charts, galleries, methods, numbers and reproduction materials |
 
-The study includes 315 MVTec runs and three AeBAD development runs. Compact fusion did not improve the average result, and the blade experiment showed substantial localization errors. The 1,479 reserved AeBAD images were not used.
+The main study includes 315 MVTec runs and three AeBAD FastFlow development runs. Earlier exploratory blade comparisons are reported separately. Compact fusion did not improve the average result, and the blade experiment showed substantial localization errors. The 1,479 reserved AeBAD images were not used.
 
 The final report and presentation are in preparation. Submission is due November 27. Dataset credits and tool use are recorded in the [attribution notes](../final-evidence/notes/ATTRIBUTION.md).
 
