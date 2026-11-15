@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "runs": 18,
+  "protocol": "efbae5809d31eb16ca391a02b636a93edfdf59f177c054b28fe8ecaff396d615",
+  "median_paired_speed_ratio": 1.4011077769581637,
+  "training_hours_low_median_high": [
+    27.18110152846849,
+    27.626241608204307,
+    28.36615061085063
+  ],
+  "total_hours_low_median_high": [
+    27.71410183043078,
+    28.1592419101666,
+    28.899150912812924
+  ],
+  "planning_hours_upper_plus25percent": 36.12393864101615,
+  "full_study_started": false
+}

@@ -1,0 +1,161 @@
+{
+  "status": "PASS_FROZEN_ROLE_SEPARATION",
+  "counts": {
+    "train": {
+      "images": 128,
+      "folder_labels": {
+        "background": 43,
+        "illumination": 43,
+        "view": 42
+      }
+    },
+    "calibration": {
+      "images": 32,
+      "folder_labels": {
+        "view": 11,
+        "background": 11,
+        "illumination": 10
+      }
+    },
+    "evaluation": {
+      "images": 160,
+      "folder_labels": {
+        "same": 40,
+        "background": 40,
+        "illumination": 40,
+        "view": 40
+      }
+    }
+  },
+  "cross_role_intersections": {
+    "train__calibration": {
+      "path_overlap": 0,
+      "saved_content_hash_overlap": 0
+    },
+    "train__evaluation": {
+      "path_overlap": 0,
+      "saved_content_hash_overlap": 0
+    },
+    "calibration__evaluation": {
+      "path_overlap": 0,
+      "saved_content_hash_overlap": 0
+    }
+  },
+  "evaluation_cells": [
+    {
+      "condition": "background",
+      "defect": "ablation",
+      "images": 8
+    },
+    {
+      "condition": "background",
+      "defect": "breakdown",
+      "images": 8
+    },
+    {
+      "condition": "background",
+      "defect": "fracture",
+      "images": 8
+    },
+    {
+      "condition": "background",
+      "defect": "good",
+      "images": 8
+    },
+    {
+      "condition": "background",
+      "defect": "groove",
+      "images": 8
+    },
+    {
+      "condition": "illumination",
+      "defect": "ablation",
+      "images": 8
+    },
+    {
+      "condition": "illumination",
+      "defect": "breakdown",
+      "images": 8
+    },
+    {
+      "condition": "illumination",
+      "defect": "fracture",
+      "images": 8
+    },
+    {
+      "condition": "illumination",
+      "defect": "good",
+      "images": 8
+    },
+    {
+      "condition": "illumination",
+      "defect": "groove",
+      "images": 8
+    },
+    {
+      "condition": "same",
+      "defect": "ablation",
+      "images": 8
+    },
+    {
+      "condition": "same",
+      "defect": "breakdown",
+      "images": 8
+    },
+    {
+      "condition": "same",
+      "defect": "fracture",
+      "images": 8
+    },
+    {
+      "condition": "same",
+      "defect": "good",
+      "images": 8
+    },
+    {
+      "condition": "same",
+      "defect": "groove",
+      "images": 8
+    },
+    {
+      "condition": "view",
+      "defect": "ablation",
+      "images": 8
+    },
+    {
+      "condition": "view",
+      "defect": "breakdown",
+      "images": 8
+    },
+    {
+      "condition": "view",
+      "defect": "fracture",
+      "images": 8
+    },
+    {
+      "condition": "view",
+      "defect": "good",
+      "images": 8
+    },
+    {
+      "condition": "view",
+      "defect": "groove",
+      "images": 8
+    }
+  ],
+  "manifest_sha256": "8739cd8585bd61d8847d756858ed8c99b8573d443b716feb8ceaecb518237138",
+  "dataset_inputs_opened": 0,
+  "historical_interpretation": "A new-domain application with normal-only refitting. Training and calibration include folders named background, illumination and view; this is not a held-out-named-condition or zero-shot transfer experiment. Folder labels do not verify physical-blade independence. Saved input hashes are reused, not recomputed in this audit.",
+  "interpretation": "Normal-only refitting using official AeBAD training images, evaluated on a declared development sample from the official test split. The provider defines changed capture backgrounds, lighting and viewpoints; repeated folder names do not establish shared capture conditions. This is not transfer of learned MVTec flow weights. Physical-blade and acquisition-session independence remain unverified.",
+  "primary_sources": [
+    "https://arxiv.org/html/2304.02216v2",
+    "https://github.com/zhangzilongc/MMR"
+  ],
+  "official_split_path_checks": {
+    "fit_and_calibration_train_good_only": true,
+    "evaluation_test_only": true,
+    "masks_ground_truth_only": true
+  },
+  "historical_role_receipt_sha256": "dfd26a2f80829a80e63037c8d1c1fa22938a0f6293281751aa9c91e5d55fdc4f",
+  "clarification_receipt_sha256": "1d992659188d47eeb991002833aa2ff4c5c16aaba6c11c91f91f62e1c25a5c21"
+}

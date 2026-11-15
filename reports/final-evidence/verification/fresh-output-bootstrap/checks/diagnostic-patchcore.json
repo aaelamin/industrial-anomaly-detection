@@ -1,0 +1,9 @@
+{
+  "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+  "bitwise_state": true,
+  "bitwise_probe": true,
+  "state_file": "memory.pt",
+  "left_state_sha256": "b091703c54a5294e3fc7e0b762a82453bfc543b349b6a4aa04dd1a9b6fa60ecb",
+  "right_state_sha256": "b091703c54a5294e3fc7e0b762a82453bfc543b349b6a4aa04dd1a9b6fa60ecb",
+  "source_dataset_images_opened": 0
+}

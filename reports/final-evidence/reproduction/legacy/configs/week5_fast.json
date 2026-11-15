@@ -1,0 +1,35 @@
+{
+  "name": "week5-projected-feature-fusion-micro32-v1",
+  "backbone_config": "configs/week4.json",
+  "arms": [
+    "middle",
+    "fusion"
+  ],
+  "channels": 96,
+  "grid": 64,
+  "flow_steps": 8,
+  "hidden_ratio": 1.0,
+  "conv3x3_only": false,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "batch_size": 32,
+  "micro_batch_size": 32,
+  "projection_seed": 2026,
+  "pca_sample_limit": 50000,
+  "pca_solver": "randomized",
+  "pca_power_iterations": 4,
+  "scale_floor": 1e-06,
+  "pilot_categories": [
+    "bottle",
+    "screw",
+    "carpet"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "pilot_epochs": 10,
+  "full_epochs_for_estimate_only": 500,
+  "feature_batch_size": 4
+}

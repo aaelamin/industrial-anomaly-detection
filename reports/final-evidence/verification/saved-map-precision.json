@@ -1,0 +1,73 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-11-13T21:56:11.518724+00:00",
+  "seconds": 11.932149887084961,
+  "maps": 1152,
+  "groups": [
+    {
+      "seed": 0,
+      "epoch": 0,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.00020342059555291284,
+      "raw_zero_pixels": 0,
+      "nonzero_to_one_float32_pixels": 0,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    },
+    {
+      "seed": 0,
+      "epoch": 500,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.0039597786265492246,
+      "raw_zero_pixels": 4,
+      "nonzero_to_one_float32_pixels": 88,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    },
+    {
+      "seed": 1,
+      "epoch": 0,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.00025033247281545804,
+      "raw_zero_pixels": 0,
+      "nonzero_to_one_float32_pixels": 0,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    },
+    {
+      "seed": 1,
+      "epoch": 500,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.006522954587811393,
+      "raw_zero_pixels": 0,
+      "nonzero_to_one_float32_pixels": 156,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    },
+    {
+      "seed": 2,
+      "epoch": 0,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.00018965435493812526,
+      "raw_zero_pixels": 0,
+      "nonzero_to_one_float32_pixels": 0,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    },
+    {
+      "seed": 2,
+      "epoch": 500,
+      "maps": 192,
+      "maps_flagged": 0,
+      "max_distinct_loss_fraction": 0.006261945087558463,
+      "raw_zero_pixels": 0,
+      "nonzero_to_one_float32_pixels": 44,
+      "max_absolute_shift_error": 2.9802322387695312e-08
+    }
+  ],
+  "followup_flagged": false,
+  "source_images_masks_models_opened": 0,
+  "reserved_images_opened": 0,
+  "rows_sha256": "5b2a3cbaa4469313ba6106df37ec6820c45999adb555a484aba8247fe942e0fe",
+  "limitations": "Does not measure native-resolution interpolation differences, metric differences or detector validity. Floating-point ties are not a novel contribution."
+}

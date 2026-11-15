@@ -2,7 +2,7 @@
 
 [All weeks](../README.md) | [Week 6 results](../week6/README.md) | [Same-image gallery](HEATMAPS.md) | [Every run](per_run.csv)
 
-Week 4 remains our strongest tested configuration. Week 5 answered a narrower question about combining compressed feature levels, and did not produce an overall improvement. The comparison below explains what is supported, what remains uncertain and what belongs in the midterm.
+Among the original four configurations, Week 4 WideResNet performed best. The Week 5 compact fusion model did not improve the average result over its middle-layer control. The later EfficientNet, matched ResNet, PatchCore and AeBAD studies are included in the [final results](../final-evidence/README.md).
 
 ## The sequence of questions
 
@@ -35,7 +35,7 @@ Both Week 5 variants perform much worse than Week 4. Since both replace the orig
 
 On the complete 15-category comparison, no overall benefit was established. Fusion changed image AUROC by -4.21 points, pixel AUROC by -4.09 points and the predeclared primary metric, pixel AP, by -0.78 points.
 
-The paired seed changes in image AUROC are -5.85, -4.53 and -2.26 points. Pixel AUROC also falls for all three seed averages. Pixel AP changes by -3.20, +1.19 and -0.32 points, so its small overall decline is less consistent across seeds. We should not turn that into a strong statistical claim of universal inferiority.
+The paired seed changes in image AUROC are -5.85, -4.53 and -2.26 points. Pixel AUROC also falls for all three seed averages. Pixel AP changes by -3.20, +1.19 and -0.32 points, so its small overall decline is less consistent across seeds. The small AP decline is therefore less consistent than the AUROC declines.
 
 Six categories improve in mean pixel AP, each with all three paired seeds improving. Nine decline. The median category change is -1.64 AP points, so the typical category does not show a gain. These descriptive comparisons are more informative than treating the thousands of correlated pixels as independent samples in a significance test.
 
@@ -54,7 +54,7 @@ A possible explanation is that compression and joint modeling disturb dense text
 
 Removing each category in turn leaves the image AUROC change between -5.34 and -2.61 points and pixel AUROC between -5.47 and -2.88 points. Their negative overall direction is not caused by one category alone.
 
-Pixel AP is more sensitive. Its leave-one-category-out change ranges from -1.36 to +0.06 points. Removing wood makes it slightly positive. We retain wood and the full primary result, but this sensitivity limits how strongly we should characterize the small aggregate AP loss. See [all sensitivity results](sensitivity.csv) and [paired changes](paired_changes.csv).
+Pixel AP is more sensitive. Its leave-one-category-out change ranges from -1.36 to +0.06 points. Removing wood makes it slightly positive. We retain wood and the full primary result, but this sensitivity makes the small aggregate AP loss less robust than the AUROC losses. See [all sensitivity results](sensitivity.csv) and [paired changes](paired_changes.csv).
 
 ## What the same images show across weeks
 
@@ -124,21 +124,17 @@ The test set informed our exploratory inspection and the direction of later expe
 
 Using each run's median recorded epoch time after the first epoch, then multiplying by 500, gives about 80.7 hours for the 45 Week 4 runs and 26.5 hours for the 90 Week 5 runs. The [timing summary](timing.json) records the calculation and source-history hashes. These are descriptive timing estimates from the completed logs, not wall-clock totals or a controlled speed benchmark. They exclude setup and evaluation, and median timing reduces the effect of long pauses. Hardware load and batching differed. The original Week 5 pilot predicted about 28 hours including modeled overhead.
 
-The compact model makes a small follow-up practical, but cheaper training did not buy acceptable accuracy here. We should describe this as an unsuccessful accuracy-cost tradeoff so far, rather than an efficient improvement. Another full 90-run study still needs planning.
+The compact models trained faster but lost substantial accuracy. This design therefore did not establish a useful accuracy-cost improvement.
 
-## What to put in the midterm
+## Conclusions from the original comparison
 
-The report can explain the method and dataset, show the two baseline configurations, give the controlled fusion question, present all results including failures, and use matched images to explain the numbers. The negative result is useful because the experiment distinguishes a plausible idea from a supported improvement.
+The WideResNet FastFlow configuration improved our overall results over ResNet-18, but an image-level gap from the published reference remains. Our compact feature-fusion model did not improve the full-dataset comparison against its matched middle-level control. Texture categories consistently lost localization performance, while some object categories improved. Both compact models were much weaker than the original FastFlow configuration. Retained checkpoints show that several weaknesses were already present before the final epoch. Further work should separate representation compression, spatial alignment and training behavior before treating this design as an improvement or extending it to another domain.
 
-A suitable conclusion is:
-
-> The WideResNet FastFlow configuration improved our overall results over ResNet-18, but an image-level gap from the published reference remains. Our compact feature-fusion model did not improve the full-dataset comparison against its matched middle-level control. Texture categories consistently lost localization performance, while some object categories improved. Both compact models were much weaker than the original FastFlow configuration. Retained checkpoints show that several weaknesses were already present before the final epoch. Further work should separate representation compression, spatial alignment and training behavior before treating this design as an improvement or extending it to another domain.
-
-We have not completed EfficientNet-B4 or BatterySurAD transfer, and we should not present either as done. The team still needs to assemble the midterm document, literature discussion and requirement check from this material.
+EfficientNet-B4 and domain transfer were still pending when this comparison was written. The later study completed EfficientNet and used AeBAD for the new-domain experiment; those results are reported separately.
 
 ## What is worth trying next
 
-First agree on the baseline requirement and whether the immediate priority is reproduction or revising the fusion design. Both are reasonable, but they answer different questions.
+The baseline gap and the compact model failure are separate problems. An experiment that explains one may not explain the other.
 
 For the baseline gap, a controlled augmentation or scoring experiment is more relevant than further fusion changes. State the category-specific augmentation rules and evaluation protocol before running. Keep any scoring choice separate from already inspected test results.
 
@@ -146,7 +142,7 @@ For fusion, start with a small representation experiment, not another full sweep
 
 The texture/object pattern is a useful hypothesis to investigate. It is not justification for removing textures from the main benchmark. A published design such as [MSFlow](https://arxiv.org/abs/2308.15300) is a legitimate alternative, but reproducing it would be a separate experiment rather than calling our current implementation MSFlow.
 
-The team can revise the Week 5 approach. Keep the existing results as the first experiment, write down what the revised design changes and why, then pilot it before a full run. See [running and changing experiments](../../docs/RUNNING.md).
+Any revised design would need a separate protocol and output directory. The [run guide](../../docs/RUNNING.md) describes those requirements.
 
 ## Supporting files
 

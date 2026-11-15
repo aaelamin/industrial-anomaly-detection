@@ -1,0 +1,542 @@
+[
+  {
+    "job": "efficientnet-bottle-s0",
+    "completion_sha256": "84b541db3d8d093768519118b9ea9b00875ac72b6c38bc948df9d321cc5acd32"
+  },
+  {
+    "job": "efficientnet-bottle-s1",
+    "completion_sha256": "e0a03199a81050c761e249e1779f40fb3747a6e5ea8fb8d485ee11e96866532d"
+  },
+  {
+    "job": "efficientnet-bottle-s2",
+    "completion_sha256": "5948d7d2c8bed2d92ab1854fe51374e728d697e6a197ddaf65f56a14f86a9573"
+  },
+  {
+    "job": "efficientnet-cable-s0",
+    "completion_sha256": "4f87a3f29e80d27dbfeadeadecdea6648933e4af6638f9a7ab399d1c0b3a123f"
+  },
+  {
+    "job": "efficientnet-cable-s1",
+    "completion_sha256": "0a85f144a273ee157fde1e6d47b4d31c895275e00b90ca54bc8c9c0d126031fe"
+  },
+  {
+    "job": "efficientnet-cable-s2",
+    "completion_sha256": "89b145e5ca69e1b35643deceef6269230c711d4d79ec223f0b99768295f3b33c"
+  },
+  {
+    "job": "efficientnet-capsule-s0",
+    "completion_sha256": "ac1f40dd731ec5a30fc0a15f6a1573425a1964ebd1b1683ee20de152cfa2f887"
+  },
+  {
+    "job": "efficientnet-capsule-s1",
+    "completion_sha256": "18b87271ed6a93afc4fc6bad1de9424f30f2cb00dbe83d4dc23d2f42d5f574fd"
+  },
+  {
+    "job": "efficientnet-capsule-s2",
+    "completion_sha256": "86e6e14cdc182f1dba7df533b30b3a1817b40e9ad904ce8018b770ccdb7f48a0"
+  },
+  {
+    "job": "efficientnet-carpet-s0",
+    "completion_sha256": "210b0e4fac9e7de5d375ed0085f84c4818063f3239521c6dd0f45e9dd766c575"
+  },
+  {
+    "job": "efficientnet-carpet-s1",
+    "completion_sha256": "667a3e7fef86075da18b8815642d414c6bf1c6e2b59a1c62d880fb059b1d7906"
+  },
+  {
+    "job": "efficientnet-carpet-s2",
+    "completion_sha256": "6dd8f74606a713a168d3d6d117b79bc3749d831615e17b3e66f728fd70ecb98b"
+  },
+  {
+    "job": "efficientnet-grid-s0",
+    "completion_sha256": "e89531f28ec581f9ef390aae2b01272072f8d66a352c9ce23b1498c3fd04e52f"
+  },
+  {
+    "job": "efficientnet-grid-s1",
+    "completion_sha256": "2fc9c5b3ad5c454f901f7e097cba9956a883333de336bd1b3fae08107e7c4117"
+  },
+  {
+    "job": "efficientnet-grid-s2",
+    "completion_sha256": "f7e4597e31018f847c3c677257f384a9d75ac1ca6a62c132a13d9a795bef8306"
+  },
+  {
+    "job": "efficientnet-hazelnut-s0",
+    "completion_sha256": "d97bbaef0b24d1359f625957a6261042f35c887242b7747115dfa1968071606a"
+  },
+  {
+    "job": "efficientnet-hazelnut-s1",
+    "completion_sha256": "cc01a0e23017c1cf8dd16491d72e8b8534af85dc34235fc409e2e909ccc51de0"
+  },
+  {
+    "job": "efficientnet-hazelnut-s2",
+    "completion_sha256": "1949d56952b556e0cb4cda30abf69a1feec944a2536acb8ad61e09e296c2f5ff"
+  },
+  {
+    "job": "efficientnet-leather-s0",
+    "completion_sha256": "5290e95da016c93983090081dd5758b0e19c7fb2ca5f391a3696fcc576b2df77"
+  },
+  {
+    "job": "efficientnet-leather-s1",
+    "completion_sha256": "aaa62789caf8e027d05a9da4feea17cc412543eb6add8d6d19cfe83a413104b1"
+  },
+  {
+    "job": "efficientnet-leather-s2",
+    "completion_sha256": "30cdb33ced5a8be741fb8dd13ea03c967765c345f70cb0cccf3c6e411dbfa7e8"
+  },
+  {
+    "job": "efficientnet-metal_nut-s0",
+    "completion_sha256": "19c5c4beff1ba3df29244a3188851944b1704ed0b71b106b78bfb758b8989d15"
+  },
+  {
+    "job": "efficientnet-metal_nut-s1",
+    "completion_sha256": "49e7bf99479023db4a28ea7b2152335ea3360ba4fac065d3a30e5988aad1036e"
+  },
+  {
+    "job": "efficientnet-metal_nut-s2",
+    "completion_sha256": "58f80db116f197ea547d831c9f8e4303a5ee8bf96667c4bc58a9076cf3ba34a2"
+  },
+  {
+    "job": "efficientnet-pill-s0",
+    "completion_sha256": "431da251650017dee588960f52e4016c27f957cf8bee291dff88d4294437ab94"
+  },
+  {
+    "job": "efficientnet-pill-s1",
+    "completion_sha256": "bd694a5fc7917cc5c5d6cd6bd82eb4cf04744348ffde67c817dbad8b9a14d661"
+  },
+  {
+    "job": "efficientnet-pill-s2",
+    "completion_sha256": "b1c5794846db39939b784e02cc6558419337e7e491eebaee2853c8b49cf14439"
+  },
+  {
+    "job": "efficientnet-screw-s0",
+    "completion_sha256": "a108dc1bb2a02f7dcd7a4fa89325936d798ba94436d2ff54cbd0aad5a28ed18a"
+  },
+  {
+    "job": "efficientnet-screw-s1",
+    "completion_sha256": "b038ac30e0d9483ea59a1ad4297262b1d3c7766a27fcb2f40030dbacedc8766f"
+  },
+  {
+    "job": "efficientnet-screw-s2",
+    "completion_sha256": "c192abe16371bf5604859fee5440d03be8ad67395cc7e08b92a2f3fd89862051"
+  },
+  {
+    "job": "efficientnet-tile-s0",
+    "completion_sha256": "a3a1198aa8bb81e99001b28ecf5c22cebc08d21dc908cbb434082fb7856a89cd"
+  },
+  {
+    "job": "efficientnet-tile-s1",
+    "completion_sha256": "ffd54ecd5908bea7f5d967f37577fbad7393a39e908c647d95bac5c2233b98b6"
+  },
+  {
+    "job": "efficientnet-tile-s2",
+    "completion_sha256": "fc40a2171d1c4d9d95c43e9974e012501a20645ad4380bdc77cebee57b5072c6"
+  },
+  {
+    "job": "efficientnet-toothbrush-s0",
+    "completion_sha256": "85458a3d95a3ead96d77532509e56ce8ef8af0d2b40d59e7f578024b624d3fb6"
+  },
+  {
+    "job": "efficientnet-toothbrush-s1",
+    "completion_sha256": "b5212909daae80ac99afdedac4a0894ac215185e31111861914d4057cd927c9d"
+  },
+  {
+    "job": "efficientnet-toothbrush-s2",
+    "completion_sha256": "b3f66e66b8c71cbbde17ffa2e62ea841450cf62ba362a8f383484f5c0bbf0fb2"
+  },
+  {
+    "job": "efficientnet-transistor-s0",
+    "completion_sha256": "40b6702d352a1d5dd6d68118ad7acae007ab1ee3b6c07a5c17f67cab61b6bfdb"
+  },
+  {
+    "job": "efficientnet-transistor-s1",
+    "completion_sha256": "5cb85bf563e1444ddd5acb32a1f8f4e66bc73cb16d2c7f3065d391494262bd47"
+  },
+  {
+    "job": "efficientnet-transistor-s2",
+    "completion_sha256": "b49f3d2050ad5f0fca017406e31188bf48dfdb5add3e15131e9ccbf0482dbc73"
+  },
+  {
+    "job": "efficientnet-wood-s0",
+    "completion_sha256": "49e119a89e89bc6760b9c48ae37c85204d0e8b3654de4d7dd4c4608cab0c326a"
+  },
+  {
+    "job": "efficientnet-wood-s1",
+    "completion_sha256": "42ac87b1881a9c7f895e466cbc4be1d3f23b1ea1ccb0dd17d3aa851e0bf8d0d1"
+  },
+  {
+    "job": "efficientnet-wood-s2",
+    "completion_sha256": "6a41e29308d13557bd75f8243383881b7589b8f94267dfbae66430a1bd0507c9"
+  },
+  {
+    "job": "efficientnet-zipper-s0",
+    "completion_sha256": "9e79d38954849612878aea9e2e0d7c3204631e5a8c87ce9fdd6777a4af4917e8"
+  },
+  {
+    "job": "efficientnet-zipper-s1",
+    "completion_sha256": "3da0a97669b4ad9a0e698a7601881f28688d29328a20ffe052b8c1f3df0e7217"
+  },
+  {
+    "job": "efficientnet-zipper-s2",
+    "completion_sha256": "298ea284f62da051343d519e51e225d76b8cfc69669edbf3f56a5628cdd19ab0"
+  },
+  {
+    "job": "resnet-bottle-s0",
+    "completion_sha256": "73f40e1198b2e656653ca73cf7a447a3569b6ac66827d49cea0c8dcb43c9fb8f"
+  },
+  {
+    "job": "resnet-bottle-s1",
+    "completion_sha256": "ad77d3d3d7d98d2aeaa935a2e30784b974b72f6c4bb162bb31eec964029fdaf3"
+  },
+  {
+    "job": "resnet-bottle-s2",
+    "completion_sha256": "9dc44384d1c4c631d6479ab9198e786874e28d62dba366168cb0cacb71a7f34e"
+  },
+  {
+    "job": "resnet-cable-s0",
+    "completion_sha256": "209271fbbbe72088ecaa5250c99d76bf48d796bb77b761da548b2d061fb012fb"
+  },
+  {
+    "job": "resnet-cable-s1",
+    "completion_sha256": "4cd5bbdecdd727de85d76213bdb64e555eb4818656911c3da8e8f088a4b078ce"
+  },
+  {
+    "job": "resnet-cable-s2",
+    "completion_sha256": "4a2dfa2c2ba3ad71f4297404e4ceac0642e364d678c55b869a0ad0a1cbe6dc23"
+  },
+  {
+    "job": "resnet-capsule-s0",
+    "completion_sha256": "c1420798df89aee4092e33911005c2f259ddb753f2232291769b4805400310b1"
+  },
+  {
+    "job": "resnet-capsule-s1",
+    "completion_sha256": "eb4d57f3e1cd6627176da86be4c2c7c8c63ec5174dc1e5f163de36492233c802"
+  },
+  {
+    "job": "resnet-capsule-s2",
+    "completion_sha256": "9799a51e4baefc925f9103cb2a6b71d8b710feedfe4f698b798632c93f30d995"
+  },
+  {
+    "job": "resnet-carpet-s0",
+    "completion_sha256": "02b33adc186369ec09fc052164fc1736ca53c02e5b1c82d931c15fa5662b73a2"
+  },
+  {
+    "job": "resnet-carpet-s1",
+    "completion_sha256": "af545b270c04de99a5a7871f6dd315e6de9840821a653af78001e0b461b3018d"
+  },
+  {
+    "job": "resnet-carpet-s2",
+    "completion_sha256": "96de5297380b855c3771f8c01dc9650cf35e4f61b2464004a04609ec7014e326"
+  },
+  {
+    "job": "resnet-grid-s0",
+    "completion_sha256": "060495ee0c97df627ef7408bbb59af6eaf95d4b6732dba186a86836399ab183f"
+  },
+  {
+    "job": "resnet-grid-s1",
+    "completion_sha256": "0203806002bb65f8f1192c0604967fb03a37ff0bb7627004eea7fd113d8f6697"
+  },
+  {
+    "job": "resnet-grid-s2",
+    "completion_sha256": "f1c846ef90f017fc24778a84e28d223c560b60f88fdf77126389e435d6eb6cf2"
+  },
+  {
+    "job": "resnet-hazelnut-s0",
+    "completion_sha256": "9f8610e03d5e60fdf5f44038aa80bd86da3be316adcb94d7863906d72ad57c89"
+  },
+  {
+    "job": "resnet-hazelnut-s1",
+    "completion_sha256": "79764a12c87739a73c507bb62e9fba8b25763c04fdae20cc8a6c429df3fa604b"
+  },
+  {
+    "job": "resnet-hazelnut-s2",
+    "completion_sha256": "79b1a8c711e63e0da2998586b0d6e8e6aacee18090db76e8d19ca91408372df8"
+  },
+  {
+    "job": "resnet-leather-s0",
+    "completion_sha256": "e64874d04e2eaa1085e190056b28be19fad96102986ae1ac585cfd3aa988cc2f"
+  },
+  {
+    "job": "resnet-leather-s1",
+    "completion_sha256": "4fadd7bb3308d511133f532644d26df667769d0aa50b54986537f08a0b8f06a0"
+  },
+  {
+    "job": "resnet-leather-s2",
+    "completion_sha256": "05d120f5d75bc0431eab537dc3ac8f7911dc9ebe80783a700b788654b3e418d7"
+  },
+  {
+    "job": "resnet-metal_nut-s0",
+    "completion_sha256": "4897d6dee40e0fcf8284cd301d77a67518b7f34682150d358fbea0cac46d2e32"
+  },
+  {
+    "job": "resnet-metal_nut-s1",
+    "completion_sha256": "d731e3a40dd9a0178997c96f1c5cac6761a62a1baf0c46d533aba1df746b004c"
+  },
+  {
+    "job": "resnet-metal_nut-s2",
+    "completion_sha256": "1df836926ae8540f182c70c9f8ce20a3c3eb7b7e32ec0fe5b9e5d30962075ea4"
+  },
+  {
+    "job": "resnet-pill-s0",
+    "completion_sha256": "8310209bba5b3fd07b7ffa9c3eaffc788b82845dd3399c03331b6eda69e89eaa"
+  },
+  {
+    "job": "resnet-pill-s1",
+    "completion_sha256": "4df5e1483c62ab57d7427e0fadbc68442b611edff4f8036da6d9c6e37117c1a9"
+  },
+  {
+    "job": "resnet-pill-s2",
+    "completion_sha256": "3c60c51cb85c4cf461d670e35bcbd0a2b80c1f63e1218caaa52f5ca7064014df"
+  },
+  {
+    "job": "resnet-screw-s0",
+    "completion_sha256": "34b2ee890e2815c51718cfff19d8f99250174137fda2d371caffad952ee8efe4"
+  },
+  {
+    "job": "resnet-screw-s1",
+    "completion_sha256": "62e72d12424890a7baed1eceaf379562d9513d53a819efd2d11769049543ff3b"
+  },
+  {
+    "job": "resnet-screw-s2",
+    "completion_sha256": "aa6e627366fc59421dd243091316d6cc0feb4fe1d224e8f21a7480f73e4d8e10"
+  },
+  {
+    "job": "resnet-tile-s0",
+    "completion_sha256": "1028adb1f6c6c690b3caf4b7e2cb9452529a11cf49e88116ad94ba8e660ef887"
+  },
+  {
+    "job": "resnet-tile-s1",
+    "completion_sha256": "6ec3ac0be4b1be43340fd07fce124e8f13bd75405be032fd0cb48e180fc62e1b"
+  },
+  {
+    "job": "resnet-tile-s2",
+    "completion_sha256": "715eb0c38ccc05036da947681d682a7962ef3a3a0e497582cc6d8f82f1b5b849"
+  },
+  {
+    "job": "resnet-toothbrush-s0",
+    "completion_sha256": "c7968ecfab56fc9596ae722f20d9562163a61d312c2f3e06d40d962cbd91e641"
+  },
+  {
+    "job": "resnet-toothbrush-s1",
+    "completion_sha256": "889a5ea47675b7a6205106727acab21ba6073312ed787994bfeb68dad71d714f"
+  },
+  {
+    "job": "resnet-toothbrush-s2",
+    "completion_sha256": "a6b7b8800b901cd3dfa10a214e8e025fc1b33a4ecd5dfa2a7be79cf83628adc2"
+  },
+  {
+    "job": "resnet-transistor-s0",
+    "completion_sha256": "ba9708315910139145ade8ba2cf7adeaf49d4804d0a679c7daa97e28cadf6e63"
+  },
+  {
+    "job": "resnet-transistor-s1",
+    "completion_sha256": "142acb9768b167f295a2b02820e3859ca8c2f396f26fa1d34ef295869f785755"
+  },
+  {
+    "job": "resnet-transistor-s2",
+    "completion_sha256": "84a3a215f0fad4d0e4b1097c1029b6742fe34860a6bd9486eda795cf29f8b491"
+  },
+  {
+    "job": "resnet-wood-s0",
+    "completion_sha256": "bef54a71670bf8cf8b5813b22c42d3f0b07db534f47a60adace8bc108149f277"
+  },
+  {
+    "job": "resnet-wood-s1",
+    "completion_sha256": "912bcd236cecbec73e433567105818a6cd10d3db3c6ba6f874e39eac019b20a7"
+  },
+  {
+    "job": "resnet-wood-s2",
+    "completion_sha256": "d377391fa61126b14aaeeb2df1ba644cf652d9ccfb21093972da432d87aefb46"
+  },
+  {
+    "job": "resnet-zipper-s0",
+    "completion_sha256": "b85fdd2136670df6ea29be77f4b8aa34417e3bf4c158299fd3cfa972f7aaf937"
+  },
+  {
+    "job": "resnet-zipper-s1",
+    "completion_sha256": "ac8d61be08b84b152b5a9874aad1ea5beb3598aa56b182130bb9544cb2f66323"
+  },
+  {
+    "job": "resnet-zipper-s2",
+    "completion_sha256": "936d6b60a3a43083a831adade3164622fb44df402dbce40de6f5225271ada4fc"
+  },
+  {
+    "job": "patchcore-bottle-s0",
+    "completion_sha256": "ace2d1b73e21cc346bd4cd06ae4227d4dbc8ff097158a58e978ca9bd0365d19c"
+  },
+  {
+    "job": "patchcore-bottle-s1",
+    "completion_sha256": "ac6e26ebbc0efad0f53f98f83ee842299fc070a7d040fe2b67844b025f14e850"
+  },
+  {
+    "job": "patchcore-bottle-s2",
+    "completion_sha256": "b4ef10b815006a04863a504d54cebad5d000ad033190d9e048dcf89748363a60"
+  },
+  {
+    "job": "patchcore-cable-s0",
+    "completion_sha256": "cbbab20a01fa3059e8535e795cf3152d654cf872fb9059bb0a3806e90b8170d4"
+  },
+  {
+    "job": "patchcore-cable-s1",
+    "completion_sha256": "a714bc25c6e5fdd1b9e5f7ec5c3ba9eeed1033f1a9032d13f607f2eb0f3dbb06"
+  },
+  {
+    "job": "patchcore-cable-s2",
+    "completion_sha256": "b237563c2452a7e179c93e22090a1806ccb50929b71f3491d072f2e766335456"
+  },
+  {
+    "job": "patchcore-capsule-s0",
+    "completion_sha256": "eb1d060327cc460e593837348acf699890432e02bd8ce63ab7b2de6c3228d1c4"
+  },
+  {
+    "job": "patchcore-capsule-s1",
+    "completion_sha256": "5c5feb99628f317240855b24bf6a9b24bd519c647d266bc077cb3e159836b984"
+  },
+  {
+    "job": "patchcore-capsule-s2",
+    "completion_sha256": "ca79b1220bc97ee0bea8bb37cf5eca8ff7fdd25ff42028c60621d22b2d5c67c7"
+  },
+  {
+    "job": "patchcore-carpet-s0",
+    "completion_sha256": "5e25eed48f57ef53c0aca10d9f35e7dc5ca93e22b834eac5949aaf301fc4b5c0"
+  },
+  {
+    "job": "patchcore-carpet-s1",
+    "completion_sha256": "581851f236bb70378c12488ec792bd005479dbd2b6846951edcefa2aff4ede72"
+  },
+  {
+    "job": "patchcore-carpet-s2",
+    "completion_sha256": "ba967be48514f80a49f7c115b11ae95b7d63759ab27b355bf2b9b5b73e66dee9"
+  },
+  {
+    "job": "patchcore-grid-s0",
+    "completion_sha256": "b60f8316b86ac7121b7d67db0663bfa69b5df21c332d5550aa120c33171f95d2"
+  },
+  {
+    "job": "patchcore-grid-s1",
+    "completion_sha256": "cc7ffd41dae440feec98aec3d4645a8196890fcd34a65b9d2479c783fb463469"
+  },
+  {
+    "job": "patchcore-grid-s2",
+    "completion_sha256": "db1de1b83a145156389229856d6ec163d3b9fbd811fc519d6f7ec51ed3bfc8a0"
+  },
+  {
+    "job": "patchcore-hazelnut-s0",
+    "completion_sha256": "e7d990a68ece3aaad6b1ece947a29314a86b2c9f1395df74353070dd98510b94"
+  },
+  {
+    "job": "patchcore-hazelnut-s1",
+    "completion_sha256": "e53de6bfa19c35aac6be25befd5278e9774cde34b2ce4b196f4a571ed3f5e8c3"
+  },
+  {
+    "job": "patchcore-hazelnut-s2",
+    "completion_sha256": "0f3658250d3dcf8146b52a65e5876a29dda72e75b29ff616da0711ee678425a1"
+  },
+  {
+    "job": "patchcore-leather-s0",
+    "completion_sha256": "81110c9769e6519516de8ec065f163fc3d6e34e4c8c5ea885bf1b5e415565e84"
+  },
+  {
+    "job": "patchcore-leather-s1",
+    "completion_sha256": "79eb43bd29b3ae34efcf48d9c4eb3103a52c9851e42d0f125a6723c12f02201b"
+  },
+  {
+    "job": "patchcore-leather-s2",
+    "completion_sha256": "efb4905f8f84bcffdfb29013640c305f37e5ee32649e6753b19cc29e80ac8f3a"
+  },
+  {
+    "job": "patchcore-metal_nut-s0",
+    "completion_sha256": "0427175b3df17a8422f7c12a426a11c7c21bedb17dcbbc73b2ff97b33e283d1b"
+  },
+  {
+    "job": "patchcore-metal_nut-s1",
+    "completion_sha256": "af507d4df83601cdfb57848eb76d5b8a479d7bfb41067938167a04896fdda967"
+  },
+  {
+    "job": "patchcore-metal_nut-s2",
+    "completion_sha256": "19e09013d421e8d2d070b3731c88b1ca1b47837b0e72a836a3fd2ba84ec43c5f"
+  },
+  {
+    "job": "patchcore-pill-s0",
+    "completion_sha256": "70035c301c1726f6a5a250cda0d97e2ce5c977eaf1375f74a0766af3138f6499"
+  },
+  {
+    "job": "patchcore-pill-s1",
+    "completion_sha256": "2f160d73d2377378b9434a5af7bbd7504f5b8fac3710c882f7ba54ab04fb402d"
+  },
+  {
+    "job": "patchcore-pill-s2",
+    "completion_sha256": "880143db72842eb34844d3b96ac3a372ad1009e6c5f7739a4aadd357483345e6"
+  },
+  {
+    "job": "patchcore-screw-s0",
+    "completion_sha256": "77667a183f033809779cba868c3c2125b6dfc1073734b1dd194dd4e23fb8debb"
+  },
+  {
+    "job": "patchcore-screw-s1",
+    "completion_sha256": "adea1316feb5316574c9d4b56c91c392ee9ce523746d001575d39783d43b5f66"
+  },
+  {
+    "job": "patchcore-screw-s2",
+    "completion_sha256": "97a4d1f867d36c355f94392f1e396d161a41eaf7d1c095fb1ecd6ec216c36c03"
+  },
+  {
+    "job": "patchcore-tile-s0",
+    "completion_sha256": "ba3b6ca23c9574915ca07022c3f656d336bee32a47307b57b3bdd6b30cd9fb21"
+  },
+  {
+    "job": "patchcore-tile-s1",
+    "completion_sha256": "4233f4875d82c14b7fc14a2096af143dbe2b71fa2de0ce685fcdb2acd241c97d"
+  },
+  {
+    "job": "patchcore-tile-s2",
+    "completion_sha256": "27c7b090ca6278647ad1b7c34cdf69a2b506625fa02db1d69f2946f86e5ae51c"
+  },
+  {
+    "job": "patchcore-toothbrush-s0",
+    "completion_sha256": "c5ac4a5c7df1a457991167d2db0e14fb1dba1fb5a4af30339b2d8f3b617d4927"
+  },
+  {
+    "job": "patchcore-toothbrush-s1",
+    "completion_sha256": "d5b29cac51339e93f12cd2b6bb982ff4b6d8045260d3e817d2e58bbf5310e4e7"
+  },
+  {
+    "job": "patchcore-toothbrush-s2",
+    "completion_sha256": "77e59c1c9426e75ff3bbbbc51ed11de32e1ef48dd5472cdc7dbb775f919e93ee"
+  },
+  {
+    "job": "patchcore-transistor-s0",
+    "completion_sha256": "a29d6f7b3b21903bf653fd806e0aa66ff659b09215ab1555d367d76d0e94bc3e"
+  },
+  {
+    "job": "patchcore-transistor-s1",
+    "completion_sha256": "10795b910cdd5bea71c1daaa5e9b75276a992e74fc64a631c18a41e6e77474c9"
+  },
+  {
+    "job": "patchcore-transistor-s2",
+    "completion_sha256": "a72edc38b48259ff7633324b3bdf7a44f1e3fdba4f5a1a77006442130be7c7ac"
+  },
+  {
+    "job": "patchcore-wood-s0",
+    "completion_sha256": "a77fd0339c62c6b289107dfe3cf7aa039df44d95e1dc9397d5f6f9053e1755db"
+  },
+  {
+    "job": "patchcore-wood-s1",
+    "completion_sha256": "3c82144b968295a85addc7bdcf9e95bb7a02084fad291b3dbb135eac5a8f943a"
+  },
+  {
+    "job": "patchcore-wood-s2",
+    "completion_sha256": "150b77eb3e1a2f295e8fd5326fc4d5b31314081bfea59a6682be7706f93ae78e"
+  },
+  {
+    "job": "patchcore-zipper-s0",
+    "completion_sha256": "1b1ad24deca6062d4f3b978ddf2a4f5f1192d1ba4b4cf6c5e228ee35dfef7682"
+  },
+  {
+    "job": "patchcore-zipper-s1",
+    "completion_sha256": "ee7ce56f18204d425ce0bbccea4fa8e752e25f265c336e659d3be8caa252ae42"
+  },
+  {
+    "job": "patchcore-zipper-s2",
+    "completion_sha256": "7f916514bd69e6bc8865023bafc308f9392c7da06836fc7eb0e5b3712619f9f2"
+  }
+]

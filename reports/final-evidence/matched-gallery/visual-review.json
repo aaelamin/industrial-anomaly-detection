@@ -1,0 +1,17 @@
+{
+  "status": "PASS_VISUAL_REVIEW",
+  "utc": "2026-11-14T02:06:23.251415+00:00",
+  "reviewer": "assistant visual inspection",
+  "files_viewed": {
+    "contact-1.png": "3d083b8254bcb3153c765f9c5d982655d446143e680060245ee54002da81ddba",
+    "contact-2.png": "2ab147d203b8a00391218f6aea800d7f2c7e3aee438f9fc7be9608eb50edcedc",
+    "contact-3.png": "4f37196fae544780fc979adbc010b04f3604e2f1ded0da19696a67473a5ce469",
+    "contact-4.png": "04215d0bde3e1d07be617087f827635151c628e710b5ada38e7e61e633d17e09",
+    "contact-5.png": "61139e3669d401d220cece2b187f23424784450d24101da6075166cf14b62449",
+    "screw-manipulated_front-000.png": "5643e4f53819e04ed6342cde218167a499a55be8410b2714ddeda85d9c1addef",
+    "hazelnut-crack-000.png": "fca5275202015b93bb9bcde01b1def7c0e43348def82fb45ace12d7d1d39890e"
+  },
+  "observations": "All 30 selected cases inspected via five contact sheets; screw and hazelnut inspected at full resolution. Inputs and released masks align across panels; independent ranges and attribution are visible. Plain-integer peak labels checked. Contact sheets are an index; use full sheets for report details.",
+  "ground_truth": "Released masks; no new manual annotations",
+  "new_predictions": 0
+}

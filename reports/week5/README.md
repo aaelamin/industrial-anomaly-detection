@@ -4,7 +4,7 @@
 
 ## What we needed to do
 
-Implement a multi-scale flow experiment. Our schedule puts implementation in Week 5 and its results and visualizations in Week 6. The full comparison is now available for the midterm.
+Week 5 covered the multi-scale implementation; Week 6 covered its results and visualizations.
 
 FastFlow already used three feature levels. Each level had its own flow and the output maps were averaged. We tested a different question: would giving one flow the fine, middle and coarse features together improve its predictions?
 
@@ -27,7 +27,7 @@ The three levels were inherited from the existing FastFlow extractor, rather tha
 
 Compression made a full paired experiment practical on the available GPU. Equal allocation gave every level a defined starting budget. Those are sensible engineering reasons to try the design, but they are not evidence that 96 channels, 32 per level, or PCA are optimal. We did not compare all alternatives before choosing them.
 
-The [full rationale](week5.md#why-these-layers-and-this-structure) explains the actual layers, alternatives, limitations and research references. The important distinction is that we tested a defensible hypothesis, not an architecture already known to improve the baseline.
+The [design rationale](week5.md#why-these-layers-and-this-structure) covers the layer choices and alternatives. We chose the compact representation to make the experiment practical, then tested whether it helped.
 
 ## What we got
 
@@ -43,7 +43,7 @@ The [full analysis](week5.md) includes every category, seed differences, actual 
 
 ## Where that leaves us
 
-Keep Week 4 as the stronger reference. Present Week 5 as a completed controlled experiment with a negative overall outcome. Do not claim that all multi-scale fusion fails, or that this design is a publishable improvement.
+The Week 4 configuration remained stronger than both compact models. Our particular fusion design had a negative overall result; the comparison does not cover every form of multi-scale fusion.
 
 The most useful next step is to separate representation choices from training behavior. The [retained-checkpoint analysis](checkpoints/README.md) checked late behavior without rerunning training. Hazelnut and screw were already weak at epoch 400, while carpet fluctuated substantially. After that, a small experiment could test one change such as the projection size or spatial alignment. A different fusion design is also open for discussion, but it needs its own comparison and should not overwrite these results.
 
@@ -59,4 +59,4 @@ The compact models are much cheaper to train than Week 4. A full 90-run study is
 - [Model code](../../scripts/week5_model.py), [study settings](../../configs/week5_study.json), [original experiment plan](../../docs/WEEK5_PLAN.md)
 - [How to run or propose a changed experiment](../../docs/RUNNING.md)
 
-Full local outputs, projections and retained checkpoints are under `results/week5/study/`. The GitHub heatmaps are selected examples. They can be viewed without downloading model weights or installing Python.
+Full local outputs, projections and retained checkpoints are under `results/week5/study/`. The published heatmaps contain selected examples; the tables cover every test image.

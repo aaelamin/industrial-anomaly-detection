@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PROVIDER_ROLE_CLARIFICATION_RETAINED",
+  "data_manifest_sha256": "8739cd8585bd61d8847d756858ed8c99b8573d443b716feb8ceaecb518237138",
+  "readme_sha256": "749836fccc77cf8ae27d1d1fa5103d3be60d688b35e4540fd91231708b94fecc",
+  "source_images_opened": 0,
+  "reserved_images_opened": 0,
+  "numerical_metrics_changed": false
+}

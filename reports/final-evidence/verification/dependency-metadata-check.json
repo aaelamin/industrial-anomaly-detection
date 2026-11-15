@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INSTALLED_BASE_DEPENDENCY_METADATA",
+  "python": "3.12.13",
+  "dependencies_checked": 141,
+  "issues": [],
+  "pip_module_available": false,
+  "clean_install_verified": false,
+  "environment_modified": false,
+  "scope": "Installed distributions, active base-environment markers; extras not assessed. Explicit external psutil directory is separately configured."
+}

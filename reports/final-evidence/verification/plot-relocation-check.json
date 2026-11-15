@@ -1,0 +1,13 @@
+{
+  "status": "PASS_PORTABLE_PLOT_REGENERATION",
+  "different_working_directory": true,
+  "configured_input_output_paths": true,
+  "exact_numeric_values": true,
+  "exact_png_hashes": {
+    "main-comparison.png": "e51703a23faeea50bcb04fcb23fe55c3e483a6d09493c590edb9b7881e9ee9e4",
+    "category-changes.png": "fc58ee4f04f392604d29214655adba40175c704dc6ca38bd6ba5fbae56bba49e"
+  },
+  "source_images_opened": 0,
+  "new_predictions": 0,
+  "svg_comparison": "Not byte-compared because Matplotlib SVG metadata and element IDs can differ."
+}

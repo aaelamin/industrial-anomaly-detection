@@ -1,0 +1,66 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "image_auroc": 0.11031746031746031,
+      "pixel_auroc": 0.9121354517884264,
+      "pixel_average_precision": 0.380489168684732,
+      "test_images": 83,
+      "inference_seconds": 1.9467136999883223,
+      "defects": {
+        "broken_large": {
+          "images": 20,
+          "image_auroc": 0.007500000000000007
+        },
+        "broken_small": {
+          "images": 22,
+          "image_auroc": 0.029545454545454573
+        },
+        "contamination": {
+          "images": 21,
+          "image_auroc": 0.2928571428571428
+        }
+      },
+      "category": "bottle",
+      "seed": 0,
+      "arm": "middle",
+      "epochs": 2,
+      "protocol": "a58528d1b7bd6090b0285303869cc76f8594d185af2d6e4e54633949dd50a9dc",
+      "initial_state_hash": "e41ba2628304b6b276aa7c0acd9d3073d0a1fe8e3a49205d306214baadd0a6a9",
+      "checkpoint_reload_exact": true,
+      "backbone_unchanged": true
+    },
+    {
+      "image_auroc": 0.7658730158730158,
+      "pixel_auroc": 0.6496518255236041,
+      "pixel_average_precision": 0.11943397571174384,
+      "test_images": 83,
+      "inference_seconds": 1.892747200006852,
+      "defects": {
+        "broken_large": {
+          "images": 20,
+          "image_auroc": 0.9025
+        },
+        "broken_small": {
+          "images": 22,
+          "image_auroc": 0.6045454545454546
+        },
+        "contamination": {
+          "images": 21,
+          "image_auroc": 0.8047619047619047
+        }
+      },
+      "category": "bottle",
+      "seed": 0,
+      "arm": "fusion",
+      "epochs": 2,
+      "protocol": "a58528d1b7bd6090b0285303869cc76f8594d185af2d6e4e54633949dd50a9dc",
+      "initial_state_hash": "e41ba2628304b6b276aa7c0acd9d3073d0a1fe8e3a49205d306214baadd0a6a9",
+      "checkpoint_reload_exact": true,
+      "backbone_unchanged": true
+    }
+  ],
+  "protocol": "a58528d1b7bd6090b0285303869cc76f8594d185af2d6e4e54633949dd50a9dc",
+  "source_sha256": "cff38a8ce02619ac787c62124aa515fb048d0653c49c9e222b073eaf97b7a17f",
+  "recovery_exact": true
+}

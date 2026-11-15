@@ -28,7 +28,7 @@ The proposed configuration is in `configs/week4.json`.
 
 Sources: [WideResNet reference configuration](https://github.com/gathierry/FastFlow/blob/master/configs/wide_resnet50_2.yaml) and [timm 0.5.4 weights](https://github.com/huggingface/pytorch-image-models/blob/v0.5.4/timm/models/resnet.py). The downloaded weights were checked against the published checksum prefix; the full checksum is recorded in our config.
 
-The reference uses all 3 x 3 flow layers for ResNet-18 and alternating kernels for WideResNet. Comparing these settings tests the two reference configurations, not the backbone alone. The pretrained weights also come from different training recipes. We should describe these differences in the comparison; isolating only the architecture would need a separate control with matched flow settings.
+The reference uses all 3 x 3 flow layers for ResNet-18 and alternating kernels for WideResNet. Comparing these settings tests the two reference configurations, not the backbone alone. The pretrained weights also come from different training recipes. Isolating the architecture would require a separate control with matched flow settings.
 
 ## Benchmark
 

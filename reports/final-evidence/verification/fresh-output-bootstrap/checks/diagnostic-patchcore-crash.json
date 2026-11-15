@@ -1,0 +1,7 @@
+{
+  "kind": "patchcore",
+  "source_images_opened": 0,
+  "gpu_used": false,
+  "committed_bank_absent": true,
+  "status": "PASS_ACTUAL_PRECOMMIT_STATE"
+}

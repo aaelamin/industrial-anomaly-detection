@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-14T02:22:47.837587+00:00",
+  "exit_code": 0,
+  "suite_identity": "0492b4e3316699220f61ba4eeb814abe1ada1394e8430016e1a356fcbe058b62",
+  "protocol_sha256": "6489561d7bc3e852684fc4f9df3f6afab0cb6e6b8a95700f5c048b3a70557b64",
+  "clean_install_verified": false,
+  "full_production_rerun_verified": false,
+  "resource_gate_retry": true,
+  "original_start_utc": "2026-11-14T02:06:50.198251+00:00",
+  "original_one_hour_deadline_unix": 1794625610.198251,
+  "attempts": 2,
+  "attempt1_evidence_retained": true,
+  "status": "PASS_FRESH_OUTPUT_BOOTSTRAP",
+  "bootstrap_result_sha256": "c8e7391542fa4223fff5a2e0a2a6a8158c4717f35a4ec00ac7da993f2c56ae6c",
+  "reserved_images_opened": 0
+}

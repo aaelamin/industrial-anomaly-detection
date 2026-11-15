@@ -1,0 +1,9 @@
+{
+  "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+  "bitwise_state": true,
+  "bitwise_probe": true,
+  "state_file": "resume.pt",
+  "left_state_sha256": "29f949de3cf172c79bf66edbf334cdeddc9c58591ff4e3d3ef5a24704064c2e8",
+  "right_state_sha256": "74fc52ff5334e1ec596ae4b8a7cb8036cabc34a8c5c66a4e1e04743c75607b9f",
+  "source_dataset_images_opened": 0
+}

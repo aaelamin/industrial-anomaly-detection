@@ -1,0 +1,8 @@
+{
+  "kind": "flow",
+  "source_images_opened": 0,
+  "gpu_used": false,
+  "checkpoint_epoch": 1,
+  "state_sha256": "4220b3648f9717a7767c663ed363c2d768029adf4b075d9f268ad312b3dba6c7",
+  "status": "PASS_ACTUAL_PRECOMMIT_STATE"
+}

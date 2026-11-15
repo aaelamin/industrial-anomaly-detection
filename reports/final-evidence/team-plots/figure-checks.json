@@ -1,0 +1,350 @@
+{
+  "status": "PASS_TABLE_TO_FIGURE_VALUES",
+  "source_table_check_sha256": "9404ad60d4544e7bdf7e6458b4e88404bf8dec5c226f1e55def0a478543a71b3",
+  "main_plot_values": [
+    {
+      "model": "week3",
+      "metric": "image_auroc",
+      "mean_percent": 90.16750815037241,
+      "sample_sd_percent": 0.9898793303447426,
+      "seed_percent": [
+        89.35529759508987,
+        91.27010219250272,
+        89.87712466352463
+      ]
+    },
+    {
+      "model": "resnet",
+      "metric": "image_auroc",
+      "mean_percent": 89.71899795146894,
+      "sample_sd_percent": 0.6512032047695256,
+      "seed_percent": [
+        89.00340179076073,
+        89.8767779951692,
+        90.27681406847688
+      ]
+    },
+    {
+      "model": "week4",
+      "metric": "image_auroc",
+      "mean_percent": 93.17036319834354,
+      "sample_sd_percent": 2.138210438312557,
+      "seed_percent": [
+        90.71146274822017,
+        94.59294630718243,
+        94.20668053962802
+      ]
+    },
+    {
+      "model": "efficientnet",
+      "metric": "image_auroc",
+      "mean_percent": 72.79869458855912,
+      "sample_sd_percent": 3.125453659596839,
+      "seed_percent": [
+        76.16979000089174,
+        72.22905340580763,
+        69.99724035897799
+      ]
+    },
+    {
+      "model": "middle",
+      "metric": "image_auroc",
+      "mean_percent": 71.75828756307862,
+      "sample_sd_percent": 3.3889398291961457,
+      "seed_percent": [
+        74.19535434415091,
+        73.19125229518136,
+        67.8882560499036
+      ]
+    },
+    {
+      "model": "fusion",
+      "metric": "image_auroc",
+      "mean_percent": 67.5457292039246,
+      "sample_sd_percent": 1.6640360851589282,
+      "seed_percent": [
+        68.34158525398007,
+        68.66238889619937,
+        65.63321346159435
+      ]
+    },
+    {
+      "model": "patchcore",
+      "metric": "image_auroc",
+      "mean_percent": 98.39582657389155,
+      "sample_sd_percent": 0.0477608666948466,
+      "seed_percent": [
+        98.44961435958406,
+        98.35838488648125,
+        98.37948047560936
+      ]
+    },
+    {
+      "model": "week3",
+      "metric": "pixel_auroc",
+      "mean_percent": 95.40822493732536,
+      "sample_sd_percent": 0.5867066380868247,
+      "seed_percent": [
+        94.78355773065252,
+        95.94764407489019,
+        95.49347300643336
+      ]
+    },
+    {
+      "model": "resnet",
+      "metric": "pixel_auroc",
+      "mean_percent": 94.89768065694439,
+      "sample_sd_percent": 0.2113342375865746,
+      "seed_percent": [
+        95.14018614827712,
+        94.79999642801965,
+        94.75285939453639
+      ]
+    },
+    {
+      "model": "week4",
+      "metric": "pixel_auroc",
+      "mean_percent": 97.18802079707648,
+      "sample_sd_percent": 0.4903154638328468,
+      "seed_percent": [
+        96.62894266979481,
+        97.54490964914649,
+        97.39021007228816
+      ]
+    },
+    {
+      "model": "efficientnet",
+      "metric": "pixel_auroc",
+      "mean_percent": 75.75272375505205,
+      "sample_sd_percent": 2.927203923551357,
+      "seed_percent": [
+        78.19788360969775,
+        76.55113808154985,
+        72.50914957390852
+      ]
+    },
+    {
+      "model": "middle",
+      "metric": "pixel_auroc",
+      "mean_percent": 73.88737205640493,
+      "sample_sd_percent": 1.4128143768431447,
+      "seed_percent": [
+        74.67354797595608,
+        72.25634628274162,
+        74.73222191051705
+      ]
+    },
+    {
+      "model": "fusion",
+      "metric": "pixel_auroc",
+      "mean_percent": 69.79670700190229,
+      "sample_sd_percent": 1.6838194088287315,
+      "seed_percent": [
+        69.86080719446295,
+        71.44756099544217,
+        68.08175281580175
+      ]
+    },
+    {
+      "model": "patchcore",
+      "metric": "pixel_auroc",
+      "mean_percent": 97.87883246617423,
+      "sample_sd_percent": 0.015532853094365834,
+      "seed_percent": [
+        97.8632934038219,
+        97.87884489214557,
+        97.89435910255523
+      ]
+    },
+    {
+      "model": "week3",
+      "metric": "pixel_average_precision",
+      "mean_percent": 39.693261441875485,
+      "sample_sd_percent": 1.0374244345927617,
+      "seed_percent": [
+        39.06169032291392,
+        40.89057289363643,
+        39.1275211090761
+      ]
+    },
+    {
+      "model": "resnet",
+      "metric": "pixel_average_precision",
+      "mean_percent": 39.10694606402313,
+      "sample_sd_percent": 0.535249475183282,
+      "seed_percent": [
+        39.71142097683687,
+        38.693131008977055,
+        38.91628620625545
+      ]
+    },
+    {
+      "model": "week4",
+      "metric": "pixel_average_precision",
+      "mean_percent": 52.98538789861358,
+      "sample_sd_percent": 2.954016224402555,
+      "seed_percent": [
+        49.630685540278904,
+        55.197239703852894,
+        54.128238451708945
+      ]
+    },
+    {
+      "model": "efficientnet",
+      "metric": "pixel_average_precision",
+      "mean_percent": 15.131471364184875,
+      "sample_sd_percent": 1.464739380520449,
+      "seed_percent": [
+        16.75352677758163,
+        14.735369710838347,
+        13.905517604134651
+      ]
+    },
+    {
+      "model": "middle",
+      "metric": "pixel_average_precision",
+      "mean_percent": 14.565943560600516,
+      "sample_sd_percent": 1.6753676573250376,
+      "seed_percent": [
+        16.488003330759092,
+        13.794970159662817,
+        13.414857191379642
+      ]
+    },
+    {
+      "model": "fusion",
+      "metric": "pixel_average_precision",
+      "mean_percent": 13.787744037092974,
+      "sample_sd_percent": 1.0384184279271136,
+      "seed_percent": [
+        13.284657297902228,
+        14.981885216518412,
+        13.096689596858283
+      ]
+    },
+    {
+      "model": "patchcore",
+      "metric": "pixel_average_precision",
+      "mean_percent": 56.12550059529624,
+      "sample_sd_percent": 0.05969283935557879,
+      "seed_percent": [
+        56.05681271992668,
+        56.15487292325747,
+        56.16481614270457
+      ]
+    }
+  ],
+  "category_order": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "contrast_order": [
+    "fusion minus middle",
+    "resnet minus week3",
+    "week4 minus resnet"
+  ],
+  "category_change_matrix_pp": [
+    [
+      5.9105567266723025,
+      -0.15307721150541478,
+      9.566066990798165
+    ],
+    [
+      -1.6414315044267622,
+      -11.83178287319235,
+      41.78049267214741
+    ],
+    [
+      4.0386669427136335,
+      0.8049217835179182,
+      8.003212229764673
+    ],
+    [
+      -7.950398929332531,
+      1.6065141270872625,
+      -5.224743490372707
+    ],
+    [
+      -1.74472664793865,
+      -2.1194374961972167,
+      8.72646254920148
+    ],
+    [
+      -3.544773515104742,
+      0.8640965446982589,
+      15.377397125342862
+    ],
+    [
+      -7.383679402252965,
+      0.07650666183003733,
+      18.593174855951972
+    ],
+    [
+      2.41148426761972,
+      4.306884042103043,
+      22.264366597047577
+    ],
+    [
+      7.393040561213008,
+      -2.2464581218736033,
+      6.691254751174716
+    ],
+    [
+      -0.11632336048178991,
+      -1.3284467033143739,
+      9.990143543745035
+    ],
+    [
+      -5.110199993863558,
+      -4.0558376882115255,
+      28.28914928524652
+    ],
+    [
+      5.13679462646538,
+      -3.286049885675346,
+      13.428013925849623
+    ],
+    [
+      7.316991220965332,
+      1.2151506377966432,
+      8.430644299584944
+    ],
+    [
+      -12.514703145636268,
+      4.558448129189024,
+      11.149062846251802
+    ],
+    [
+      -3.874290699225249,
+      2.793837385962239,
+      11.111929337122833
+    ]
+  ],
+  "color_range_pp": [
+    -41.78049267214741,
+    41.78049267214741
+  ],
+  "files": {
+    "category-changes.png": "fc58ee4f04f392604d29214655adba40175c704dc6ca38bd6ba5fbae56bba49e",
+    "category-changes.svg": "b7325727f0d5f2102f4a5b1da3c50f5c636eabbfcfc6925aee8a160b135dff93",
+    "main-comparison.png": "e51703a23faeea50bcb04fcb23fe55c3e483a6d09493c590edb9b7881e9ee9e4",
+    "main-comparison.svg": "be440c2b3d91a37accfb711b23eae246defce1635e21a461616cd25f08f2a67a"
+  },
+  "source_images_opened": 0,
+  "reserved_images_opened": 0,
+  "new_predictions": 0,
+  "visual_review_pending": true
+}

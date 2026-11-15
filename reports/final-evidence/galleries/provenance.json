@@ -1,0 +1,464 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_EXISTING_FIGURE_STAGING",
+  "figures": [
+    {
+      "file": "galleries/compact/bottle_broken_large_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/bottle_broken_large_000.jpg",
+      "sha256": "d7e60ec43e3cdba75bd8ea746aeeb4b4201a43d727b89877a9b69cda5da22fc4",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/bottle_contamination_005.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/bottle_contamination_005.jpg",
+      "sha256": "6e2e180cef97ca4d9186a46e114966ffa5595e7cd710ff62d593ba7598f0f937",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/bottle_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/bottle_good_000.jpg",
+      "sha256": "58e3aeeba265b6c88621bbd8fa6cecf999f747e69bee398c7f35530a03dde461",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/cable_bent_wire_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/cable_bent_wire_000.jpg",
+      "sha256": "501130b5cad1455fa32f7474e106ee06e809df5b9a05540523ee2c5acd68b661",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/cable_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/cable_good_000.jpg",
+      "sha256": "57eb7d00290b3bab84bd6b1d5afaa06c9ca633240a347d9b5bd3e4e90d5e879a",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/capsule_crack_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/capsule_crack_000.jpg",
+      "sha256": "5fb6e06aee9e27d50cc639cc693bc53edf72227f7720aa1365dd8a57f5188145",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/capsule_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/capsule_good_000.jpg",
+      "sha256": "e083432eb50ea16e7f4588aaf2785a6b865a27c90f58d54a27b085ec04091a48",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/carpet_color_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/carpet_color_000.jpg",
+      "sha256": "387d9869412f079e48a17594d6a7c45251fb2fa5e4d8e446ec16efa19884e036",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/carpet_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/carpet_good_000.jpg",
+      "sha256": "c0f1c54655ad2e0dff5b3fa57b27b8c31cd2f24fe1eb108538f0ea5fe8fa72ca",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/carpet_hole_004.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/carpet_hole_004.jpg",
+      "sha256": "b44425775cc6149960e4a522f334fe87e997b12967e2b8b5cc191e54b88be00a",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/grid_bent_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/grid_bent_000.jpg",
+      "sha256": "2ac5648ba35812cb1949a1bd48a02e6af822d09d35b64cfec04fe4a24af0a2c1",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/grid_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/grid_good_000.jpg",
+      "sha256": "981197921bbd9d526d3561bc3dccc0f3498b1994de4db49fe9c1764c955f009b",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/hazelnut_crack_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/hazelnut_crack_000.jpg",
+      "sha256": "f3d0301196adca297802526d012586d34f943889a47f1d1e8b0281f0f2d9e4d2",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/hazelnut_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/hazelnut_good_000.jpg",
+      "sha256": "205d1a9f21a515ce9270e0382861b0c4d69e70523eebb216f5a0c9fa48321ee7",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/hazelnut_hole_007.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/hazelnut_hole_007.jpg",
+      "sha256": "c15f43d68fc1cdbc20eb8aa8dc5b41a895340d1cff827c23628cb3b5a528c7c8",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/leather_color_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/leather_color_000.jpg",
+      "sha256": "4046978056367824a0bfed32f29797f6bcdd194878024f7c48fb2168039a6fad",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/leather_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/leather_good_000.jpg",
+      "sha256": "31eef3a4dd53f9e9690fc9122cb6dfb26c87f253ffbb6b1a461c02bb6ed5720d",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/metal_nut_bent_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/metal_nut_bent_000.jpg",
+      "sha256": "990dda6503b257a0ab422ea1746dfdc68a871c9a4ecc824871ff17a6a09ac8a4",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/metal_nut_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/metal_nut_good_000.jpg",
+      "sha256": "04c87ae796bc388b0c8f41fd1455582548a7d3c245438b555b52359c3ada66c8",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/pill_color_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/pill_color_000.jpg",
+      "sha256": "c2f1a8284d3851774d8115eb88fd7094baf2edb290ad71536ea209c039cef1af",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/pill_contamination_018.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/pill_contamination_018.jpg",
+      "sha256": "5c78cdf6454459d634f36da92e5f8d0090784cdaea5974fe043c72670cd02408",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/pill_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/pill_good_000.jpg",
+      "sha256": "548838d9bf3e6d5b50c28737f38cf6b696d3bdf3e30601b6c249a75c846c4724",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/screw_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/screw_good_000.jpg",
+      "sha256": "a5f4f9bff5584c04e7995e9afc8875fd107e0d1e4683914ea5a9bb17f155e83c",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/screw_manipulated_front_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/screw_manipulated_front_000.jpg",
+      "sha256": "552d0a1dad42e9e5d0324ab3c3cbf400d3ac2f1049a4b43cd8561810b8cb2a69",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/screw_scratch_head_010.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/screw_scratch_head_010.jpg",
+      "sha256": "94a652deb124e3883891e09fad6a0250c353e7d9b9f9f251df546fe1ca1a0a41",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/tile_crack_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/tile_crack_000.jpg",
+      "sha256": "1f1f48f7a00fb72b7dff7def4e133c479c0ae894cce435c27d65bcd0a6d2ba71",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/tile_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/tile_good_000.jpg",
+      "sha256": "f77240093906247651db44606a7177ea8920cf0b4c7846f39fa3e60b843f8de8",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/toothbrush_defective_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/toothbrush_defective_000.jpg",
+      "sha256": "f68a92f9a4d5a38610d82337002718a11aae6eae9fb68526789d930286e6c105",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/toothbrush_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/toothbrush_good_000.jpg",
+      "sha256": "44fceeeae915d670e10fda3eb1f2a67f7b7b121ace6279165970338591497cb3",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/transistor_bent_lead_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/transistor_bent_lead_000.jpg",
+      "sha256": "a6af6f794a0cf850fcc76cba0053de709d26689015d7a8e7f7174d6d7e556e18",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/transistor_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/transistor_good_000.jpg",
+      "sha256": "70bd756f4a9c0fef1e0ee290405f3aded4cd3d66dd9ef2426b6fb770ea6ef8c4",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/wood_color_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/wood_color_000.jpg",
+      "sha256": "ab9a048abc09a6c8fd9e672c89584ba38bdaa1032a70ddf64d2477d10fb12e4e",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/wood_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/wood_good_000.jpg",
+      "sha256": "b72856aaae287d01ba1409108c639f966eb63b36475377728a95eb4b4af3f39e",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/wood_hole_008.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/wood_hole_008.jpg",
+      "sha256": "e22e62ee3c245ea8527383563891e7650fe3d9be62a0832bff1d8849c2d57ea6",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/zipper_broken_teeth_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/zipper_broken_teeth_000.jpg",
+      "sha256": "b4761d588f57369ec283acc48b4f517c21399155ccd73d0ecef1add75893e72a",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/compact/zipper_good_000.jpg",
+      "source_repository_relative": "reports/week5/heatmaps/zipper_good_000.jpg",
+      "sha256": "e20309cbb668645d3df264e57503668669d2315f3a146414fb806046624e3b6b",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/bottle_broken_large_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/bottle_broken_large_000.jpg",
+      "sha256": "d628962496261087c18a02d79e7655397cce1d399f2719c1ef1ac52456f0e9a2",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/bottle_contamination_005.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/bottle_contamination_005.jpg",
+      "sha256": "d389699b2b75ff1918cafcedcd89e1375e29c5f930768088e605f760956a5551",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/bottle_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/bottle_good_000.jpg",
+      "sha256": "2ff48e2908317fccb063acea2fc94d9a36a2294bd0545d5519643b8895d3381f",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/cable_bent_wire_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/cable_bent_wire_000.jpg",
+      "sha256": "bb6e12594f9cc0914a6015f8637b0e6d3390cadd05cab4e7d8bc925b66dd41fd",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/cable_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/cable_good_000.jpg",
+      "sha256": "a9d4b7cc06780eca0b357482474bd644f40f6fb64cb29674f5b6f47ad8bacbf5",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/capsule_crack_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/capsule_crack_000.jpg",
+      "sha256": "8a4e4fbe484c9571e58090ab6c0bc55eee669d6048c0e1d06382a1bdb59408a7",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/capsule_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/capsule_good_000.jpg",
+      "sha256": "ca2a663a5b8840c46622da8d86b1b24df0a478f11105ea8d5b557a7bf5443e48",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/carpet_color_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/carpet_color_000.jpg",
+      "sha256": "5b2e8924fb7b5e86a56c66b4e507999a2b0264af33f7ee61f0df157e5f2ce527",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/carpet_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/carpet_good_000.jpg",
+      "sha256": "fc6d918b260b2a2c542b902ab2d06c88b645157ea271b1d502c6e6d9d6ff9ca2",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/carpet_hole_004.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/carpet_hole_004.jpg",
+      "sha256": "923e23e3fef1d3f521b1fb72cbcfa1694c8368161b3926acb21d655d635491b2",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/grid_bent_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/grid_bent_000.jpg",
+      "sha256": "18194971bf6ee0351a6d6ba2b233b79732214a35c3ca4d6fb88fef4379843b95",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/grid_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/grid_good_000.jpg",
+      "sha256": "4affc0a353652c73b414c6af07029c1d150d5941fc2ec2b36b76bbf63cc8d219",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/hazelnut_crack_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/hazelnut_crack_000.jpg",
+      "sha256": "f998e5bb7ac4f7d13644fdac2132371a211f03f696c72c8d6879b2220f0af2d6",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/hazelnut_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/hazelnut_good_000.jpg",
+      "sha256": "e0ad6b04c9feef573c2f5319390d944314011fe3bf12b1f157c31ab8ef4a3011",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/hazelnut_hole_007.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/hazelnut_hole_007.jpg",
+      "sha256": "238cd86048ab70ab3b24a98e5673911fcf9d3878663f42e1a89371beb50d6a97",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/leather_color_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/leather_color_000.jpg",
+      "sha256": "556bec40375ff32cdf82210126447f9b29c401e9a9fc4a5b9224dad248951a9a",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/leather_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/leather_good_000.jpg",
+      "sha256": "69ac7ec9312d070a159bbc14318d06529e8962077094aafaf2b906bba1d9f27f",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/metal_nut_bent_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/metal_nut_bent_000.jpg",
+      "sha256": "93c6ed1b40b63b579ed495457c53ed9adfa69b7f75ab53dfa813c72cc010d661",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/metal_nut_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/metal_nut_good_000.jpg",
+      "sha256": "30c6d9a8268ee53d2c39bc45c1467314c8118abbc7d1b6c4b20885eaf8dca23f",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/pill_color_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/pill_color_000.jpg",
+      "sha256": "35e8d0231b284de67890b1dd92ef43dc75f40ea06e6007711e20adbfe52d6ff4",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/pill_contamination_018.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/pill_contamination_018.jpg",
+      "sha256": "d47c61bc1b6ceb32fd87a53873907dfd0d8d9de48b0e028b158eecad08e9b44f",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/pill_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/pill_good_000.jpg",
+      "sha256": "05e88013565c67ce6725566931d7dc93154c810caf556a200b11086b3154967a",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/screw_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/screw_good_000.jpg",
+      "sha256": "13d5030f9c94a293ba391e30cdc08d0dd3ff362580203910ea7dc34cd5072c08",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/screw_manipulated_front_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/screw_manipulated_front_000.jpg",
+      "sha256": "102c6041e2d7e7ae37418dd22dbc9700a514a7514d1a9a3606a3503a121740d6",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/screw_scratch_head_010.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/screw_scratch_head_010.jpg",
+      "sha256": "401008cc5c2f792b42293b17c02e8397e6bbd04365fee3d1afb28364a54c9bb6",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/tile_crack_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/tile_crack_000.jpg",
+      "sha256": "6493433d3734a3a40e6789290e87d07fdc2e3a7d66363ac7533be4da4def6f86",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/tile_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/tile_good_000.jpg",
+      "sha256": "3b2119b6c7c2c86c877f7ccb2c428fced0ed1217a93b0f42cba24eca1552df87",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/toothbrush_defective_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/toothbrush_defective_000.jpg",
+      "sha256": "f22420e80850310d96538d1700e281635c7520c994e2d8c85efd2723db2eab7e",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/toothbrush_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/toothbrush_good_000.jpg",
+      "sha256": "f1d8ac40eb4ae66e5b971bfe20894411874857059d379d03d79c34bf677c7176",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/transistor_bent_lead_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/transistor_bent_lead_000.jpg",
+      "sha256": "7410a7ef8fdc388fdfac9b4fa1fa1dc9ef9dc67aeb6b65c4a8f8b37ea7a12477",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/transistor_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/transistor_good_000.jpg",
+      "sha256": "71aa0b3259559d130265133ab4f768973e88742d438112f69a9e50119b70dc1d",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/wood_color_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/wood_color_000.jpg",
+      "sha256": "e99bf70dc26113b10e56facd6966a5522072534b5aa32ab6598acfd9de995f19",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/wood_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/wood_good_000.jpg",
+      "sha256": "b2890f92961d9d22124eeba6ec68a4ed6274fcfcb8fe4c376b10e5cdf405d94f",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/wood_hole_008.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/wood_hole_008.jpg",
+      "sha256": "b00a5ba14570efda44af0288c85fce9f1d5df6a0340ab32ae39b3a22612f1cf9",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/zipper_broken_teeth_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/zipper_broken_teeth_000.jpg",
+      "sha256": "bcbc513cde242c0ba1f3b0f6b8710641320d53518fe5093d51a32c14660e4d36",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/original-comparison/zipper_good_000.jpg",
+      "source_repository_relative": "reports/comparison/heatmaps/zipper_good_000.jpg",
+      "sha256": "81c891543bb9fe860fd083f00e95723cda2fe24c8121fd58e2381d65348f77cc",
+      "kind": "Existing three-seed gallery, unchanged"
+    },
+    {
+      "file": "galleries/aebad/aebad-fracture-seed0.jpg",
+      "source_artifact_relative": "work-block-20261113/manuscript/figures/aebad-fracture-seed0.jpg",
+      "sha256": "fcc4db702be4c9e6c5c5015b4f89a57a6e3c924c06d427c58c9927d6f688a66d",
+      "kind": "Existing reviewed AeBAD development figure, unchanged"
+    },
+    {
+      "file": "galleries/aebad/aebad-normal-seed0.jpg",
+      "source_artifact_relative": "work-block-20261113/manuscript/figures/aebad-normal-seed0.jpg",
+      "sha256": "824ea59d151f75d6ead4c091b025fe5f909900727e4e41d1b67e7733345372a9",
+      "kind": "Existing reviewed AeBAD development figure, unchanged"
+    },
+    {
+      "file": "galleries/aebad/aebad-background-normal.jpg",
+      "source_artifact_relative": "work-block-20261113/manuscript/figures/aebad-background-normal.jpg",
+      "sha256": "646c7c47b5f0bf5a70b7ecd20fc249352a9c7d1280c77c1aeae11202d9a14f68",
+      "kind": "Existing reviewed AeBAD development figure, unchanged"
+    }
+  ],
+  "existing_aebad_provenance_receipts": {
+    "transfer-figure-provenance.json": "9d4bc2238dddc8225bbc73f250b2ecbc75b2e4b25c47ce81992066de36205623",
+    "normal-figure-provenance.json": "7afccdc8c9491999a336ae38b98cbae72db3025a6841229666640d7661f519cf",
+    "visual-review.json": "37cef418a47b66438414b50ee949f6a70482503120c5dcb59899e18e20e679ae"
+  },
+  "source_images_opened": 0,
+  "reserved_images_opened": 0,
+  "new_predictions": 0,
+  "visual_scope": "Copied figures retain earlier review scope; matched-gallery new review is separate."
+}

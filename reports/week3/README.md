@@ -12,7 +12,7 @@ MVTec AD contains normal products and textures, plus test images with defects su
 
 FastFlow uses a frozen pretrained network to extract features, then trains normalizing flows on those features. A flow learns a transformation that makes normal training features resemble a simple reference distribution. The resulting anomaly map assigns higher scores to features that appear unusual. This is not training a supervised defect classifier.
 
-We started with ResNet-18 because it is one of the FastFlow paper's reference backbones and is relatively small. We used Anomalib 2.6.2 to provide the model and loss, with our own scripts for the fixed training schedule, checkpointing and evaluation. This made the starting implementation explicit and repeatable. It does not make our pipeline identical to the authors' experiments.
+We started with ResNet-18 because it is one of the FastFlow paper's reference backbones and is relatively small. We used Anomalib 2.6.2 to provide the model and loss, with our own scripts for the fixed training schedule, checkpointing and evaluation. Our training and evaluation code differs from the authors' experiments.
 
 The frozen network supplies three feature levels. Each has its own flow, and the three resized output maps are averaged. The highest pixel in that combined map becomes the image score. We retained that implementation rule throughout the main experiments.
 
@@ -28,7 +28,7 @@ The frozen network supplies three feature levels. Each has its own flow, and the
 
 The microbatch was eight, accumulated to an effective batch of 32. This is a memory setting, not a change to the intended batch size. A shuffled incomplete final batch is dropped each epoch. We did not select a smaller dataset, although this means every image need not participate in every epoch.
 
-The configuration is in [week3.json](../../configs/week3.json), and the [protocol](../../docs/WEEK3_PROTOCOL.md) records the details. [FastFlow](https://arxiv.org/abs/2111.07677) is the method reference. Our implementation is [Anomalib](https://github.com/open-edge-platform/anomalib), rather than a claim of exact author-code reproduction.
+The configuration is in [week3.json](../../configs/week3.json), and the [protocol](../../docs/WEEK3_PROTOCOL.md) records the details. [FastFlow](https://arxiv.org/abs/2111.07677) is the method reference. The model and loss implementation comes from [Anomalib](https://github.com/open-edge-platform/anomalib).
 
 ## What we got
 
@@ -46,7 +46,7 @@ The [checks and original examples](validation.md) recomputed all 45 runs' metric
 
 ## Where that left us
 
-We had a functioning full-dataset baseline, with a substantial image-level gap from the paper. We could proceed with a controlled comparison while keeping that gap visible. We should not describe this as matching the published detection performance.
+The baseline ran successfully on the full dataset, but image-level performance remained substantially below the paper. That gap carried into the next comparison.
 
 The next planned step was the larger WideResNet configuration. The question was whether its representation and associated FastFlow configuration would improve the weak categories. We also needed to inspect false responses and variation between seeds, rather than judging by the average alone.
 

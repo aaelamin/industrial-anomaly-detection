@@ -2,7 +2,7 @@
 
 [All weeks](../README.md) | [Week 5 implementation](../week5/README.md) | [Heatmap gallery](HEATMAPS.md) | [Cross-week comparison](../comparison/README.md)
 
-Week 6 brings together the results and anomaly maps from the multi-scale experiment developed in Week 5. The comparison covers all 15 MVTec AD categories and three seeds. Fusion improved some categories but reduced the overall scores. These are the same 90 completed runs reported in Week 5; the results are collected here for the Week 6 milestone.
+The Week 6 results come from the 90 runs of the model developed in Week 5: all 15 MVTec AD categories, three seeds and two compact variants. Fusion improved some categories but reduced the overall scores.
 
 ## What we tested
 
@@ -42,6 +42,6 @@ These examples illustrate gains and failures; the full category results support 
 
 ## Reproducing and checking the results
 
-The [run guide](../../docs/RUNNING.md#week-5) covers the environment, data setup and study commands. Separate [figure-generation commands](../../docs/RUNNING.md#regenerate-figures-or-inspect-saved-models) use the saved predictions. The reports and galleries can be read without downloading models or running training.
+The [run guide](../../docs/RUNNING.md#week-5) covers the environment, data setup and study commands. Separate [figure-generation commands](../../docs/RUNNING.md#regenerate-figures-or-inspect-saved-models) use the saved predictions.
 
 The [verification notes](CHECKS.md) record the checks on run coverage, metrics and image files, together with the limits of the audit. They also flag missing files in the local midterm update package; the actual course submission was not checked.

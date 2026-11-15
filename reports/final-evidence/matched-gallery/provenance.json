@@ -1,0 +1,1185 @@
+{
+  "selection": "Seed 0, lexicographically first normal and first anomalous declared test image in every MVTec category, selected without reading scores or map arrays.",
+  "purpose": "Complete class visualization of the original and matched ResNet recipes alongside WideResNet; descriptive examples, not independent confirmation.",
+  "data_role": "Previously declared MVTec test split; no AeBAD inputs or reserved images.",
+  "display": "Saved epoch-500 maps only. Common 256x256 grid; RGB bilinear and mask nearest-neighbor. Per-map min/max inferno colors with 45% opacity. Print each display range and peak; no threshold or calibrated probability.",
+  "cases": [
+    {
+      "path": "bottle/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7590257525444031,
+          "max": -0.21528077125549316,
+          "array_sha256": "8bd361b296852dd68741af78e296943d3729b729f37d4c6eb2efe836fb353b48"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7868075370788574,
+          "max": -0.14040333032608032,
+          "array_sha256": "687dc4ec99b91bd3c2b422806da6f117bf1f1ce831f3ce0aaa5bab39d8003096"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7570173144340515,
+          "max": -0.2542586028575897,
+          "array_sha256": "080ee11a4505e2085fb7ba42169b0033ad03b4ef40348ff61d251b2abd9070e8"
+        }
+      },
+      "file": "bottle-good-000.png",
+      "sha256": "aa42771e905aacebb601e0188bf7563f7474b549b2be9efd364802e7f966ae3c"
+    },
+    {
+      "path": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "mask_positive_pixels": 7131,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6336511969566345,
+          "max": -4.06371291319374e-05,
+          "array_sha256": "188e4586fcae9b4b991a70239c7304c0822b92f5ee38c590257bf3a8844df005"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.5188178420066833,
+          "max": -7.689540121422276e-20,
+          "array_sha256": "62d2b10d948a5cad1d30ef4f4a8e4b0966e26eb07071695150def67c7ce6062c"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6684296131134033,
+          "max": -2.0422370994310768e-07,
+          "array_sha256": "0321ea7fb6b15d7c35b42137acad81839d156d96bcb8752eff27c519d8cecebd"
+        }
+      },
+      "file": "bottle-broken_large-000.png",
+      "sha256": "212ece284025a17e95cf06d87097a42b5d16d19eabe9f6cf4d079c4f95845f51"
+    },
+    {
+      "path": "cable/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.8076793551445007,
+          "max": -0.4032694697380066,
+          "array_sha256": "3d1b26a00db1d4a0888c1ecf7f527dec4c1051ed0fea2e52c76fb026cbd8e87d"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.8072772026062012,
+          "max": -0.3900299668312073,
+          "array_sha256": "64b68f51071d5bfae1dc6442db98e90a5cef2a82c0cd01dc1d038ef7fd3d952e"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7031445503234863,
+          "max": -0.18761742115020752,
+          "array_sha256": "7b06a2f66a993a88c65bf3bbb6b487faa0a2a806e9ec9583620aa00847edd79d"
+        }
+      },
+      "file": "cable-good-000.png",
+      "sha256": "f7cc5a91ece0b849c180d92fe43aa93c0e8a1cd72075ce3e4832b932d0f9aaee"
+    },
+    {
+      "path": "cable/test/bent_wire/000.png",
+      "label": 1,
+      "mask_positive_pixels": 1446,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7980512976646423,
+          "max": -0.16235864162445068,
+          "array_sha256": "89b183e5c80d627f21be77746b44799cf4b2f0bb6c2e7d7628956d21a90d8104"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.814293622970581,
+          "max": -0.3212738335132599,
+          "array_sha256": "e417ba0691ca8bdaebc1f51ffb26a06da2b4e7238071426e2565bb5438ee87c3"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6681417226791382,
+          "max": -0.05321330577135086,
+          "array_sha256": "e5f35ac2d192457e7242208e91c1afb234ef3b7e6c79a5cf3f1f284e932fcf6a"
+        }
+      },
+      "file": "cable-bent_wire-000.png",
+      "sha256": "fdbcbd863d3e81106fc2a17522909d04f81670dc523f987c335dd865637e8833"
+    },
+    {
+      "path": "capsule/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7878975868225098,
+          "max": -0.07754858583211899,
+          "array_sha256": "ba4562bfa31194144fb65c9aa8fc2127341dd7797265db838b089299c6a805cf"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7870790362358093,
+          "max": -0.20939312875270844,
+          "array_sha256": "50d65e3d03553227b00528171a67d2e02b0b77875f7c7941270a34f410b4735a"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7428390383720398,
+          "max": -0.21409861743450165,
+          "array_sha256": "ef2a51ad0bb9de79e56952b9e341c5fd88a387a230becda91a65e4c741fc7f41"
+        }
+      },
+      "file": "capsule-good-000.png",
+      "sha256": "92bf25ba47f20abd470dbdbf6030e38c140a5d0b5e22fce36189f67fd7c8fa5a"
+    },
+    {
+      "path": "capsule/test/crack/000.png",
+      "label": 1,
+      "mask_positive_pixels": 164,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7818251848220825,
+          "max": -0.01550330501049757,
+          "array_sha256": "cca128aba6e577d272f88914a4874918e70acf95b27dbb29067e16df7b3049e7"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7845060229301453,
+          "max": -0.059507280588150024,
+          "array_sha256": "31377e5ddfd39bee42c88c03ab54d1427bc163c396b32353ef3260d2d8fafa8d"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.736804723739624,
+          "max": -0.1627274602651596,
+          "array_sha256": "4438e227f8e97b01c53fcfd0526709a4eb6012a364056ac811742c54ec1bda2b"
+        }
+      },
+      "file": "capsule-crack-000.png",
+      "sha256": "96218fbc49301aefa5b56623423bd9b5453d658a2a3dcbce4ab330a5587c6290"
+    },
+    {
+      "path": "carpet/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7904729247093201,
+          "max": -0.36849245429039,
+          "array_sha256": "bfd6e48bccff087d0626c08cea90cbbef1a5d12d34e959ff73ecdbef66b1127f"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7800190448760986,
+          "max": -0.3549667298793793,
+          "array_sha256": "e44836315b15649cf6e5dfaeb49e533570f8da7e1df720750f0bb11ced1cb8ef"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6843384504318237,
+          "max": -0.15462107956409454,
+          "array_sha256": "94e517c62861b34ba1d36d0ca56d4ef707a8bc7fd9eb19265849c6f3c9774fa7"
+        }
+      },
+      "file": "carpet-good-000.png",
+      "sha256": "c690cd5c94e6f51a8b485dec6e75acc4dd69c3d71cae047debd9bdc6f4093b3e"
+    },
+    {
+      "path": "carpet/test/color/000.png",
+      "label": 1,
+      "mask_positive_pixels": 3845,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7743792533874512,
+          "max": -1.8449460438118431e-13,
+          "array_sha256": "4d4d70da042535a6ddd3ce8f3b8bc23680a2a934aa113c0cc6d4d0b32a376126"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.746586799621582,
+          "max": -5.115051635584678e-07,
+          "array_sha256": "bfa0045ce97dca182a61d575f86a6575f09b86d985019aa105ad516e34e102d9"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6672046184539795,
+          "max": -0.00395140890032053,
+          "array_sha256": "b4839debb84ec90139afb740cf3299873667815d6dc93016740c7e48bdbb4c56"
+        }
+      },
+      "file": "carpet-color-000.png",
+      "sha256": "1f188ab5ee79a7a0848d3b851b6bf0a5721c1157b03502575fa196675858ec37"
+    },
+    {
+      "path": "grid/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7596379518508911,
+          "max": -0.44381994009017944,
+          "array_sha256": "c6748ed2707430b891508113a1bf6ae55458d57c401576fb57779510e6c036ec"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7738075256347656,
+          "max": -0.29260897636413574,
+          "array_sha256": "39e36c08fd9a91e73ccda5756878dc309ecff41b9e24a97e52dad510e9c652a5"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7201546430587769,
+          "max": -0.33232581615448,
+          "array_sha256": "5a6cea30becd48d29ddb57a24362a34a76fdd0916f63c02980da78051e6f12de"
+        }
+      },
+      "file": "grid-good-000.png",
+      "sha256": "5f1935141bec0141739587a8d4ffdd1d1e5309653d17f08f6b52bd2311bcc1e0"
+    },
+    {
+      "path": "grid/test/bent/000.png",
+      "label": 1,
+      "mask_positive_pixels": 344,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7568127512931824,
+          "max": -0.04058409109711647,
+          "array_sha256": "12bc8c75ea0f32b68a90ef08d1de92510a070de94e7ee9ddf83d4ee46f26cae6"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7542399168014526,
+          "max": -0.014262198470532894,
+          "array_sha256": "e203b3e3661258a4cea80c0270aa1f6a079ba2ed49c02d6a5a616c101d979294"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7261663675308228,
+          "max": -0.03582417219877243,
+          "array_sha256": "5f4c83194835b610d5b6e7a0d5bc1071809e8d17f66ff8de23393db9ce06a70e"
+        }
+      },
+      "file": "grid-bent-000.png",
+      "sha256": "99406b55db047bfb1397141a978ee32584cfa01836fd6ca976a2ab72ebfe2386"
+    },
+    {
+      "path": "hazelnut/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7758979797363281,
+          "max": -0.033832140266895294,
+          "array_sha256": "8512b019ad3db8111596e53165c80dfd7a7e5cf78f8f60c08ea4fd78250bb03d"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7801194190979004,
+          "max": -0.017875870689749718,
+          "array_sha256": "6a94e55133e26659582d83bbb0c0d619781340c467a9b1dc15743a5309bc226f"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7212555408477783,
+          "max": -0.06342664361000061,
+          "array_sha256": "0cb3c6cfdc196aacd2925daf76ca429252193e9f3d8018c7dda9cff4e8a4d172"
+        }
+      },
+      "file": "hazelnut-good-000.png",
+      "sha256": "d46398586fa6eb8441573df03fe42f7138afab1c1d6e1a57872f8669ed2d2b00"
+    },
+    {
+      "path": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "mask_positive_pixels": 4140,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7612211108207703,
+          "max": -0.09199480712413788,
+          "array_sha256": "152946356692174a93d882a88d3d6240cb7ebda2d4ae4158e16440724fa2318b"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6977953910827637,
+          "max": -0.04452149197459221,
+          "array_sha256": "674caca931954cba71c87f96d2b749fcff346da9b2a962bc8f0cd7385d09cb4f"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6829017400741577,
+          "max": -0.13258972764015198,
+          "array_sha256": "21aa924dc8ce9393cf803e2b2da71994de67e857104eb7008890d0426653766c"
+        }
+      },
+      "file": "hazelnut-crack-000.png",
+      "sha256": "fca5275202015b93bb9bcde01b1def7c0e43348def82fb45ace12d7d1d39890e"
+    },
+    {
+      "path": "leather/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7666394710540771,
+          "max": -0.31674206256866455,
+          "array_sha256": "7041b797f59fbf391234b5898d135f84c7a3a1dd99d208872c16b4d33fb7dba8"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7238507270812988,
+          "max": -0.2989473342895508,
+          "array_sha256": "60c8481bc6a4d7575a3e6c40f2a9755e37474d45eec857073bb0975af904be9e"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.696236789226532,
+          "max": -0.2043365091085434,
+          "array_sha256": "6c6e5646c78138340c409d75b6fc6ff9630d535d0f5d9c791a2ded5cb349688b"
+        }
+      },
+      "file": "leather-good-000.png",
+      "sha256": "28cbb3b35e969d69697b1e6f8ae7f49aa35100b2705cf963108a7fd5bab76536"
+    },
+    {
+      "path": "leather/test/color/000.png",
+      "label": 1,
+      "mask_positive_pixels": 319,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7093156576156616,
+          "max": 0.0,
+          "array_sha256": "6d1407daf0b169f4b0e0051e07e601f781b44a55ebed919a4c62031cf636f89b"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7003668546676636,
+          "max": 0.0,
+          "array_sha256": "ce2638e4e877da0ddebb6e12434a9ee8c739fbfeb4f1995d1ecc4505a5280a8e"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6683616638183594,
+          "max": -8.321718932725421e-23,
+          "array_sha256": "17b5532d305087d002d26e11454321144d6937b0a980a5bc6b883a3bebc5423a"
+        }
+      },
+      "file": "leather-color-000.png",
+      "sha256": "1762c9707b7d1ad58cf896cb1420f11419dbd67045701ab0096247667b7c97d7"
+    },
+    {
+      "path": "metal_nut/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7808820009231567,
+          "max": -0.15921491384506226,
+          "array_sha256": "be221701dd41ee5bf9282b84bedb7121c774b6c44dcdc7bda472ea279c068ece"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7496177554130554,
+          "max": -0.14035853743553162,
+          "array_sha256": "9f1d99a827d72d1f3aed6f121ba4bc42042730e2d6edf99c2cec93f3599a8141"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6445977687835693,
+          "max": -0.18554207682609558,
+          "array_sha256": "fa955d464fab91380f84621fbffb3f50fc0b873c8f65c5ab3e715e835ca995f9"
+        }
+      },
+      "file": "metal_nut-good-000.png",
+      "sha256": "5d4b2ff88ba3cf21077024bcd234ebbcc6b4318664bf9c367e74354c983bcab0"
+    },
+    {
+      "path": "metal_nut/test/bent/000.png",
+      "label": 1,
+      "mask_positive_pixels": 3075,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7225202322006226,
+          "max": -0.0027173522394150496,
+          "array_sha256": "c788a523d50f92a129c3bb4288a5016183e5ebaa6819948c636ec7169c0664e4"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6940429210662842,
+          "max": -1.0618202850309899e-07,
+          "array_sha256": "cb0b130a11b8e32479e6fb59c07f4be5b8a5c937853e2fb69549d0298a8a7b54"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6651389598846436,
+          "max": -8.602725574746728e-05,
+          "array_sha256": "23ee74c2403145f4426a9391d2594398a49a7d480a4a622037b9f8ed25c4d1c6"
+        }
+      },
+      "file": "metal_nut-bent-000.png",
+      "sha256": "ec8761f3f3946a3607e38c46b7aa02d45f6f719c406fb77af28136ae4f0f4175"
+    },
+    {
+      "path": "pill/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.743072509765625,
+          "max": -0.12314456701278687,
+          "array_sha256": "26ef3b2a8054e4534f030426b504d649f1f672de14214b8bae000b9c6e371fcd"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7632920145988464,
+          "max": -0.09547746181488037,
+          "array_sha256": "ff86c063f22a217f8742389349e7b90fa8ad1f16304d178770a3621e6808956e"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6529351472854614,
+          "max": -0.14678680896759033,
+          "array_sha256": "f863154f42562b9aca2b971609c1ffeaf3cf19e8da02b15af5784ebe5e67cda9"
+        }
+      },
+      "file": "pill-good-000.png",
+      "sha256": "7515f488ac05f0cec83f8f4401fde6bb657612dbf97f3a077bff152d52bbe372"
+    },
+    {
+      "path": "pill/test/color/000.png",
+      "label": 1,
+      "mask_positive_pixels": 42,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7555255889892578,
+          "max": -0.19198393821716309,
+          "array_sha256": "783c6d76466937b0fe44c04b0112c8b2980179810a868e4091edd856cd6f9a8e"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7696833610534668,
+          "max": -0.10694317519664764,
+          "array_sha256": "3826ab0b1e0a3e1fc3f039f62c81daa53512209a306f28130dd298b2b38ab6ad"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.622726559638977,
+          "max": -0.15959368646144867,
+          "array_sha256": "efb8ce1cc4304bf1c98bbcfe28d04959586e953b38d89f7c76dd4d6bac64ffa5"
+        }
+      },
+      "file": "pill-color-000.png",
+      "sha256": "0f5d79e12c9225c1e51ea854e30757b7e87c6ee9d9bc67636743091035365b43"
+    },
+    {
+      "path": "screw/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7880513072013855,
+          "max": -0.36753925681114197,
+          "array_sha256": "7ff4e68e7711332e2f37f1909d34304b318dac832d6168c7d900a3bc73674fa8"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7762504816055298,
+          "max": -0.3207647204399109,
+          "array_sha256": "32eadc5aae028e44e33e85a33617b6244c2ea028a2e092d7ab91f5acd0694663"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7054142951965332,
+          "max": -0.24932050704956055,
+          "array_sha256": "03cf876b5c59eab4202ec84b0215975930b9a8906f74a999e17a33536e851d30"
+        }
+      },
+      "file": "screw-good-000.png",
+      "sha256": "9f889aa64215bfe775144f6fa26d78f3f477c6f25f75a6ee10e0e220ab2c8cc6"
+    },
+    {
+      "path": "screw/test/manipulated_front/000.png",
+      "label": 1,
+      "mask_positive_pixels": 238,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7605111002922058,
+          "max": -0.13030439615249634,
+          "array_sha256": "b51bff40e09cc848dc47efef6ab578f75f0b8e18c6e3618e015eea6fc6fe85c8"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7794531583786011,
+          "max": -0.18137824535369873,
+          "array_sha256": "6c552a30d18cf00ca47cfddd6304c16107e1c03214a2931c03327ce85721471d"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.681407630443573,
+          "max": -0.12526442110538483,
+          "array_sha256": "6168eda6c4c84bc1e6bb70669282e4cca56cbba8d2a8aabbc5205218b9f08ba9"
+        }
+      },
+      "file": "screw-manipulated_front-000.png",
+      "sha256": "5643e4f53819e04ed6342cde218167a499a55be8410b2714ddeda85d9c1addef"
+    },
+    {
+      "path": "tile/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7614281177520752,
+          "max": -0.2740181088447571,
+          "array_sha256": "1932d7d7ab4bb35420d51c40530b7c19c9a6bce137fb2ff6f03a6a224c64fcb6"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.8251101970672607,
+          "max": -0.4687843918800354,
+          "array_sha256": "204d5f4894218d4265375b4769d904bb5ffe01d3601761448154eff8c789d29a"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7379505038261414,
+          "max": -0.2959345281124115,
+          "array_sha256": "871861f0ca0996d1008d26d29ec8837d329149a25d24d2eca0c2b413e4c26a5f"
+        }
+      },
+      "file": "tile-good-000.png",
+      "sha256": "a2ed8c833a5d2bb76a81221a7556a3590885717a9329ffdb7b7d12c4fdfb3fbf"
+    },
+    {
+      "path": "tile/test/crack/000.png",
+      "label": 1,
+      "mask_positive_pixels": 1748,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7128046751022339,
+          "max": -0.05066860839724541,
+          "array_sha256": "1a16920405de193511ed9a977c9c9513c40c56fbf8b7e1fd2ab4aa5fb683a333"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7383638620376587,
+          "max": -1.1527502465469297e-05,
+          "array_sha256": "c5b71fb06037ab4a99f2d1352cba95271db215183c1d45ce0d2171f12e932192"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6430258750915527,
+          "max": -0.0002487814927008003,
+          "array_sha256": "d0983003984f6a60fa2e43bfd0d86eb8435dbaacd43701267e5dea907b255979"
+        }
+      },
+      "file": "tile-crack-000.png",
+      "sha256": "00ce49bbf47c4655b4d73339f5678f7e594392b5376709c01582d26e9bd8d6eb"
+    },
+    {
+      "path": "toothbrush/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7399876117706299,
+          "max": -0.19131311774253845,
+          "array_sha256": "b704b1489e00132ded5fa364c13202a80b912e7243625b33656832a65b8d2a65"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7416369915008545,
+          "max": -0.1771615743637085,
+          "array_sha256": "f9b94ac3e1cf9a1d23f8c8018c5e9ed5c2b6e3206a722a10716da9e3938637d8"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.5957335829734802,
+          "max": -0.11097779870033264,
+          "array_sha256": "04b51a9a398b42e93d6ef75bf830624408044471e6749b0b5a9cc75da262060e"
+        }
+      },
+      "file": "toothbrush-good-000.png",
+      "sha256": "8de0a3d985495ade5534122333b1b82f2fd2c9d9cd3271104d034fa926e71e43"
+    },
+    {
+      "path": "toothbrush/test/defective/000.png",
+      "label": 1,
+      "mask_positive_pixels": 1483,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7383384704589844,
+          "max": -5.699247421315167e-16,
+          "array_sha256": "8c7ea2ca3be4d6bc0a2f58a6b4be45ecad304a1af98dcae98324e1336a5512d0"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.736079216003418,
+          "max": -7.834223652025685e-06,
+          "array_sha256": "aee933964f7fea80dbc1d5345af42c820079d66692d50bc9e451170323f0762d"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.5735869407653809,
+          "max": -5.611705083908777e-15,
+          "array_sha256": "a4b57b61b1eb4cdadf3925bc4a5d4b56bcf1ec2d50398eb89927cd46396c9557"
+        }
+      },
+      "file": "toothbrush-defective-000.png",
+      "sha256": "d26d14110e6621db770664770edd7774110ad4410b0b923b87d4d1f9c9d2da20"
+    },
+    {
+      "path": "transistor/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7939677238464355,
+          "max": -0.1775646209716797,
+          "array_sha256": "d89810f814f785c68e4649ef03ca4b036cc65782e698da0a1b78d2786cb34541"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7529322504997253,
+          "max": -0.35321056842803955,
+          "array_sha256": "88d9eaff27df3b4e073168c0098476c4e0cbdbf611515070fb9a37e1df161043"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7614549398422241,
+          "max": -0.22983568906784058,
+          "array_sha256": "9efbd0c1db262133d76b7bf17a00f5fac8233008c3c787b6e6a7b5ce2002b0af"
+        }
+      },
+      "file": "transistor-good-000.png",
+      "sha256": "31d61d45bbfc6bd7918977861c3fdef7bf2c3583644cdf307db1dc383c9db495"
+    },
+    {
+      "path": "transistor/test/bent_lead/000.png",
+      "label": 1,
+      "mask_positive_pixels": 277,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6334512233734131,
+          "max": -1.850635999289807e-05,
+          "array_sha256": "6fb79e6bcba95164ba2247f17ad9809d53ded609aef9cd909a8c18b8ed7db166"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7669963240623474,
+          "max": -0.03133295103907585,
+          "array_sha256": "170fc2ba7089c6606d229dafe381e63e25f6ca7ae3a36a2d9be312df5255ff75"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7148351073265076,
+          "max": -0.1032305657863617,
+          "array_sha256": "b3855cbcc464514f172e78ecbc7fe18a32ae01f6f6b39af7f89460d543c2016f"
+        }
+      },
+      "file": "transistor-bent_lead-000.png",
+      "sha256": "2b7d7404dbfc5b61e0459f70ee0d9a34104ebe1cec265c8e9604876a37824926"
+    },
+    {
+      "path": "wood/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7441102862358093,
+          "max": -0.2562134563922882,
+          "array_sha256": "7292e37744c448f49de175863a13cb4b85130089a6486d8724fbe741070b439d"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7542496919631958,
+          "max": -0.3468708395957947,
+          "array_sha256": "770d3af9b5aca8ab5e00934866817f0d5071b3f89abecf9b51caae63c51c36b8"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6829604506492615,
+          "max": -0.18387064337730408,
+          "array_sha256": "afbfa09ba50bee6a357ffd0085272d820f218ea5b91a295164beae5a795c9ab9"
+        }
+      },
+      "file": "wood-good-000.png",
+      "sha256": "b6b83448b7e2f571741b1314755d1f7c42ef0a9e9262ea3bac7c913ad8687521"
+    },
+    {
+      "path": "wood/test/color/000.png",
+      "label": 1,
+      "mask_positive_pixels": 1393,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7624310851097107,
+          "max": -2.7789021260105073e-05,
+          "array_sha256": "1dd37a676caf4a3f361e2ec18e513a8e7abde93b93b968c87cb5d70460667e7c"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7692502737045288,
+          "max": -1.7561212644068291e-06,
+          "array_sha256": "fcb1177248e727aa522756dccfcd15341c91396e64612b006031fbd146c116be"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.715338408946991,
+          "max": -0.024391552433371544,
+          "array_sha256": "56c8a9ca9db8fe2eb25473a1908854689778d17a9b8672e2946371385428a439"
+        }
+      },
+      "file": "wood-color-000.png",
+      "sha256": "a982b588d2ad13816259cf33289839596a79d7cd09ade3441a5f55f68a56c088"
+    },
+    {
+      "path": "zipper/test/good/000.png",
+      "label": 0,
+      "mask_positive_pixels": 0,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7278894782066345,
+          "max": -0.20632712543010712,
+          "array_sha256": "d77771c5262a234b3be8114398ef924be99bc9ebc089458a0c7fc9f9cbbefa0c"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.7745656967163086,
+          "max": -0.3289991617202759,
+          "array_sha256": "ea728dd5ae901d338f6d8550d6cdc3fd1282c9df361d59d197ec7f61f0ce754e"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.719990611076355,
+          "max": -0.23942244052886963,
+          "array_sha256": "c6732d8f8e94805758c596f79d3f38fbd7e65638e98ed851cd3cd4f6d9304d22"
+        }
+      },
+      "file": "zipper-good-000.png",
+      "sha256": "b41fa61b1e7617afac69fc02fcc45a282933a7e1bd52cfbfb01d2e5d6015a059"
+    },
+    {
+      "path": "zipper/test/broken_teeth/000.png",
+      "label": 1,
+      "mask_positive_pixels": 1756,
+      "models": {
+        "original_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6642423868179321,
+          "max": -0.028998693451285362,
+          "array_sha256": "68d896581ad09e4e57e88d5c90a0c72373f1facddc18c0d899b312146d8ec1cc"
+        },
+        "matched_resnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.6861447691917419,
+          "max": -0.008719591423869133,
+          "array_sha256": "33157f33f1ea4d86fc5dbe5dfab8bb656fe25372c1952c10c28be723913d4a49"
+        },
+        "wideresnet": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "min": -0.665469765663147,
+          "max": -0.0011776362080127,
+          "array_sha256": "552e68e8d900c44317674c9ff965a61a965b42243f592893c61db81f2b05a00f"
+        }
+      },
+      "file": "zipper-broken_teeth-000.png",
+      "sha256": "335bd50759966dce2d2a9b83f2e869d187b8c759a569c537e9995aa76d0e725c"
+    }
+  ],
+  "checks_status": "PASS_SAVED_MAP_IDENTITY_AND_GRID",
+  "source_protocol_sha256": "061121ad59bb4fc6abd3b76806c737259d53ee18c25b4a014a2113e7ee9ac8c4",
+  "source_check_sha256": "01fd3db70d0e0ab9a63ea8a122a87b181cfb6de2b656c47a6bc6cdc425d63c7b",
+  "reserved_images_opened": 0,
+  "new_predictions": 0,
+  "attribution": "MVTec AD, Bergmann et al., CC BY-NC-SA 4.0, https://www.mvtec.com/company/research/datasets/mvtec-ad; derived visualization.",
+  "original_resnet_provenance_limit": "Original Week3 has no complete.json; its maps and scores are pinned at gallery freeze. Historical metric CSV/source receipts are independently checked in the table bundle."
+}

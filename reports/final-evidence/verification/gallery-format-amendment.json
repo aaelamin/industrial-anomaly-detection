@@ -1,0 +1,8 @@
+{
+  "original_script_sha256": "bbc7bcc3423e5f51677ba1c79a8eb42d7d2522ca9eb954daae7e4c7cacd1e4bc",
+  "new_script_sha256": "01cd57d1953737b456962556be8d5c067191c6b7ee58309ee22480cd28518e31",
+  "utc": "2026-11-14T02:05:33.690197+00:00",
+  "original_protocol_sha256": "4e26b4c438d26789f23a03ad4f7f1b3d17726e475e3b2f024bcc1d07df8692b2",
+  "original_render_retained": true,
+  "change": "Print peak coordinates as plain integers instead of NumPy scalar type representations. The 30 cases, arrays, display ranges, overlays and scientific controls are unchanged."
+}

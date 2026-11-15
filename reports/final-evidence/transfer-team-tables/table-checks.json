@@ -1,0 +1,125 @@
+{
+  "status": "PASS_VERIFIED_TRANSFER_TABLE_EXPORT",
+  "endpoint_rows": 25,
+  "seed_rows": 30,
+  "region_rows": 9,
+  "source_manifest_sha256": "b50b62513c326e83fab4880840351940bafd2e97b0c32dfda8a8432359897bd2",
+  "source_verifier": {
+    "status": "PASS_SAVED_TRANSFER_AGGREGATION",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "same",
+      "background",
+      "illumination",
+      "view"
+    ],
+    "region_rows": 720,
+    "region_counts": {
+      "0": {
+        "all": {
+          "total": 240,
+          "before_detected": 57,
+          "after_detected": 98,
+          "lost": 19,
+          "gained": 60,
+          "before_recall": 0.2375,
+          "after_recall": 0.4083333333333333
+        },
+        "small": {
+          "total": 144,
+          "before_detected": 31,
+          "after_detected": 54,
+          "lost": 11,
+          "gained": 34,
+          "before_recall": 0.2152777777777778,
+          "after_recall": 0.375
+        },
+        "fracture": {
+          "total": 32,
+          "before_detected": 9,
+          "after_detected": 9,
+          "lost": 5,
+          "gained": 5,
+          "before_recall": 0.28125,
+          "after_recall": 0.28125
+        }
+      },
+      "1": {
+        "all": {
+          "total": 240,
+          "before_detected": 56,
+          "after_detected": 91,
+          "lost": 19,
+          "gained": 54,
+          "before_recall": 0.23333333333333334,
+          "after_recall": 0.37916666666666665
+        },
+        "small": {
+          "total": 144,
+          "before_detected": 31,
+          "after_detected": 55,
+          "lost": 9,
+          "gained": 33,
+          "before_recall": 0.2152777777777778,
+          "after_recall": 0.3819444444444444
+        },
+        "fracture": {
+          "total": 32,
+          "before_detected": 8,
+          "after_detected": 13,
+          "lost": 2,
+          "gained": 7,
+          "before_recall": 0.25,
+          "after_recall": 0.40625
+        }
+      },
+      "2": {
+        "all": {
+          "total": 240,
+          "before_detected": 60,
+          "after_detected": 98,
+          "lost": 18,
+          "gained": 56,
+          "before_recall": 0.25,
+          "after_recall": 0.4083333333333333
+        },
+        "small": {
+          "total": 144,
+          "before_detected": 35,
+          "after_detected": 58,
+          "lost": 9,
+          "gained": 32,
+          "before_recall": 0.24305555555555555,
+          "after_recall": 0.4027777777777778
+        },
+        "fracture": {
+          "total": 32,
+          "before_detected": 8,
+          "after_detected": 13,
+          "lost": 1,
+          "gained": 6,
+          "before_recall": 0.25,
+          "after_recall": 0.40625
+        }
+      }
+    },
+    "max_numerical_interval_width_pp": {
+      "pixel_ap": 0.0003166962178800803,
+      "aupro_005": 0.0007920978182640592
+    },
+    "scope": "Saved-metric and paired-region aggregation only. No source images, model weights, inference or reserved inputs."
+  },
+  "new_predictions": 0,
+  "source_images_opened": 0,
+  "files": {
+    "endpoint-results.csv": "e1908315ab24e7d970f214b3e398b81140de4ca7bc43d30058c171b96b6aa641",
+    "normal-calibration-thresholds.csv": "ba258437f6dc166fecfe612da9fbb86f20415efb669ed8777ecd2a6931fe1258",
+    "README.md": "eaa8164916985bcc435de02127b7ff1143c1857b4c79c243d2f6b8fb0c3648fa",
+    "region-transitions.csv": "ac069efbae97fe44930c579296cdff87fa5748162c50b56e80185804336e3694",
+    "seed-endpoints.csv": "09a52636d47e191af15fb51c3715ccee6d0a23718ecf701ba4dc04d8e3115081"
+  }
+}

@@ -4,14 +4,15 @@ CISC 473, Project 16
 
 Industrial anomaly detection is about finding defects without needing examples of every possible defect during training. We train on normal products, then ask whether a new image is unusual and where the defect might be.
 
-Our starting method is FastFlow on the original 15-category MVTec AD dataset. We compared two backbone configurations, then tested a compact model that combines feature levels before scoring them. Later work will consider domain transfer to reflective battery surfaces. That experiment has not been run yet.
+We evaluated FastFlow configurations on all 15 MVTec AD categories, including three backbones, a matched ResNet control, and a compact multi-scale model with a matched middle-layer ablation. The completed comparison contains 315 runs across seven configurations and three seeds. A separate three-seed AeBAD experiment covers application to a new industrial domain. The [final experiment evidence](reports/final-evidence/README.md) supplies the tables, heatmaps, methods and reproduction materials for our report.
 
-## Start here
+## Project reports
 
-You do not need to install anything to read the results or view the heatmaps on GitHub.
-
-| Read | What is in it |
+| Report | Contents |
 | --- | --- |
+| [Weekly project notes](reports/project-guide/PROJECT-WALKTHROUGH.md) | Assignment requirements, model explanations, experiments and results |
+| [Week-by-week requirements](reports/project-guide/WEEK-BY-WEEK.md) | What was required, what is complete, and what remains |
+| [Final experiment evidence](reports/final-evidence/README.md) | Complete seven-configuration comparison, AeBAD development results, figures, methods and verification |
 | [Week 3](reports/week3/README.md) | What FastFlow does, how we set up the baseline, results and conclusions |
 | [Week 4](reports/week4/README.md) | Why we tried WideResNet, what improved and what remained weak |
 | [Week 5](reports/week5/README.md) | Feature-fusion implementation, rationale and matched control |
@@ -20,7 +21,7 @@ You do not need to install anything to read the results or view the heatmaps on 
 
 Each weekly folder includes the explanation, category results and a `HEATMAPS.md` gallery. The [cross-week gallery](reports/comparison/HEATMAPS.md) shows the same images for every configuration and all three seeds.
 
-Week 4 is our strongest configuration so far. The Week 5 fusion experiment finished all 90 runs but did not improve overall performance. The reports include the losses as well as the gains. The gap from the published image-level results remains unresolved.
+The weekly reports record the experiments as they developed. The final results also include EfficientNet, matched ResNet and PatchCore. Compact fusion did not improve the average score over its control. The AeBAD study showed false alarms and small-region losses alongside gains. Differences from the published FastFlow configurations are documented with the results.
 
 ## Schedule
 
@@ -72,7 +73,7 @@ If a link is unavailable, use the [official MVTec AD download page](https://www.
 
 ## Run or change an experiment
 
-Start with [the run guide](docs/RUNNING.md). It separates small checks from full studies, explains where files go and shows which settings to change. A full command starts substantial work, so use the short checks first on a new machine.
+The [reproduction instructions](reports/final-evidence/reproduction/README.md) cover the complete study, with [test status](reports/final-evidence/reproduction/QUALIFICATION-STATUS.json) and [data and weight setup](reports/final-evidence/notes/DATA-AND-WEIGHTS.md). The [run guide](docs/RUNNING.md) covers the original weekly commands. Training takes multiple sessions; checking the saved tables requires no training.
 
 For the original Week 3 study:
 

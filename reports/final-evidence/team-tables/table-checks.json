@@ -1,0 +1,22 @@
+{
+  "status": "PASS_COMPLETE_TABLE_EXPORT",
+  "source_rows": 315,
+  "category_rows": 105,
+  "seed_rows": 21,
+  "macro_contrast_rows": 27,
+  "category_contrast_rows": 405,
+  "files": {
+    "all-315-runs.csv": "a2e37781e8086246c2df30acf141113b9e95f4b9a9438fb57c7001f9700fc94b",
+    "main-results.csv": "b8bcfc62fb493071dc4de3ed49538818ff0c61da37f99ac090afb90772e59388",
+    "main-table.tex": "6fc1bc49219639c6a5d45a2ce5fef9013179b63f0a6a77c802ec79037e146a16",
+    "paired-category-changes.csv": "c8ad5c18494e0dda786a3b757b7d8c58ca6704a32454cee9cf166b7c762d1a6c",
+    "paired-macro-changes.csv": "3553e8d31bec8821b08925f58173140069ed3fbc767e2a5d8f2d6b92875f7b44",
+    "per-category-results.csv": "ed3535f4a6a0f10bcb2064a7d6a386de94a34ab3818afcda6a501f631259276a",
+    "published-context-comparison.csv": "a5ac3090b5dbd6da080a35987b40610fcb8a7b50e43d140b4c7b48fc4cc4ecbb",
+    "README.md": "6fe63d5af778290c511cb50d4a3fb6fb011fd323a80f080066c9961b99b1f681",
+    "seed-macro-results.csv": "59600ed6d8a7b683c8c05148089aea72271d8b497775b1dda2a00f235a0248e1"
+  },
+  "source_images_opened": 0,
+  "reserved_images_opened": 0,
+  "plan_sha256": "72e79ba6ea92404afc1941a4c69c4688ba67654a0ad8c38c33fe9d079b7aac6c"
+}

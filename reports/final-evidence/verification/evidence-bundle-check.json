@@ -1,0 +1,24 @@
+{
+  "status": "PASS_RELOCATION_AND_CORRUPTION_CHECK",
+  "relocated_different_cwd": {
+    "status": "PASS_SAVED_METRIC_AGGREGATION",
+    "rows": 315,
+    "models": [
+      "week3",
+      "week4",
+      "middle",
+      "fusion",
+      "efficientnet",
+      "resnet",
+      "patchcore"
+    ],
+    "fusion_minus_middle_ap_pp": -0.7781995235075428
+  },
+  "altered_csv_rejected": true,
+  "restored_copy_passed": true,
+  "verify_sha256": "32c336b3a3fd17f2cc0f8150bad1c1e44e62c4503d80c93d6dfa908c6cfe0856",
+  "manifest_sha256": "f8cb3d0b3626693ad162dfd1cad77fe3756888a7d44815c9a5d2ddb3ebd4aa9d",
+  "temporary_copy_only_modified": true,
+  "gpu_used": false,
+  "images_opened": 0
+}

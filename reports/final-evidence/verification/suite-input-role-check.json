@@ -1,0 +1,13 @@
+{
+  "status": "PASS_STATIC_INPUT_ROLE_CHECK",
+  "legacy_training": 209,
+  "legacy_smoke_test": 83,
+  "additional_normal_subset": 65,
+  "subset_within_training": true,
+  "training_test_disjoint": true,
+  "reserved_images_opened": 0,
+  "source_images_opened": 0,
+  "gpu_used": false,
+  "suite_identity": "0492b4e3316699220f61ba4eeb814abe1ada1394e8430016e1a356fcbe058b62",
+  "prior_protocol_preserved": true
+}

@@ -1,0 +1,66 @@
+{
+  "status": "PASS_NORMAL_ONLY_RELEASE_EQUIVALENCE",
+  "release_identity": "7bc4c416c24e97afd4f47f582b07095e1d25c59c5fa494b8aa565bd1b9da09c1",
+  "rows": [
+    {
+      "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+      "bitwise_state": true,
+      "bitwise_probe": true,
+      "state_file": "resume.pt",
+      "left_state_sha256": "29f949de3cf172c79bf66edbf334cdeddc9c58591ff4e3d3ef5a24704064c2e8",
+      "right_state_sha256": "74fc52ff5334e1ec596ae4b8a7cb8036cabc34a8c5c66a4e1e04743c75607b9f",
+      "source_dataset_images_opened": 0,
+      "job": "diagnostic-efficientnet",
+      "group": "efficientnet",
+      "recovery_equal": true,
+      "completed_noop": true,
+      "crash_exit": 91
+    },
+    {
+      "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+      "bitwise_state": true,
+      "bitwise_probe": true,
+      "state_file": "resume.pt",
+      "left_state_sha256": "08753b321b26b8445f767cd91238d688d0fb867b78d975b07e2ae41f342a8859",
+      "right_state_sha256": "1d357d0094303e0df3af76cae42214d1e048240df316bf04e0f087dd072ee13a",
+      "source_dataset_images_opened": 0,
+      "job": "diagnostic-resnet",
+      "group": "resnet",
+      "recovery_equal": true,
+      "completed_noop": true,
+      "crash_exit": 91
+    },
+    {
+      "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+      "bitwise_state": true,
+      "bitwise_probe": true,
+      "state_file": "resume.pt",
+      "left_state_sha256": "f6830cd747ed131030adfd94f1a1dc16c6f86a662889fe5a96e8bece3b560c23",
+      "right_state_sha256": "6800c6bc175d744c14e248d9b3e040b03124c5b40de5bcb8574c6d5dfb6e7aa7",
+      "source_dataset_images_opened": 0,
+      "job": "diagnostic-aebad",
+      "group": "aebad",
+      "recovery_equal": true,
+      "completed_noop": true,
+      "crash_exit": 91
+    },
+    {
+      "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+      "bitwise_state": true,
+      "bitwise_probe": true,
+      "state_file": "memory.pt",
+      "left_state_sha256": "b091703c54a5294e3fc7e0b762a82453bfc543b349b6a4aa04dd1a9b6fa60ecb",
+      "right_state_sha256": "b091703c54a5294e3fc7e0b762a82453bfc543b349b6a4aa04dd1a9b6fa60ecb",
+      "source_dataset_images_opened": 0,
+      "job": "diagnostic-patchcore",
+      "group": "patchcore",
+      "recovery_equal": true,
+      "completed_noop": true,
+      "crash_exit": 91
+    }
+  ],
+  "utc": "2026-11-14T02:22:47.239900+00:00",
+  "reserved_images_opened": 0,
+  "clean_machine_verified": false,
+  "production_execution_verified": false
+}

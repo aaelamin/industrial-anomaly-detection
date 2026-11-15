@@ -1,16 +1,19 @@
 # Results and explanations
 
-Read these in order. Each weekly folder explains the task, the model, the choices, the results and what followed from them. No installation is needed to read the reports or view the included heatmaps on GitHub.
+The reports cover the original weekly experiments and the completed comparison. Each weekly folder contains results and selected heatmaps; the final results include all seven configurations.
 
-| Read | What it covers |
+| Report | Contents |
 | --- | --- |
+| [Weekly project notes](project-guide/PROJECT-WALKTHROUGH.md) | Assignment requirements, model explanations, experiments and results |
+| [Week-by-week requirements](project-guide/WEEK-BY-WEEK.md) | What was required, what is complete, and what remains |
+| [Final experiment evidence](final-evidence/README.md) | Complete 315-run MVTec comparison and three AeBAD runs, with tables, galleries, methods and reproduction materials |
 | [Week 3](week3/README.md) | Establish FastFlow with ResNet-18 on all 15 MVTec AD categories |
 | [Week 4](week4/README.md) | Compare the WideResNet configuration and investigate weak categories |
 | [Week 5](week5/README.md) | Implement feature fusion and its matched middle-level control |
 | [Week 6](week6/README.md) | Present the completed multi-scale results, heatmaps and deliverable checks |
 | [Compare the experiments](comparison/README.md) | The overall evidence, same-image heatmaps, limitations and midterm conclusions |
 
-There are 45 Week 3 runs, 45 Week 4 runs and 90 Week 5 runs. All use seeds 0, 1 and 2 and the final model after 500 epochs. These are repetitions on the same dataset, not 180 independent datasets.
+The original weekly study contains 45 Week 3 runs, 45 Week 4 runs and 90 Week 5 runs. The complete MVTec comparison adds 45 EfficientNet runs, 45 matched ResNet runs and 45 PatchCore reference fits, for 315 runs. Three AeBAD development runs are reported separately. All flow endpoints use epoch 500 and seeds 0, 1 and 2. Repetitions on the same images do not constitute independent datasets.
 
 The CSV files contain the full category or run tables. `HEATMAPS.md` in each folder displays examples directly on GitHub. The comparison gallery shows the same images for all four configurations and all three seeds.
 

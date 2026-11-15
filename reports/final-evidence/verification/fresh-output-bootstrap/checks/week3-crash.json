@@ -1,0 +1,8 @@
+{
+  "kind": "week3",
+  "source_images_opened": 0,
+  "gpu_used": false,
+  "checkpoint_epoch": 1,
+  "state_sha256": "18d8706e92f33433824634d4c8c82181a99206b886ce024f6b3c64508c32adde",
+  "status": "PASS_ACTUAL_PRECOMMIT_STATE"
+}

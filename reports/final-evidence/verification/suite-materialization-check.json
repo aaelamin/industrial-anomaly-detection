@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FRESH_MATERIALIZATION_AND_IDENTITY_REJECTION",
+  "synthetic_source_only": true,
+  "junction_target_verified": true,
+  "repeat_noop": true,
+  "changed_source_rejected": true,
+  "different_identity_rejected": true,
+  "legacy_source_count": 17,
+  "real_dataset_files_opened": 0,
+  "gpu_used": false,
+  "suite_identity": "0492b4e3316699220f61ba4eeb814abe1ada1394e8430016e1a356fcbe058b62"
+}

@@ -49,7 +49,7 @@ Both improved on average, but neither caught up with the stronger categories. Ha
 | screw | 1 | 73.68% | 78.79% | 15.76% |
 | screw | 2 | 68.13% | 82.03% | 16.11% |
 
-Screw still has low pixel AP despite its high pixel AUROC. That means we should not describe its heatmaps as precise defect masks. These metrics measure different things, and the defect covers only a small part of many screw images.
+Screw still has low pixel AP despite its high pixel AUROC. Its heatmaps therefore provide weak precise localization, especially where the defect covers only a small part of the image.
 
 We repeated the Week 3 check of where each map reaches its highest value. These are averages across the three seeds.
 
@@ -65,7 +65,7 @@ Border means the outer 16 pixels of the 256 x 256 map, as in the Week 3 check. I
 
 The [follow-up comparison](followup.md) examines the loss curves and matched images. It found a late loss spike in pill seed 0 and persistent background responses in selected screw and hazelnut images. The [Week 5 plan](../../docs/WEEK5_PLAN.md) proposes inspecting the individual feature levels before changing their fusion.
 
-Keep all three seeds and use these results for the Week 4 comparison. Carpet and pill also dropped on average, with particularly weak seed-0 runs. We should inspect those alongside screw and hazelnut rather than rerun only the weak results until they improve.
+The comparison includes all three seeds. Carpet and pill also dropped on average, with particularly weak seed-0 runs. Those failures, along with screw and hazelnut, motivated the later inspection.
 
 Week 5 is the multi-scale flow implementation. FastFlow already uses three feature levels, so the group needs to choose a specific change to how those levels are combined. Keep one configuration fixed and compare the existing map averaging with that change. Decide the settings before running, use normal training data for fitting, and avoid choosing settings from the test scores we just inspected.
 

@@ -6,7 +6,7 @@
 
 Compare the ResNet-18 baseline with WideResNet-50-2. We repeated all 15 categories with the same three seeds, normal-only training split, 256 by 256 input and final-epoch evaluation after 500 epochs.
 
-The broader proposal also mentions EfficientNet-B4. It was not run here. This report covers the completed ResNet-18 versus WideResNet comparison.
+This stage compared ResNet-18 with WideResNet. EfficientNet-B4 was completed later and appears in the [final results](../final-evidence/team-tables/README.md).
 
 ## What changed and why
 

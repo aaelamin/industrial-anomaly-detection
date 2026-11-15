@@ -1,0 +1,9 @@
+{
+  "status": "PASS_DISPLAY_ONLY_PEAK_LABEL_CHANGE",
+  "cases": 30,
+  "same_cases_arrays_ranges_masks": true,
+  "same_all_image_panels_and_other_labels": true,
+  "original_outputs_retained": true,
+  "source_images_opened": 0,
+  "new_predictions": 0
+}

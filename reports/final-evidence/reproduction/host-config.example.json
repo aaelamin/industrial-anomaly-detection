@@ -1,0 +1,18 @@
+{
+  "data_roots": {
+    "mvtec": "C:/DATA/mvtec_ad",
+    "aebad": "C:/DATA/AeBAD_S"
+  },
+  "weight_paths": {
+    "7eb33cd5c8208bac4f23f2f8e61df12e4cf977ed1f4aadcc1ec4d59ffaf2d127": "C:/WEIGHTS/efficientnet_b4_ra2_320-7eb33cd5.pth",
+    "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8": "C:/WEIGHTS/resnet18-5c106cde.pth",
+    "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa": "C:/WEIGHTS/wide_resnet50_racm-8234f177.pth"
+  },
+  "torch_home": "C:/CACHE/torch",
+  "workspace_root": "C:/OUTPUT/fresh-paper-reproduction",
+  "gpu_lock": "C:/OUTPUT/shared-gpu.lock",
+  "pause_paths": [
+    "C:/OUTPUT/PAUSE"
+  ],
+  "extra_pythonpath": []
+}

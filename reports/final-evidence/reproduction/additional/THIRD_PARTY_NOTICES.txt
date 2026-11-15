@@ -1,0 +1,17 @@
+Anomalib FastFlow constructor adaptation
+
+vendor/feature_fastflow.py adapts the constructor and retains the CNN forward
+and scoring path of anomalib 2.6.2 FastflowModel. Its explicit local weight
+loading and audited timm backbone metadata support the study's three CNN routes.
+The original source header is retained in the adapter's attribution.
+
+Original Code: Copyright (c) 2022 @gathierry
+https://github.com/gathierry/FastFlow/
+Modified: Copyright (C) 2022-2025 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+
+LICENSE-anomalib.txt is copied verbatim from the installed anomalib 2.6.2
+distribution's licenses/LICENSE. This notice identifies the adaptation; it
+does not assign a new blanket license to the project's other research files.
+Installed dependencies, externally obtained pretrained weights and datasets
+retain their respective licenses. They are not redistributed in this package.

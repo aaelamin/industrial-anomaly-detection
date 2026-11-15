@@ -1,0 +1,12 @@
+{
+  "status": "PASS_VISUAL_REVIEW",
+  "utc": "2026-11-14T02:06:23.241495+00:00",
+  "reviewer": "assistant visual inspection",
+  "files_viewed": {
+    "main-comparison.png": "e51703a23faeea50bcb04fcb23fe55c3e483a6d09493c590edb9b7881e9ee9e4",
+    "category-changes.png": "fc58ee4f04f392604d29214655adba40175c704dc6ca38bd6ba5fbae56bba49e"
+  },
+  "observations": "All seven configurations, three score panels, SD bars/seed marks, category labels and symmetric change scale are legible without overlap or cropping.",
+  "ground_truth": "Released masks; no new manual annotations",
+  "new_predictions": 0
+}

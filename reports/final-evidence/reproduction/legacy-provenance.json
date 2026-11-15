@@ -1,0 +1,29 @@
+{
+  "status": "PASS_LEGACY_SOURCES_MATCH_COMPLETED_STUDIES",
+  "utc": "2026-11-13T21:19:35.278104+00:00",
+  "receipts": {
+    "results/week3/source/hashes.json": {
+      "receipt_sha256": "90a9358a3d6623ede72bb641484758ceefc4ceccafa93478055369796b343764",
+      "source_count": 5,
+      "sources_match": true
+    },
+    "results/week4/study.json": {
+      "receipt_sha256": "9bf3deac8ea57ca2f12aedffdc91486781eb46939eb07da3025183e4b323c525",
+      "source_count": 6,
+      "sources_match": true
+    },
+    "results/week5/study/study.json": {
+      "receipt_sha256": "224c0e862054562cef50d694552e429ec23c8cecea48f7d031cc931e899db02f",
+      "source_count": 11,
+      "sources_match": true
+    },
+    "results/week5/fast-pilot/study.json": {
+      "receipt_sha256": "45b9b2748064292b8ce638045c0a6b767152f7dd3219e8760a9c24424d035289",
+      "source_count": 9,
+      "sources_match": true
+    }
+  },
+  "historical_fast_pilot_protocol_verified": true,
+  "source_images_opened": 0,
+  "new_training": false
+}

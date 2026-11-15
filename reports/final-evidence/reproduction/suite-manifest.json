@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "utc": "2026-11-13T21:12:26.060232+00:00",
+  "legacy_sources": {
+    "run.py": "7d65e68d5feee65a7431af692295fe2c4a6d46c63711e7e46eba043236088fb4",
+    "week3.py": "0d17d243d099c0fa2b7b17e42a34f669c82953d682062de664def8a5f0595c89",
+    "requirements.txt": "762147fe8447115862c5373d53b0ff2ecf1223853170271d1d399f0e5f54e2c4",
+    "scripts/study.py": "86346a6fb06fbe7164a98e7e8c9e2f7c7583aeef1f26e39107568047be07cf5c",
+    "scripts/week3_report.py": "e8cb954c8c3a052c86677c46920a1c4973b348c42f685e9a6b954be27ddcb280",
+    "scripts/week4_colab.py": "ad9afb577752f1943353deba97f402ab1bad93d9dfee8efcdcdf4fa42ef23dbb",
+    "scripts/week4_preflight.py": "84e919151c67f19763f9f0a44ca653f1c0a26df62c57ebe64c29b8e3db0e6073",
+    "scripts/week5_study.py": "cff38a8ce02619ac787c62124aa515fb048d0653c49c9e222b073eaf97b7a17f",
+    "scripts/week5_fast_pilot.py": "7cd9a5d7029dd9cabeb64b050b7180510c9a2c5cf8e98f00e279678dc5a73775",
+    "scripts/week5_pilot.py": "f600282e6529270962e0f919f9e1ac8a0ad727072a2b33978cd68b5526742a02",
+    "scripts/week5_model.py": "3c79447c500a5f73e652940bb606647dacfd03c4f56029b8185154d487419384",
+    "configs/week3.json": "bef7cee72d3b67f9179e80af45cd177dc2959fbd217cf65e8211e247300af85c",
+    "configs/week4.json": "6b906660f90be095be749bcad21bbcd1c346de90ed691ce430e395f23bfe61bd",
+    "configs/week5_study.json": "235db43a5e09f9f5f514b04d8e8932da8c07e5c88ee750ae376b7ade15764b9c",
+    "configs/week5_fast.json": "92f6dd5de9db0ee86d8e377da06cfbdb375844a5dc5d2879d9587c43b7c94d13",
+    "docs/DATA_CHECK.json": "1a73a9b7e07de96eec28dfe840b1bc46da0ad7f26e8f37829f2dae02d597bcb4",
+    "reports/week5/fast/checks.json": "dc715d777e6c165eeed0371fbccb44c0619211b03186e6dd202d0bdc456e2b79"
+  },
+  "historical_fast_pilot_check": "reports/week5/fast/checks.json is the tracked historical 18-run pilot receipt, not a newly run test.",
+  "additional_release_identity": "7bc4c416c24e97afd4f47f582b07095e1d25c59c5fa494b8aa565bd1b9da09c1",
+  "planned_jobs": {
+    "week3": 45,
+    "week4": 45,
+    "week5": 90,
+    "efficientnet": 45,
+    "resnet": 45,
+    "patchcore": 45,
+    "aebad": 3
+  },
+  "scientific_sources_modified": false,
+  "new_production_study_started": false
+}

@@ -1,0 +1,3 @@
+# Fresh-output qualification evidence
+
+These receipts concern short implementation checks, not additional paper experiments. The Week 5 two-epoch smoke uses the declared bottle test split; its scores are excluded from the 315-run benchmark. State/probe comparisons, actual precommit checkpoints, input-role checks and completed no-op checks are recorded. The first launch stopped at the startup RAM gate before model execution. Its failure is retained; the retry used the original one-hour deadline. See the final qualification status for the actual outcome. Same-machine execution does not establish a clean installation or full-study rerun.

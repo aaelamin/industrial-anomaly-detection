@@ -1,0 +1,229 @@
+{
+  "scope": "Metadata export only; not a portable training runner or clean-machine reproduction.",
+  "original_configs": {
+    "week3": {
+      "name": "fastflow-resnet18-week3-v1",
+      "backbone": "resnet18",
+      "weights_url": "https://download.pytorch.org/models/resnet18-5c106cde.pth",
+      "weights_sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+      "size": 256,
+      "flow_steps": 8,
+      "hidden_ratio": 1.0,
+      "conv3x3_only": true,
+      "epochs": 500,
+      "batch_size": 32,
+      "micro_batch_size": 8,
+      "learning_rate": 0.001,
+      "weight_decay": 1e-05,
+      "drop_last": true,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "augmentation": "none",
+      "checkpoint_selection": "final epoch",
+      "precision": "float32",
+      "image_score": "maximum anomaly map value",
+      "mask_resize": "nearest-neighbor",
+      "pixel_evaluation_size": 256
+    },
+    "week4": {
+      "name": "fastflow-wide-resnet50-week4-v1",
+      "backbone": "wide_resnet50_2",
+      "weights_url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/wide_resnet50_racm-8234f177.pth",
+      "weights_sha256": "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa",
+      "size": 256,
+      "flow_steps": 8,
+      "hidden_ratio": 1.0,
+      "conv3x3_only": false,
+      "epochs": 500,
+      "batch_size": 32,
+      "micro_batch_size": 4,
+      "learning_rate": 0.001,
+      "weight_decay": 1e-05,
+      "drop_last": true,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "augmentation": "none",
+      "checkpoint_selection": "final epoch",
+      "precision": "float32",
+      "image_score": "maximum anomaly map value",
+      "mask_resize": "nearest-neighbor",
+      "pixel_evaluation_size": 256
+    },
+    "week5_study": {
+      "name": "week5-full-micro32-v1",
+      "backbone_config": "configs/week4.json",
+      "arms": [
+        "middle",
+        "fusion"
+      ],
+      "channels": 96,
+      "grid": 64,
+      "flow_steps": 8,
+      "hidden_ratio": 1.0,
+      "conv3x3_only": false,
+      "learning_rate": 0.001,
+      "weight_decay": 1e-05,
+      "batch_size": 32,
+      "micro_batch_size": 32,
+      "projection_seed": 2026,
+      "pca_sample_limit": 50000,
+      "pca_solver": "randomized",
+      "pca_power_iterations": 4,
+      "scale_floor": 1e-06,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "feature_batch_size": 4,
+      "categories": [
+        "bottle",
+        "cable",
+        "capsule",
+        "carpet",
+        "grid",
+        "hazelnut",
+        "leather",
+        "metal_nut",
+        "pill",
+        "screw",
+        "tile",
+        "toothbrush",
+        "transistor",
+        "wood",
+        "zipper"
+      ],
+      "epochs": 500,
+      "checkpoint_every": 25,
+      "retain_epochs": [
+        400,
+        450,
+        475,
+        500
+      ],
+      "primary_metric": "pixel_average_precision"
+    }
+  },
+  "additional_groups": {
+    "efficientnet": {
+      "group": "efficientnet",
+      "kind": "flow",
+      "dataset": "mvtec",
+      "backbone": "efficientnet_b4.ra2_in1k",
+      "microbatch": 32,
+      "conv3x3_only": false,
+      "weights_sha256": "7eb33cd5c8208bac4f23f2f8e61df12e4cf977ed1f4aadcc1ec4d59ffaf2d127",
+      "planned_runs": 45,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    "resnet": {
+      "group": "resnet",
+      "kind": "flow",
+      "dataset": "mvtec",
+      "backbone": "resnet18",
+      "microbatch": 8,
+      "conv3x3_only": false,
+      "weights_sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+      "planned_runs": 45,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    "patchcore": {
+      "group": "patchcore",
+      "kind": "patchcore",
+      "dataset": "mvtec",
+      "backbone": "wide_resnet50_2",
+      "microbatch": 4,
+      "conv3x3_only": false,
+      "weights_sha256": "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa",
+      "planned_runs": 45,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    "aebad": {
+      "group": "aebad",
+      "kind": "flow",
+      "dataset": "aebad",
+      "backbone": "resnet18",
+      "microbatch": 4,
+      "conv3x3_only": true,
+      "weights_sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+      "planned_runs": 3,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "pinned_packages": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "timm": "1.0.30",
+    "anomalib": "2.6.2",
+    "FrEIA": "0.2",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "pillow": "12.3.0",
+    "opencv-python-headless": "5.0.0.93"
+  },
+  "source_config_sha256": {
+    "week3": "bef7cee72d3b67f9179e80af45cd177dc2959fbd217cf65e8211e247300af85c",
+    "week4": "6b906660f90be095be749bcad21bbcd1c346de90ed691ce430e395f23bfe61bd",
+    "week5_study": "235db43a5e09f9f5f514b04d8e8932da8c07e5c88ee750ae376b7ade15764b9c"
+  },
+  "scientific_freeze_sha256": "470f1a352c202c57d2f2af8875d1a8f00248525ea32782bece3ce26d7765048e",
+  "additional_flow_settings": {
+    "epochs": 500,
+    "input_pixels": [
+      256,
+      256
+    ],
+    "feature_strides": [
+      4,
+      8,
+      16
+    ],
+    "blocks_per_level": 8,
+    "hidden_ratio": 1,
+    "effective_batch_size": 32,
+    "drop_last": true,
+    "optimizer": "torch.optim.Adam",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "augmentation": "none",
+    "scheduler": null,
+    "encoder_frozen": true,
+    "precision": "deterministic FP32",
+    "tf32": false,
+    "cpu_threads": 4
+  },
+  "notes": [
+    "Separate flows at native grids for reference backbones; compact arms use one 96-channel flow on 64x64.",
+    "Pretrained weights differ across backbone comparisons. Matched ResNet changes the kernel pattern, not the pretraining recipe.",
+    "PatchCore coreset seeds are a different source of randomness than neural initialization.",
+    "Final checkpoints are fixed at epoch 500; there is no test-set checkpoint selection."
+  ]
+}

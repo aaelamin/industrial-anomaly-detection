@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T02:06:50.994841+00:00",
+  "exit_code": 1,
+  "suite_identity": "0492b4e3316699220f61ba4eeb814abe1ada1394e8430016e1a356fcbe058b62",
+  "protocol_sha256": "6489561d7bc3e852684fc4f9df3f6afab0cb6e6b8a95700f5c048b3a70557b64",
+  "clean_install_verified": false,
+  "full_production_rerun_verified": false,
+  "status": "FAILED_FRESH_OUTPUT_QUALIFICATION",
+  "stderr_sha256": "d41039b450389eb0ce5f0a8f1907a064e2fd3917ca18a1bad9e881f9203fb1b2",
+  "retained_outputs": true
+}

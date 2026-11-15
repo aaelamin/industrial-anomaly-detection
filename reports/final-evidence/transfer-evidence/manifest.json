@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "conditions": [
+    "same",
+    "background",
+    "illumination",
+    "view"
+  ],
+  "files": {
+    "metrics.json": "f35cb00f65cbfb50ae8d1ada69aec679f0fd3a4559f6f7c2b4a1b925e4bac952",
+    "paired-regions.csv": "c4c601d7b6481146870020a5831ceec8d9a2ad9987b1bf005c2224156a5a1cd6",
+    "source-identities.json": "e2f458b086cdc0d916d3d05a6fcc865dfb6a2928c0e802146fd827e27357aaf1",
+    "data-roles.json": "8c84fa6abfde6df185baaf6306deaca7906226d6fef01c232ffe1004bcb748e9"
+  },
+  "expected_metrics": {
+    "macro": {
+      "image_auroc": {
+        "before": {
+          "mean": 0.5022786458333334,
+          "sample_sd": 0.007394411908594106
+        },
+        "after": {
+          "mean": 0.4423828125,
+          "sample_sd": 0.05258043213270236
+        },
+        "paired_delta": {
+          "mean": -0.059895833333333336,
+          "sample_sd": 0.04624343963008823
+        }
+      },
+      "pixel_auroc": {
+        "before": {
+          "mean": 0.8449669714610497,
+          "sample_sd": 0.0005157503621150123
+        },
+        "after": {
+          "mean": 0.7197060016715155,
+          "sample_sd": 0.026488390784789838
+        },
+        "paired_delta": {
+          "mean": -0.1252609697895342,
+          "sample_sd": 0.025972655250068578
+        }
+      },
+      "pixel_ap": {
+        "before": {
+          "mean": 0.031035625518896423,
+          "sample_sd": 0.00012237683189630311
+        },
+        "after": {
+          "mean": 0.02299408569417959,
+          "sample_sd": 0.004993116020437607
+        },
+        "paired_delta": {
+          "mean": -0.008041539824716835,
+          "sample_sd": 0.004948012110631136
+        }
+      },
+      "aupro_005": {
+        "before": {
+          "mean": 0.29312678453980984,
+          "sample_sd": 0.003686492496672278
+        },
+        "after": {
+          "mean": 0.14657580726155195,
+          "sample_sd": 0.004069457542473468
+        },
+        "paired_delta": {
+          "mean": -0.1465509772782579,
+          "sample_sd": 0.007475323266596773
+        }
+      },
+      "normal_pixel_fpr": {
+        "before": {
+          "mean": 0.00775491007820738,
+          "sample_sd": 0.00023899889921191395
+        },
+        "after": {
+          "mean": 0.13621735077347125,
+          "sample_sd": 0.025647216689265177
+        },
+        "paired_delta": {
+          "mean": 0.12846244069526386,
+          "sample_sd": 0.025841451855918462
+        }
+      }
+    },
+    "same": {
+      "image_auroc": {
+        "before": {
+          "mean": 0.5026041666666666,
+          "sample_sd": 0.009830513587592122
+        },
+        "after": {
+          "mean": 0.4895833333333333,
+          "sample_sd": 0.10527567203488104
+        },
+        "paired_delta": {
+          "mean": -0.013020833333333334,
+          "sample_sd": 0.10352176672031749
+        }
+      },
+      "pixel_auroc": {
+        "before": {
+          "mean": 0.8688050835793605,
+          "sample_sd": 0.0011318612813627043
+        },
+        "after": {
+          "mean": 0.8610001501512254,
+          "sample_sd": 0.04193664037703999
+        },
+        "paired_delta": {
+          "mean": -0.007804933428134968,
+          "sample_sd": 0.04251643855335128
+        }
+      },
+      "pixel_ap": {
+        "before": {
+          "mean": 0.03335946521893316,
+          "sample_sd": 0.00041473590616408166
+        },
+        "after": {
+          "mean": 0.036016703013674385,
+          "sample_sd": 0.004596521050726128
+        },
+        "paired_delta": {
+          "mean": 0.002657237794741224,
+          "sample_sd": 0.004985431271966098
+        }
+      },
+      "aupro_005": {
+        "before": {
+          "mean": 0.3476615420428594,
+          "sample_sd": 0.004920776504908931
+        },
+        "after": {
+          "mean": 0.32400207348676197,
+          "sample_sd": 0.031343921371614236
+        },
+        "paired_delta": {
+          "mean": -0.023659468556097407,
+          "sample_sd": 0.03355812815425139
+        }
+      },
+      "normal_pixel_fpr": {
+        "before": {
+          "mean": 0.008116190952975841,
+          "sample_sd": 0.0002453421791781303
+        },
+        "after": {
+          "mean": 0.01241730617143977,
+          "sample_sd": 0.00031726325054199544
+        },
+        "paired_delta": {
+          "mean": 0.004301115218463929,
+          "sample_sd": 0.00021239116836138086
+        }
+      }
+    },
+    "background": {
+      "image_auroc": {
+        "before": {
+          "mean": 0.3893229166666667,
+          "sample_sd": 0.022552744890219755
+        },
+        "after": {
+          "mean": 0.4231770833333333,
+          "sample_sd": 0.0566518487442893
+        },
+        "paired_delta": {
+          "mean": 0.033854166666666664,
+          "sample_sd": 0.039127550003428956
+        }
+      },
+      "pixel_auroc": {
+        "before": {
+          "mean": 0.7984592531911701,
+          "sample_sd": 0.0019988350458697867
+        },
+        "after": {
+          "mean": 0.47585179894568314,
+          "sample_sd": 0.03486625490742633
+        },
+        "paired_delta": {
+          "mean": -0.322607454245487,
+          "sample_sd": 0.03677876493059453
+        }
+      },
+      "pixel_ap": {
+        "before": {
+          "mean": 0.027123980372279182,
+          "sample_sd": 0.00026427519333588133
+        },
+        "after": {
+          "mean": 0.007900472333960493,
+          "sample_sd": 0.0008553964481232657
+        },
+        "paired_delta": {
+          "mean": -0.01922350803831869,
+          "sample_sd": 0.0011039453839157324
+        }
+      },
+      "aupro_005": {
+        "before": {
+          "mean": 0.3708791418126575,
+          "sample_sd": 0.004884837427419453
+        },
+        "after": {
+          "mean": 0.023692729919646074,
+          "sample_sd": 0.03662375661678556
+        },
+        "paired_delta": {
+          "mean": -0.34718641189301147,
+          "sample_sd": 0.041446073384996014
+        }
+      },
+      "normal_pixel_fpr": {
+        "before": {
+          "mean": 0.0069713228548449555,
+          "sample_sd": 0.0004005546069739669
+        },
+        "after": {
+          "mean": 0.39986540017455885,
+          "sample_sd": 0.15393755900910874
+        },
+        "paired_delta": {
+          "mean": 0.39289407731971393,
+          "sample_sd": 0.15430549392689286
+        }
+      }
+    },
+    "illumination": {
+      "image_auroc": {
+        "before": {
+          "mean": 0.5299479166666666,
+          "sample_sd": 0.013718299157360336
+        },
+        "after": {
+          "mean": 0.453125,
+          "sample_sd": 0.06501295694177046
+        },
+        "paired_delta": {
+          "mean": -0.07682291666666667,
+          "sample_sd": 0.05417355224665292
+        }
+      },
+      "pixel_auroc": {
+        "before": {
+          "mean": 0.845773990306561,
+          "sample_sd": 0.00227923085560382
+        },
+        "after": {
+          "mean": 0.7503360858867968,
+          "sample_sd": 0.0887160997996195
+        },
+        "paired_delta": {
+          "mean": -0.09543790441976423,
+          "sample_sd": 0.08773560903956551
+        }
+      },
+      "pixel_ap": {
+        "before": {
+          "mean": 0.02693684654111557,
+          "sample_sd": 0.0004042487826858369
+        },
+        "after": {
+          "mean": 0.025139951472857296,
+          "sample_sd": 0.01622346636205885
+        },
+        "paired_delta": {
+          "mean": -0.0017968950682582738,
+          "sample_sd": 0.01589515862372741
+        }
+      },
+      "aupro_005": {
+        "before": {
+          "mean": 0.14399066284416748,
+          "sample_sd": 0.006877445739773572
+        },
+        "after": {
+          "mean": 0.0862368293999025,
+          "sample_sd": 0.055131134158798334
+        },
+        "paired_delta": {
+          "mean": -0.05775383344426497,
+          "sample_sd": 0.04902632408365216
+        }
+      },
+      "normal_pixel_fpr": {
+        "before": {
+          "mean": 0.007817434619166596,
+          "sample_sd": 0.0004931887099469102
+        },
+        "after": {
+          "mean": 0.08176924131492447,
+          "sample_sd": 0.042869651442316324
+        },
+        "paired_delta": {
+          "mean": 0.07395180669575786,
+          "sample_sd": 0.04247912635983828
+        }
+      }
+    },
+    "view": {
+      "image_auroc": {
+        "before": {
+          "mean": 0.5872395833333334,
+          "sample_sd": 0.022888536238602795
+        },
+        "after": {
+          "mean": 0.4036458333333333,
+          "sample_sd": 0.1055651565557776
+        },
+        "paired_delta": {
+          "mean": -0.18359375,
+          "sample_sd": 0.08450510801868726
+        }
+      },
+      "pixel_auroc": {
+        "before": {
+          "mean": 0.8668295587671074,
+          "sample_sd": 0.0003105109205225851
+        },
+        "after": {
+          "mean": 0.7916359717023568,
+          "sample_sd": 0.017508901103281876
+        },
+        "paired_delta": {
+          "mean": -0.07519358706475066,
+          "sample_sd": 0.017761667863030507
+        }
+      },
+      "pixel_ap": {
+        "before": {
+          "mean": 0.03672220994325778,
+          "sample_sd": 0.00010797345033929293
+        },
+        "after": {
+          "mean": 0.022919215956226178,
+          "sample_sd": 0.0037554773583840678
+        },
+        "paired_delta": {
+          "mean": -0.013802993987031602,
+          "sample_sd": 0.0038268742477221194
+        }
+      },
+      "aupro_005": {
+        "before": {
+          "mean": 0.309975791459555,
+          "sample_sd": 0.00748070033111788
+        },
+        "after": {
+          "mean": 0.15237159623989727,
+          "sample_sd": 0.010027192563310685
+        },
+        "paired_delta": {
+          "mean": -0.15760419521965777,
+          "sample_sd": 0.011239209692206202
+        }
+      },
+      "normal_pixel_fpr": {
+        "before": {
+          "mean": 0.008114691885842129,
+          "sample_sd": 0.00018836267078804736
+        },
+        "after": {
+          "mean": 0.050817455432961935,
+          "sample_sd": 0.01530725140018518
+        },
+        "paired_delta": {
+          "mean": 0.042702763547119806,
+          "sample_sd": 0.015478227279420416
+        }
+      }
+    }
+  },
+  "expected_regions": {
+    "0": {
+      "all": {
+        "total": 240,
+        "before_detected": 57,
+        "after_detected": 98,
+        "lost": 19,
+        "gained": 60,
+        "before_recall": 0.2375,
+        "after_recall": 0.4083333333333333
+      },
+      "small": {
+        "total": 144,
+        "before_detected": 31,
+        "after_detected": 54,
+        "lost": 11,
+        "gained": 34,
+        "before_recall": 0.2152777777777778,
+        "after_recall": 0.375
+      },
+      "fracture": {
+        "total": 32,
+        "before_detected": 9,
+        "after_detected": 9,
+        "lost": 5,
+        "gained": 5,
+        "before_recall": 0.28125,
+        "after_recall": 0.28125
+      }
+    },
+    "1": {
+      "all": {
+        "total": 240,
+        "before_detected": 56,
+        "after_detected": 91,
+        "lost": 19,
+        "gained": 54,
+        "before_recall": 0.23333333333333334,
+        "after_recall": 0.37916666666666665
+      },
+      "small": {
+        "total": 144,
+        "before_detected": 31,
+        "after_detected": 55,
+        "lost": 9,
+        "gained": 33,
+        "before_recall": 0.2152777777777778,
+        "after_recall": 0.3819444444444444
+      },
+      "fracture": {
+        "total": 32,
+        "before_detected": 8,
+        "after_detected": 13,
+        "lost": 2,
+        "gained": 7,
+        "before_recall": 0.25,
+        "after_recall": 0.40625
+      }
+    },
+    "2": {
+      "all": {
+        "total": 240,
+        "before_detected": 60,
+        "after_detected": 98,
+        "lost": 18,
+        "gained": 56,
+        "before_recall": 0.25,
+        "after_recall": 0.4083333333333333
+      },
+      "small": {
+        "total": 144,
+        "before_detected": 35,
+        "after_detected": 58,
+        "lost": 9,
+        "gained": 32,
+        "before_recall": 0.24305555555555555,
+        "after_recall": 0.4027777777777778
+      },
+      "fracture": {
+        "total": 32,
+        "before_detected": 8,
+        "after_detected": 13,
+        "lost": 1,
+        "gained": 6,
+        "before_recall": 0.25,
+        "after_recall": 0.40625
+      }
+    }
+  },
+  "native_grid": [
+    3024,
+    3024
+  ],
+  "small_area_fraction": 0.001,
+  "minimum_region_coverage": 0.1,
+  "scope": "Saved-metric and paired-region aggregation only. No source images, model weights, inference or reserved inputs.",
+  "attribution": "AeBAD-S: Zhang et al. (2023), CC BY 4.0. https://github.com/zhangzilongc/MMR",
+  "limitations": "Development data repeatedly inspected; physical-blade independence unverified. Seed SD is algorithmic variation, not population uncertainty. Histogram ranking bounds are numerical bounds, not confidence intervals."
+}

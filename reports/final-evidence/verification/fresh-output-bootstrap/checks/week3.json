@@ -1,0 +1,9 @@
+{
+  "status": "PASS_BITWISE_STATE_AND_NORMAL_PROBE",
+  "bitwise_state": true,
+  "bitwise_probe": true,
+  "state_file": "checkpoint.pt",
+  "left_state_sha256": "4fbc8647b6901ea1233a936daf521f311fc14e2b37050bd831848e68b6ee4c24",
+  "right_state_sha256": "4fbc8647b6901ea1233a936daf521f311fc14e2b37050bd831848e68b6ee4c24",
+  "source_dataset_images_opened": 0
+}

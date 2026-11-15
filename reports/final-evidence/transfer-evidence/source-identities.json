@@ -1,0 +1,14 @@
+[
+  {
+    "job": "aebad-s0",
+    "completion_sha256": "e4f512c71c14a442c5095a2ca82fd75141080e9dfeac80210da999f7afde81aa"
+  },
+  {
+    "job": "aebad-s1",
+    "completion_sha256": "803049d8329ff05e4290b08a095fad0336b00c1df0a79c20d5ccb94d1ee9f13b"
+  },
+  {
+    "job": "aebad-s2",
+    "completion_sha256": "638c20226aa02edd4834109e961ad5a80f91c2fd790ddbbb99874cf128fa7b77"
+  }
+]

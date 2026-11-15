@@ -1,6 +1,6 @@
 # Week 5: design, evidence and interpretation
 
-The new feature-fusion model did not improve the overall results. It helped on some categories and some individual defects, but lost more elsewhere. The original Week 4 FastFlow remains our strongest tested configuration. This report explains the fusion design, its results and what remains unresolved.
+The compact feature-fusion model did not improve the overall result. It helped on some categories and individual defects, but lost more elsewhere. The original Week 4 FastFlow was stronger than both compact variants. Later configurations are covered in the [final comparison](../final-evidence/README.md).
 
 [Week 5 overview](README.md) | [All-week comparison](../comparison/README.md) | [Heatmaps](HEATMAPS.md)
 
@@ -69,7 +69,7 @@ Only 279,168 of the 1,065,600 trainable parameters belong to the flow. The remai
 
 Upsampling is another structural issue. The control starts with a 32 by 32 grid, then is deterministically interpolated to 64 by 64. The new values cannot be independent measurements. The fusion input similarly contains interpolated middle and coarse channels. In principle, such constraints change the geometry of the input distribution that the flow must fit. This is a hypothesis about representation and optimization, not a diagnosed numerical bug. A spatial-resolution ablation would need to account for the normalization parameter count changing too.
 
-PCA and normalization are outside the invertible flow. This is therefore a flow on transformed features, not an invertible image model or an exact density over the original backbone representation. We should describe it that way in the report.
+PCA and normalization are outside the invertible flow. This is therefore a flow on transformed features, not an invertible image model or an exact density over the original backbone representation.
 
 ## Full comparison
 
@@ -183,17 +183,17 @@ The evidence points to problems worth separating, not one confirmed explanation.
 3. **Training quality needs closer inspection.** Finite losses and exact resume do not imply smooth or useful learning. Some histories contain substantial late changes. For example, wood middle seed 1 has its largest upward loss step at epoch 492, and wood fusion seed 1 at epoch 493. A lower training loss also does not guarantee better test ranking. We have not demonstrated that these changes caused the poor results.
 4. **Scale allocation is only one choice.** Equal channels per level do not mean equal useful information. Coarse features gain no new detail when enlarged, and fine features can include nuisance texture. This experiment does not isolate channel allocation, interpolation and level content from one another.
 
-We should not explain the result as simply needing more epochs, attribute it to pauses without evidence, or rerun weak seeds until they improve. A predeclared repeat to investigate a suspected problem is useful, but the original run should remain reported. The existing results stay in the report.
+These checks did not establish that more epochs would fix the result or that interruptions caused the losses. All original runs remain in the comparison.
 
 ## Relation to the earlier experiments
 
 The [cross-week analysis](../comparison/README.md) compares all four configurations, shows the same images, and discusses the separate Week 4 scoring experiment. That scoring check does not alter these Week 5 results.
 
-## What we can say in the midterm
+## Conclusions from the original study
 
-> We established FastFlow baselines on all 15 MVTec AD categories with three seeds per category. The WideResNet configuration improved our overall results over ResNet-18, although an image-level gap from the published reference remains. We then tested a compact feature-fusion model against a capacity-matched middle-level control. Fusion did not improve the overall metrics, despite gains on individual categories and examples. Both compact models were substantially weaker than the original FastFlow configuration. The results motivate checking representation compression and training behavior before treating this design as an improvement or extending it to a new domain. A separate exploratory analysis also showed that image-score aggregation materially affects the Week 4 image-level result.
+We established FastFlow baselines on all 15 MVTec AD categories with three seeds per category. The WideResNet configuration improved our overall results over ResNet-18, although an image-level gap from the published reference remains. We then tested a compact feature-fusion model against a capacity-matched middle-level control. Fusion did not improve the overall metrics, despite gains on individual categories and examples. Both compact models were substantially weaker than the original FastFlow configuration. The results motivate checking representation compression and training behavior before treating this design as an improvement or extending it to a new domain. A separate exploratory analysis also showed that image-score aggregation materially affects the Week 4 image-level result.
 
-This gives us a complete experimental comparison to discuss, including a negative result. It does not establish a publication contribution or resolve the reproduction gap. The report still needs the team's literature discussion, requirement check and final write-up. EfficientNet-B4 and domain transfer should be described as pending if they remain part of the agreed plan, not as completed experiments.
+This study did not resolve the reproduction gap or establish a better detector. EfficientNet-B4 and domain transfer were pending at this stage; their later results are in the [completed study](../final-evidence/README.md).
 
 ## What to do next
 
@@ -201,7 +201,7 @@ The [retained-checkpoint diagnosis](checkpoints/README.md) has now been run on b
 
 Next, design one change at a time. Compare the middle-only model at its native spatial resolution against the resized version, or compare compression budgets while holding the rest fixed. Use a declared development procedure and independent confirmation rather than repeatedly picking settings on the same test masks. A normal-only development set can assess normal-data behavior, but cannot establish defect sensitivity on its own. The present evidence does not justify treating fusion as our improved model for domain transfer. The Week 4 configuration is the stronger reference, with its limitations stated.
 
-For the midterm, prioritize a clear explanation of these completed results and the remaining baseline gap. Keep the scoring sensitivity check separate from the fixed baseline, and label the proposed diagnosis as future work. No additional training was started for this analysis.
+The scoring sensitivity check was exploratory and did not replace the fixed baseline. This analysis started no additional training.
 
 ## Where to find things
 

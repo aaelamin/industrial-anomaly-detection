@@ -1,0 +1,15 @@
+{
+  "source_identity": "0492b4e3316699220f61ba4eeb814abe1ada1394e8430016e1a356fcbe058b62",
+  "legacy_sources_verified": true,
+  "relative_workspace_rejected": true,
+  "dataset_workspace_overlap_rejected": true,
+  "package_workspace_overlap_rejected": true,
+  "missing_weight_identity_rejected": true,
+  "normal_child": true,
+  "expected_crash": true,
+  "deadline_stops_owned_child": true,
+  "pause_prevents_launch": true,
+  "status": "PASS_SUITE_CPU_PATH_IDENTITY_AND_PROCESS_CONTROLS",
+  "source_images_opened": 0,
+  "gpu_used": false
+}

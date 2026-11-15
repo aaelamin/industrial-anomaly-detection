@@ -1,0 +1,27 @@
+{
+  "name": "fastflow-wide-resnet50-week4-v1",
+  "backbone": "wide_resnet50_2",
+  "weights_url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/wide_resnet50_racm-8234f177.pth",
+  "weights_sha256": "8234f177589d8239cc335ec7f23d69c8c7a323f9a0ba0f9df830ccb66a6f83fa",
+  "size": 256,
+  "flow_steps": 8,
+  "hidden_ratio": 1.0,
+  "conv3x3_only": false,
+  "epochs": 500,
+  "batch_size": 32,
+  "micro_batch_size": 4,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "drop_last": true,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "augmentation": "none",
+  "checkpoint_selection": "final epoch",
+  "precision": "float32",
+  "image_score": "maximum anomaly map value",
+  "mask_resize": "nearest-neighbor",
+  "pixel_evaluation_size": 256
+}
